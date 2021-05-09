@@ -93,10 +93,10 @@ public class GameManager : MonoBehaviour
     }
 
     public void Win(){
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Win Screen");
     }
 
     public void Lose(){
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Lose Screen");
     }
 }
