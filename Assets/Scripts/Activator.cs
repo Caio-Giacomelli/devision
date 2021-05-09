@@ -31,86 +31,87 @@ public class Activator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (createMode){
+        if (Time.timeScale != 0){
+            if (createMode){
 
-            if (Input.GetKeyDown(key)){
-                Instantiate(instantiate_note, transform.position, Quaternion.identity);
-            }
-
-            if (Input.touchCount > 0){
-
-                for (int i = 0; i < Input.touchCount; i++){
-                    //The reason why I have to make the position convert to World View is because the position is measured in pixels. I need the value in units.
-                    Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
-
-                    //Convert to Vector2 for 2D reasons
-                    Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
-
-                    //We now raycast with this information. If we have hit something we can process it.
-                    //TODO: Study Raycast constructor
-                    RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
-                    
-                    if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
-                        //We should have hit something with a 2D Physics collider!
-                        GameObject touchedObject = hitInformation.transform.gameObject;
-                        if (touchedObject.transform.name == gameObject.name){
-                            Instantiate(instantiate_note, new Vector3(transform.position.x, transform.position.y, 5), Quaternion.identity);
-                        }
-                    } 
+                if (Input.GetKeyDown(key)){
+                    Instantiate(instantiate_note, transform.position, Quaternion.identity);
                 }
-            }
-        }
 
+                if (Input.touchCount > 0){
 
-        else{        
-            if (Input.GetKeyDown(key)){
-                StartCoroutine(Pressed());
-            }
-            
-            if (Input.touchCount > 0){
+                    for (int i = 0; i < Input.touchCount; i++){
+                        //The reason why I have to make the position convert to World View is because the position is measured in pixels. I need the value in units.
+                        Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
 
-                for (int i = 0; i < Input.touchCount; i++){
-                    //The reason why I have to make the position convert to World View is because the position is measured in pixels. I need the value in units.
-                    Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
+                        //Convert to Vector2 for 2D reasons
+                        Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
 
-                    //Convert to Vector2 for 2D reasons
-                    Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
-
-                    //We now raycast with this information. If we have hit something we can process it.
-                    //TODO: Study Raycast constructor
-                    RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
-                    
-                    if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
-                        //We should have hit something with a 2D Physics collider!
-                        GameObject touchedObject = hitInformation.transform.gameObject;
-                        if (touchedObject.transform.name == gameObject.name){
-                            StartCoroutine(Pressed());
-                            if (active){
-                                Destroy(note);
-                                gm.GetComponent<GameManager>().AddStreak();
-                                AddScore();
-                                active = false;
-                            } else {
-                                gm.GetComponent<GameManager>().ResetStreak(); 
+                        //We now raycast with this information. If we have hit something we can process it.
+                        //TODO: Study Raycast constructor
+                        RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
+                        
+                        if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
+                            //We should have hit something with a 2D Physics collider!
+                            GameObject touchedObject = hitInformation.transform.gameObject;
+                            if (touchedObject.transform.name == gameObject.name){
+                                Instantiate(instantiate_note, new Vector3(transform.position.x, transform.position.y, 5), Quaternion.identity);
                             }
-                        }
-                    } 
+                        } 
+                    }
                 }
             }
 
-            if (Input.GetKeyDown(key) && active)
-            {       
-                Destroy(note);
-                gm.GetComponent<GameManager>().AddStreak(); 
-                AddScore();
-                active = false;   
+
+            else{        
+                if (Input.GetKeyDown(key)){
+                    StartCoroutine(Pressed());
+                }
+                
+                if (Input.touchCount > 0){
+
+                    for (int i = 0; i < Input.touchCount; i++){
+                        //The reason why I have to make the position convert to World View is because the position is measured in pixels. I need the value in units.
+                        Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
+
+                        //Convert to Vector2 for 2D reasons
+                        Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
+
+                        //We now raycast with this information. If we have hit something we can process it.
+                        //TODO: Study Raycast constructor
+                        RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
+                        
+                        if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
+                            //We should have hit something with a 2D Physics collider!
+                            GameObject touchedObject = hitInformation.transform.gameObject;
+                            if (touchedObject.transform.name == gameObject.name){
+                                StartCoroutine(Pressed());
+                                if (active){
+                                    Destroy(note);
+                                    gm.GetComponent<GameManager>().AddStreak();
+                                    AddScore();
+                                    active = false;
+                                } else {
+                                    gm.GetComponent<GameManager>().ResetStreak(); 
+                                }
+                            }
+                        } 
+                    }
+                }
+
+                if (Input.GetKeyDown(key) && active)
+                {       
+                    Destroy(note);
+                    gm.GetComponent<GameManager>().AddStreak(); 
+                    AddScore();
+                    active = false;   
+                }
+                if (Input.GetKeyDown(key) && !active)
+                {       
+                    gm.GetComponent<GameManager>().ResetStreak();
+                }                   
             }
-            if (Input.GetKeyDown(key) && !active)
-            {       
-                gm.GetComponent<GameManager>().ResetStreak();
-            }                   
         }
-   
     }
 
     void OnTriggerEnter2D(Collider2D col)
