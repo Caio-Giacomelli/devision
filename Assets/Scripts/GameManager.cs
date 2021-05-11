@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     int streak = 0;
     float health;
     public float life_per_second;
+    public AudioMixer mixer;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,10 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("Score", 0);
         PlayerPrefs.SetInt("Mult", 1);
         InvokeRepeating("SetHealthBarSize", 0.0f, 0.3f);
+
+        float sliderValue = PlayerPrefs.GetFloat("musicSlider");
+        float musicVol = Mathf.Log10(sliderValue) * 20;
+        mixer.SetFloat("MusicVol", musicVol);
     }
 
     // Update is called once per frame

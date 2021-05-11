@@ -1305,6 +1305,7 @@ MonoBehaviour:
   createMode: 0
   score_per_note: 10
   life_per_second: 0
+  mixer: {fileID: 24100000, guid: cfd952dcd6c1cda49a27df4991947d1d, type: 2}
 --- !u!61 &718962855
 BoxCollider2D:
   m_ObjectHideFlags: 0
