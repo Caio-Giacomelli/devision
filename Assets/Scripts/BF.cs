@@ -20,6 +20,11 @@ public class BF : MonoBehaviour
 
     public void LoadScene(string scene){
         SceneManager.LoadScene(scene);
+    }
+
+    public void LoadPreviousScene(){
+        string sceneName = PlayerPrefs.GetString("PreviousScene");
+        SceneManager.LoadScene(sceneName);
     } 
 
     public void Quit(){

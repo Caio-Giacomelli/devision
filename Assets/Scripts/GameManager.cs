@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
         health = 1f;
         PlayerPrefs.SetInt("Score", 0);
         PlayerPrefs.SetInt("Mult", 1);
+        PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
         InvokeRepeating("SetHealthBarSize", 0.0f, 0.3f);
 
         float sliderValue = PlayerPrefs.GetFloat("musicSlider");
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (health == 0f){
+        if (health == 0f && !createMode){
             Lose();
         }
     }

@@ -1026,8 +1026,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2579939011501372893, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
         m_TargetAssemblyTypeName: BF, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+        m_MethodName: LoadPreviousScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
