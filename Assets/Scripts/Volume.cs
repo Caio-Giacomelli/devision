@@ -6,15 +6,17 @@ using UnityEngine.UI;
 
 public class Volume : MonoBehaviour
 {
-    public AudioMixer mixer;
-    public Slider slider;
+    [SerializeField]
+    private AudioMixer mixer;
 
-    void Start()
-    {
+    [SerializeField]
+    private Slider slider;
+
+    void Start(){
         slider.value = PlayerPrefs.GetFloat("musicSlider");
     }
 
-    public void setVolume(float sliderValue){
+    public void SetVolume(float sliderValue){
         float musicVol = Mathf.Log10(sliderValue) * 20;
         
         PlayerPrefs.SetFloat("musicSlider", sliderValue);

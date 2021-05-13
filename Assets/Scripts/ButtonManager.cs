@@ -4,20 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class BF : MonoBehaviour
+public class ButtonManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void LoadScene(string scene){
         SceneManager.LoadScene(scene);
     }
@@ -32,8 +20,8 @@ public class BF : MonoBehaviour
     }
 
     public void PauseUnpause(){
-        Sprite playSprite = Resources.Load<Sprite>("Sprites/Play");
-        Sprite pauseSprite = Resources.Load<Sprite>("Sprites/Pause");
+        Sprite play_sprite = Resources.Load<Sprite>("Sprites/Play");
+        Sprite pause_sprite = Resources.Load<Sprite>("Sprites/Pause");
         
         if (Time.timeScale == 0){
             Time.timeScale = 1;
@@ -44,9 +32,8 @@ public class BF : MonoBehaviour
                 a.Play(); 
             }
             
-
             Button mybutton = GameObject.Find("Pause Button").GetComponent<Button>();
-            mybutton.image.sprite = pauseSprite;
+            mybutton.image.sprite = pause_sprite;
         }
         else {
             Time.timeScale = 0;
@@ -57,7 +44,7 @@ public class BF : MonoBehaviour
                 a.Pause(); 
             }
             Button mybutton = GameObject.Find("Pause Button").GetComponent<Button>();
-            mybutton.image.sprite = playSprite;
+            mybutton.image.sprite = play_sprite;
         }     
     }
 }

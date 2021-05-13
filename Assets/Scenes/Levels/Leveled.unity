@@ -5290,7 +5290,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2579939011501372893, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
-        m_TargetAssemblyTypeName: BF, Assembly-CSharp
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: PauseUnpause
         m_Mode: 1
         m_Arguments:
@@ -8155,10 +8155,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1072322889}
-  createMode: 0
   score_per_note: 10
-  life_per_second: 0
+  life_per_second: 0.3
   mixer: {fileID: 24100000, guid: cfd952dcd6c1cda49a27df4991947d1d, type: 2}
+  createMode: 0
 --- !u!61 &718962855
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -6,32 +6,33 @@ using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private HealthBar healthBar;
-    public bool createMode;
-    public int score_per_note = 10;
-    int multiplier = 1;
-    int streak = 0;
-    float health;
-    public float life_per_second;
+    [SerializeField]
+    private HealthBar healthBar;
+
+    [SerializeField]
+    private int score_per_note = 10;
+
+    [SerializeField]
+    private float life_per_second = 0.3f;
+
+    [SerializeField]
     public AudioMixer mixer;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        health = 1f;
-        PlayerPrefs.SetInt("Score", 0);
-        PlayerPrefs.SetInt("Mult", 1);
-        PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
-        InvokeRepeating("SetHealthBarSize", 0.0f, 0.3f);
+    public bool createMode;
 
-        float sliderValue = PlayerPrefs.GetFloat("musicSlider");
-        float musicVol = Mathf.Log10(sliderValue) * 20;
-        mixer.SetFloat("MusicVol", musicVol);
+    private int multiplier = 1;
+    private int streak = 0;
+    private float health;
+
+    void Start(){
+        health = 1f;
+
+        InvokeRepeating("SetHealthBarSize", 0.0f, life_per_second);
+        HandlePlayerPref();
+        HandleMusicVolume();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         if (health == 0f && !createMode){
             Lose();
         }
@@ -39,49 +40,33 @@ public class GameManager : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if (!createMode) Destroy(other.gameObject);
-        health -= .05f;
-        health = Mathf.Clamp(health, 0f, 1f);
-        healthBar.SetSize(health);
-
+        LoseHealth();
         ResetStreak(); 
     }
 
     public void AddStreak(){
         streak++;
-        //Debug.Log("### Streak: " + streak);
-        //Debug.Log("### Multiplier: " + multiplier);
+
         if(streak >= 24){
-            multiplier = 4;
-            health += 0.1f * multiplier;
-            health = Mathf.Clamp(health, 0f, 1f);
-            healthBar.SetSize(health);
+            multiplier = 4;        
         } 
         else if (streak >= 16){
             multiplier = 3;
-            health += 0.1f * multiplier;
-            health = Mathf.Clamp(health, 0f, 1f);
-            healthBar.SetSize(health);
         }
         else if (streak >= 8){
             multiplier = 2;
-            health += 0.1f * multiplier;
-            health = Mathf.Clamp(health, 0f, 1f);
-            healthBar.SetSize(health);
         } else {
             multiplier = 1;
-            health += 0.1f * multiplier;
-            health = Mathf.Clamp(health, 0f, 1f);
-            healthBar.SetSize(health);
         }
+
+        AddHealth();
         UpdateGUI();
     }
 
     public void ResetStreak(){
         streak = 0;
         multiplier = 1;
-        health -= .05f;
-        health = Mathf.Clamp(health, 0f, 1f);
-        healthBar.SetSize(health);
+        LoseHealth();
         UpdateGUI();
     }
 
@@ -105,5 +90,29 @@ public class GameManager : MonoBehaviour
 
     public void Lose(){
         SceneManager.LoadScene("Lose Screen");
+    }
+
+    private void AddHealth(){
+        health += 0.1f * multiplier;
+        health = Mathf.Clamp(health, 0f, 1f);
+        healthBar.SetSize(health);
+    }
+
+    private void LoseHealth(){
+        health -= .05f;
+        health = Mathf.Clamp(health, 0f, 1f);
+        healthBar.SetSize(health);
+    }
+
+    private void HandlePlayerPref(){
+        PlayerPrefs.SetInt("Score", 0);
+        PlayerPrefs.SetInt("Mult", 1);
+        PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
+    }
+
+    private void HandleMusicVolume(){
+        float slider_value = PlayerPrefs.GetFloat("musicSlider");
+        float musicVol = Mathf.Log10(slider_value) * 20;
+        mixer.SetFloat("MusicVol", musicVol);
     }
 }
