@@ -111,6 +111,8 @@ public class Activator : MonoBehaviour
     }
 
     private void HandleCreateMode(){
+        instantiate_note.GetComponent<Note>().speed = gm.GetComponent<GameManager>().note_speed;
+        
         if (Input.GetKeyDown(key)){
             Instantiate(instantiate_note, transform.position, Quaternion.identity);
         }

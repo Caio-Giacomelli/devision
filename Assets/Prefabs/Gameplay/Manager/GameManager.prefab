@@ -73,5 +73,6 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   score_per_note: 10
   life_per_second: 0.3
+  note_speed: 4.5
   mixer: {fileID: 24100000, guid: cfd952dcd6c1cda49a27df4991947d1d, type: 2}
-  createMode: 0
+  createMode: 1
