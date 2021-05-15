@@ -129,7 +129,7 @@ public class GameManager : MonoBehaviour
     }
 
     IEnumerator ResumeWithDelay(){
-        float pause_time = Time.realtimeSinceStartup + 3.2f;
+        float pause_time = Time.realtimeSinceStartup + 2f;
         while (Time.realtimeSinceStartup < pause_time){
             yield return 0;
         }
