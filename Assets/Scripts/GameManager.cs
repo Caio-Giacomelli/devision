@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     private HealthBar healthBar;
 
     [SerializeField]
+    private GameObject countdown_animation;
+
+    [SerializeField]
     private int score_per_note = 10;
 
     [SerializeField]
@@ -117,5 +120,27 @@ public class GameManager : MonoBehaviour
         float slider_value = PlayerPrefs.GetFloat("musicSlider");
         float musicVol = Mathf.Log10(slider_value) * 20;
         mixer.SetFloat("MusicVol", musicVol);
+    }
+
+    public void Resume(GameObject canvas){
+        canvas.SetActive(false);
+        countdown_animation.SetActive(true);
+        StartCoroutine("ResumeWithDelay");
+    }
+
+    IEnumerator ResumeWithDelay(){
+        float pause_time = Time.realtimeSinceStartup + 3.2f;
+        while (Time.realtimeSinceStartup < pause_time){
+            yield return 0;
+        }
+
+        countdown_animation.SetActive(false);
+              
+        Time.timeScale = 1;
+
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();       
+        foreach(AudioSource a in audios){
+            a.Play(); 
+        }
     }
 }

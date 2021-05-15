@@ -31,16 +31,4 @@ public class ButtonManager : MonoBehaviour
 
         canvas.SetActive(true);
     }
-
-    public void Resume(GameObject canvas){
-
-        canvas.SetActive(false);
-        
-        Time.timeScale = 1;
-
-        AudioSource[] audios = FindObjectsOfType<AudioSource>();       
-        foreach(AudioSource a in audios){
-            a.Play(); 
-        }
-    }
 }
