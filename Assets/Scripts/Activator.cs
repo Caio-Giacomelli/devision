@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Activator : MonoBehaviour
 {
@@ -12,10 +13,13 @@ public class Activator : MonoBehaviour
     private bool active = false;  
     private Color old_color;
     private SpriteRenderer sr;
+    private AudioSource audio_source;
     private GameObject note, gm;
     
     void Awake(){
         sr = GetComponent<SpriteRenderer>();
+        
+        audio_source = gameObject.GetComponentInParent(typeof(AudioSource)) as AudioSource;
     }
     
     void Start(){
@@ -95,6 +99,7 @@ public class Activator : MonoBehaviour
     private void HandleTouchInput(){
         if (CheckHasTouchInput()){
             StartCoroutine(HandlePressedActivator());
+            audio_source.Play();
             if (active){
                 HandleSuccessNote();
             } else {
