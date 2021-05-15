@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     public void LoadScene(string scene){
+        Time.timeScale = 1;
         SceneManager.LoadScene(scene);
     }
 
     public void LoadPreviousScene(){
+        Time.timeScale = 1;
         string sceneName = PlayerPrefs.GetString("PreviousScene");
         SceneManager.LoadScene(sceneName);
     } 
