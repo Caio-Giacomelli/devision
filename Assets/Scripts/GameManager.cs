@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     public AudioMixer mixer;
 
     public bool createMode;
+    
+    [HideInInspector]
+    public bool is_paused;
 
     private int multiplier = 1;
     private int streak = 0;
@@ -140,7 +143,8 @@ public class GameManager : MonoBehaviour
 
         AudioSource[] audios = FindObjectsOfType<AudioSource>();       
         foreach(AudioSource a in audios){
-            a.Play(); 
+            if (a.playOnAwake) a.Play(); 
         }
+        is_paused = false;
     }
 }

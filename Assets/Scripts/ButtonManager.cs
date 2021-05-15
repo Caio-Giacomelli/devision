@@ -22,13 +22,17 @@ public class ButtonManager : MonoBehaviour
     }
 
     public void Pause(GameObject canvas){
-        Time.timeScale = 0;
+        GameObject gm = GameObject.Find("GameManager");
+        if (!gm.GetComponent<GameManager>().is_paused){            
+            Time.timeScale = 0;
 
-        AudioSource[] audios = FindObjectsOfType<AudioSource>();       
-        foreach(AudioSource a in audios){
-            a.Pause(); 
-        }
+            AudioSource[] audios = FindObjectsOfType<AudioSource>();       
+            foreach(AudioSource a in audios){
+                a.Pause(); 
+            }
 
-        canvas.SetActive(true);
+            canvas.SetActive(true);
+            gm.GetComponent<GameManager>().is_paused = true;
+        }     
     }
 }

@@ -747,9 +747,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8050579800301410882, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_BlockingObjects
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410883, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_Name
       value: Pause Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410883, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410908, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410909, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_Pivot.x
@@ -785,6 +801,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
