@@ -19,32 +19,26 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void PauseUnpause(){
-        Sprite play_sprite = Resources.Load<Sprite>("Sprites/Play");
-        Sprite pause_sprite = Resources.Load<Sprite>("Sprites/Pause");
-        
-        if (Time.timeScale == 0){
-            Time.timeScale = 1;
+    public void Pause(GameObject canvas){
+        Time.timeScale = 0;
 
-            AudioSource[] audios = FindObjectsOfType<AudioSource>();
-            
-            foreach(AudioSource a in audios){
-                a.Play(); 
-            }
-            
-            Button mybutton = GameObject.Find("Pause Button").GetComponent<Button>();
-            mybutton.image.sprite = pause_sprite;
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();       
+        foreach(AudioSource a in audios){
+            a.Pause(); 
         }
-        else {
-            Time.timeScale = 0;
 
-            AudioSource[] audios = FindObjectsOfType<AudioSource>();
-            
-            foreach(AudioSource a in audios){
-                a.Pause(); 
-            }
-            Button mybutton = GameObject.Find("Pause Button").GetComponent<Button>();
-            mybutton.image.sprite = play_sprite;
-        }     
+        canvas.SetActive(true);
+    }
+
+    public void Resume(GameObject canvas){
+
+        canvas.SetActive(false);
+        
+        Time.timeScale = 1;
+
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();       
+        foreach(AudioSource a in audios){
+            a.Play(); 
+        }
     }
 }
