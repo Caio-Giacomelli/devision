@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2579939011501372893, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+      - m_Target: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  m_BlockingObjects: 1
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2579939011501372893, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+      - m_Target: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2579939011501372893, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+      - m_Target: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: LoadPreviousScene
         m_Mode: 1

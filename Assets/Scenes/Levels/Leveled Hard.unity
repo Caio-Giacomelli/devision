@@ -552,21 +552,9 @@ PrefabInstance:
       value: Level Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 3462971322481207350, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3462971322481207350, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Pause
-      objectReference: {fileID: 0}
-    - target: {fileID: 3462971322481207350, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 160997870}
-    - target: {fileID: 3462971322481207350, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
 --- !u!1001 &4277698439604525168
@@ -747,25 +735,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8050579800301410882, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_BlockingObjects
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410883, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_Name
       value: Pause Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050579800301410883, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050579800301410908, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050579800301410909, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_Pivot.x
@@ -801,18 +773,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
-      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}

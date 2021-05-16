@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -15,6 +16,15 @@ public class ButtonManager : MonoBehaviour
         Time.timeScale = 1;
         string sceneName = PlayerPrefs.GetString("PreviousScene");
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadPlayableScene(string difficulty){
+        string scene_name = PlayerPrefs.GetString("NextScene") + " " + difficulty;
+        SceneManager.LoadScene(scene_name);
+    }
+
+    public void SelectNextScene(string level_name){
+        PlayerPrefs.SetString("NextScene", level_name);
     } 
 
     public void Quit(){

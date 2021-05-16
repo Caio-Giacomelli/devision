@@ -244,6 +244,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1824329498401106866, guid: b65ef61736232da4fade9af4b9993f43, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 1824329498401106866, guid: b65ef61736232da4fade9af4b9993f43, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824329498401106866, guid: b65ef61736232da4fade9af4b9993f43, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4840431082647937418, guid: b65ef61736232da4fade9af4b9993f43, type: 3}
       propertyPath: m_Name
       value: Settings Canvas

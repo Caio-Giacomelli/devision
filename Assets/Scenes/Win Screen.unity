@@ -244,6 +244,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 212643044178512419, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 212643044178512419, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 212643044178512419, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079580829415555829, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 2079580829415555829, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadPreviousScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079580829415555829, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2079580829509399335, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -335,6 +359,18 @@ PrefabInstance:
     - target: {fileID: 2079580831232941553, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
       propertyPath: m_Name
       value: Play Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539985206034222382, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 7539985206034222382, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539985206034222382, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
