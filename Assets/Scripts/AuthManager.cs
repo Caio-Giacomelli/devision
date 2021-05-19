@@ -31,6 +31,19 @@ public class AuthManager : MonoBehaviour
 
     public void RegisterButton(){
         StartCoroutine(Register(email_register.text, password_register.text, username_register.text, password_verigy_register.text));
+        
+    }
+
+    public void ClearLoginFields(){
+        email_login.text = "";
+        password_login.text = "";
+    }
+
+    public void ClearRegisterFields(){
+        username_register.text = "";
+        email_register.text = "";
+        password_register.text = "";
+        password_verigy_register.text = "";
     }
 
     private IEnumerator Login(string _email, string _password)
