@@ -38,6 +38,7 @@ public class DatabaseManager : MonoBehaviour
             Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
         } 
         else if (DBTask.Result.Value == null){
+            highScoreText.text = scoreValue.ToString();
             StartCoroutine(SaveHighscore());
         } else {
             DataSnapshot snapshot = DBTask.Result;
