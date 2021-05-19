@@ -297,6 +297,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8394515263377556285, guid: 4d9f60f287c200a45b5330cee6d905d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 8394515263377556285, guid: 4d9f60f287c200a45b5330cee6d905d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8394515263377556287, guid: 4d9f60f287c200a45b5330cee6d905d6, type: 3}
       propertyPath: m_Name
       value: Quit Button
@@ -315,6 +323,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4674457736522259939}
     m_Modifications:
+    - target: {fileID: 641294184580560518, guid: bf28545f4dc4dfa418acd599a645dfa3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 641294184580560518, guid: bf28545f4dc4dfa418acd599a645dfa3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 641294184580560518, guid: bf28545f4dc4dfa418acd599a645dfa3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 641294185406855936, guid: bf28545f4dc4dfa418acd599a645dfa3, type: 3}
       propertyPath: m_Name
       value: Score
@@ -417,6 +437,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4674457736522259939}
     m_Modifications:
+    - target: {fileID: 2175047337811514964, guid: 8ec1687b4a1bafc46a1a80c710419dbc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 2175047337811514964, guid: 8ec1687b4a1bafc46a1a80c710419dbc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2175047337811514965, guid: 8ec1687b4a1bafc46a1a80c710419dbc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -522,6 +550,14 @@ PrefabInstance:
     - target: {fileID: 540560037353285772, guid: 3a8494d931445464e894c8fb96a61f0f, type: 3}
       propertyPath: m_Name
       value: Play Again Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 540560037353285774, guid: 3a8494d931445464e894c8fb96a61f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
+    - target: {fileID: 540560037353285774, guid: 3a8494d931445464e894c8fb96a61f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 540560037353285775, guid: 3a8494d931445464e894c8fb96a61f0f, type: 3}
       propertyPath: m_Pivot.x

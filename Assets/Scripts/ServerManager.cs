@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Firebase;
 using Firebase.Auth;
+using Firebase.Database;
 using System.Threading.Tasks;
 
 public class ServerManager : MonoBehaviour
@@ -14,6 +15,7 @@ public class ServerManager : MonoBehaviour
     public bool has_connected;
     public FirebaseAuth auth;
     public FirebaseUser User;
+    public DatabaseReference DBreference;
 
     void Awake() {
         if (Instance == null){
@@ -32,6 +34,7 @@ public class ServerManager : MonoBehaviour
         if (dependencyStatus == Firebase.DependencyStatus.Available) {
             has_connected = true;
             auth = FirebaseAuth.DefaultInstance;
+            DBreference = FirebaseDatabase.DefaultInstance.RootReference;
         }
         else
         {

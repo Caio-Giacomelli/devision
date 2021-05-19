@@ -244,18 +244,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3792116289105063602, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
-    - target: {fileID: 3792116289105063602, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Quit
-      objectReference: {fileID: 0}
-    - target: {fileID: 3792116289105063602, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ButtonManager, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 4674457736522259939, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -343,34 +331,6 @@ PrefabInstance:
     - target: {fileID: 4674457736522259967, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
       propertyPath: m_Name
       value: Lose Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142960101042911861, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142960101042911861, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
-    - target: {fileID: 5142960101042911861, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadPreviousScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142960101042911861, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ButtonManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841056398316040789, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5222097923429899244, guid: 0fcb72857ed4f434d8079e8d3e3c62cc, type: 3}
-    - target: {fileID: 6841056398316040789, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841056398316040789, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ButtonManager, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
