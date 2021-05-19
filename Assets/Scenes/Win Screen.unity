@@ -381,6 +381,10 @@ PrefabInstance:
       value: Win Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 4118579999964704206, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118579999964704206, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
