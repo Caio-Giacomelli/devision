@@ -41,7 +41,6 @@ public class DatabaseManager : MonoBehaviour
             StartCoroutine(SaveHighscore());
         } else {
             DataSnapshot snapshot = DBTask.Result;
-            Debug.LogWarning(message: $"snapshot {snapshot.Value}");
 
             long previousHighscore = (long) snapshot.Value;
             if (scoreValue > previousHighscore){
