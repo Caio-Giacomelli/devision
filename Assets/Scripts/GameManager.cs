@@ -143,7 +143,7 @@ public class GameManager : MonoBehaviour
 
         AudioSource[] audios = FindObjectsOfType<AudioSource>();       
         foreach(AudioSource a in audios){
-            if (a.playOnAwake) a.Play(); 
+            if (a.playOnAwake || a.panStereo == 0.02f) a.Play(); 
         }
         is_paused = false;
     }
