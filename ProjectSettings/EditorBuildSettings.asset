@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Leveled Expert.unity
     guid: 51af05a4d8cf2f44b88f999df39aca70
+  - enabled: 1
+    path: Assets/Scenes/Levels/Unity Hard.unity
+    guid: 45efac3f578b1674da938d9b4525bece
+  - enabled: 1
+    path: Assets/Scenes/Levels/Unity Expert.unity
+    guid: 3a84cf5d8c7141c47837fc4efbfbd10e
   m_configObjects: {}

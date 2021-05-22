@@ -12,6 +12,9 @@ public class SongOverhaul : MonoBehaviour
     [SerializeField]
     private GameObject testActivator;
 
+    [Header("Mapping Values")]
+    [SerializeField] private float songSpeed;
+
     private AudioSource audio_source;
     private float previousFrameTime;
     private float lastReportedPlayheadPosition;
@@ -23,7 +26,6 @@ public class SongOverhaul : MonoBehaviour
         previousFrameTime = Time.time;
         lastReportedPlayheadPosition = 0f;
         audio_source.Play();
-        Debug.Log(message: $"testActivator.transform.position.y  in time {testActivator.transform.position.y }");
     }
 
     void Update(){
@@ -39,9 +41,9 @@ public class SongOverhaul : MonoBehaviour
     }
 
     private void RenderNoteFallingDownScreen(){
-        Debug.LogWarning(message: $"(songTime - 8.7f)  in time {songTime - 8.7f}");
-
-        Vector3 newValue = new Vector3(testActivator.transform.position.x, testActivator.transform.position.y - (songTime - 8.697f), 5);
+        Debug.LogWarning(message: $"songTime  in time {songTime}");
+        
+        Vector3 newValue = new Vector3(testActivator.transform.position.x, testActivator.transform.position.y - (songTime - 8.697f) * songSpeed, 5);
         testNote.transform.position = newValue;
 
         Debug.LogError(message: $"newValue  in time {newValue}");

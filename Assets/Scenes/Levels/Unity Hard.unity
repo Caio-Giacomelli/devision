@@ -308,6 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   testNote: {fileID: 1688820497}
   testActivator: {fileID: 1207759485}
+  songSpeed: 15
 --- !u!114 &1072322889 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 33204448571429086, guid: 1ef69d93f5ed6684a967d57b5ee636ed, type: 3}
