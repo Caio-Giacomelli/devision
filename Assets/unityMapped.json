@@ -137,6 +137,12 @@
             "activatorXPosition" : "leftX", 
             "activatorYPosition" : "blueY", 
             "hasSecond" : false
+        },
+        {
+            "strumTime" : 12.807, 
+            "activatorXPosition" : "middleLeftX", 
+            "activatorYPosition" : "blueY", 
+            "hasSecond" : false
         }
         
     ]

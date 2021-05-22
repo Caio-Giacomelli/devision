@@ -17,8 +17,6 @@ public class MappingOverhaul
         public float xPosition;
         public float yPosition;
         public GameObject noteInstantiated;
-        //public float activatorYSecondPosition;
-        //public string xSecondPosition;
     }
 
     public static class ActivatorPositions{
