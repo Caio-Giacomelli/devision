@@ -12,7 +12,6 @@ public class MappingOverhaul
         public float strumTime;
         public string activatorXPosition;
         public string activatorYPosition;
-        public bool hasSecond;
 
         public float xPosition;
         public float yPosition;
