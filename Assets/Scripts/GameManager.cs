@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     private float life_per_second = 0.3f;
 
     [SerializeField]
+    private float noteHealthHit = 0.5f;
+
+    [SerializeField]
     public float note_speed = 4.5f;
 
     [SerializeField]
@@ -108,7 +111,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void LoseHealth(){
-        health -= .05f;
+        health -= noteHealthHit;
         health = Mathf.Clamp(health, 0f, 1f);
         healthBar.SetSize(health);
     }
