@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     private float life_per_second = 0.3f;
 
     [SerializeField]
-    private float noteHealthHit = 0.5f;
+    private float noteHealthHit = 0.05f;
 
     [SerializeField]
     public float note_speed = 4.5f;

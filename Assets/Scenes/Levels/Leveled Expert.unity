@@ -42567,6 +42567,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: godMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1072322889}
@@ -42577,6 +42581,10 @@ PrefabInstance:
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: note_speed
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: noteHealthHit
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: life_per_second

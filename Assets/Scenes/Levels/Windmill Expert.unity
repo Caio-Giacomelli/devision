@@ -5372,6 +5372,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: noteHealthHit
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: countdown_animation
       value: 
       objectReference: {fileID: 1671518062}
