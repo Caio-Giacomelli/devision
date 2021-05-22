@@ -96,13 +96,13 @@ public class SongOverhaul : MonoBehaviour
             GameObject noteInstantiated;
             
             if (mapping.activatorYPosition == "redY"){
-                noteInstantiated = Instantiate(redPrefab, new Vector3(mapping.xPosition, mapping.yPosition, 5), Quaternion.identity);
+                noteInstantiated = Instantiate(redPrefab, new Vector3(mapping.xPosition, 100, 5), Quaternion.identity);
                 
                 noteInstantiated.GetComponent<Note>().speed = 0;
                 mapping.noteInstantiated = noteInstantiated;
 
             } else if (mapping.activatorYPosition == "blueY"){
-                noteInstantiated = Instantiate(bluePrefab, new Vector3(mapping.xPosition, mapping.yPosition, 5), Quaternion.identity);
+                noteInstantiated = Instantiate(bluePrefab, new Vector3(mapping.xPosition, 100, 5), Quaternion.identity);
 
                 noteInstantiated.GetComponent<Note>().speed = 0;
                 mapping.noteInstantiated = noteInstantiated;

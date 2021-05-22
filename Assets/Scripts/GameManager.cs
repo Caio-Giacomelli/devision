@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public AudioMixer mixer;
 
-    public bool createMode;
+    public bool godMode;
     
     [HideInInspector]
     public bool is_paused;
@@ -45,13 +45,13 @@ public class GameManager : MonoBehaviour
     }
 
     void Update(){
-        if (health == 0f && !createMode){
+        if (health == 0f){
             Lose();
         }
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if (!createMode) Destroy(other.gameObject);
+        Destroy(other.gameObject);
         LoseHealth();
         ResetStreak(); 
     }

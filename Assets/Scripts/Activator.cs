@@ -28,28 +28,23 @@ public class Activator : MonoBehaviour
     }
 
     void Update(){
-        if (Time.timeScale != 0){
-            if (gm.GetComponent<GameManager>().createMode){
-                HandleCreateMode();
-            }
-            else{        
-                HandleKeyInput();
-                HandleTouchInput();           
-            }
+        if (Time.timeScale != 0 && !gm.GetComponent<GameManager>().godMode){     
+            HandleKeyInput();
+            HandleTouchInput();           
         }
     }
 
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Win Note" && gameObject.tag == "Red Activator"){
             gm.GetComponent<GameManager>().Win();
-        }
-        
+        }       
         
         if ((gameObject.tag == "Blue Activator" && other.gameObject.tag == "Blue Note") || 
             (gameObject.tag == "Red Activator" && other.gameObject.tag == "Red Note"))
         {
             active = true;
             note = other.gameObject;
+            if (gm.GetComponent<GameManager>().godMode)  HandleGodMode();
         }
     }
 
@@ -115,14 +110,9 @@ public class Activator : MonoBehaviour
         active = false;
     }
 
-    private void HandleCreateMode(){
-        instantiate_note.GetComponent<Note>().speed = gm.GetComponent<GameManager>().note_speed;
-        
-        if (Input.GetKeyDown(key)){
-            Instantiate(instantiate_note, transform.position, Quaternion.identity);
-        }
-        if (CheckHasTouchInput()){
-            Instantiate(instantiate_note, new Vector3(transform.position.x, transform.position.y, 5), Quaternion.identity);
+    private void HandleGodMode(){
+        if (note.transform.position.y == gameObject.transform.position.y){
+            Destroy(note);
         }
     }
 
