@@ -76,7 +76,7 @@ public class SongOverhaul : MonoBehaviour
                 case "rigthX":
                     mapping.xPosition = MappingOverhaul.ActivatorPositions.rightX;
                     break;
-                case "middleRigthtX":
+                case "middleRigthX":
                     mapping.xPosition = MappingOverhaul.ActivatorPositions.middleRightX;
                     break;
                 case "middleLeftX":
