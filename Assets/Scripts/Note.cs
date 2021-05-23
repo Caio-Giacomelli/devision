@@ -7,6 +7,8 @@ public class Note : MonoBehaviour
     [SerializeField]
     public float speed;
 
+    public float strumTime;
+
     void Awake(){
         rb = GetComponent<Rigidbody2D>();
     }

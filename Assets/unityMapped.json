@@ -355,7 +355,7 @@
         {
             "strumTime" : 21.094, 
             "activatorXPosition" : "rightX", 
-            "activatorYPosition" : "redY"
+            "activatorYPosition" : "blueY"
         },
         {
             "strumTime" : 21.094, 
@@ -375,7 +375,7 @@
         {
             "strumTime" : 21.955, 
             "activatorXPosition" : "rightX", 
-            "activatorYPosition" : "blueY"
+            "activatorYPosition" : "redY"
         },
         {
             "strumTime" : 21.955, 
@@ -430,7 +430,7 @@
         {
             "strumTime" : 23.964, 
             "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "blueY"
+            "activatorYPosition" : "redY"
         },
         {
             "strumTime" : 24.129, 
@@ -445,7 +445,7 @@
         {
             "strumTime" : 24.708, 
             "activatorXPosition" : "rightX", 
-            "activatorYPosition" : "blueY"
+            "activatorYPosition" : "redY"
         },
         {
             "strumTime" : 24.790, 
@@ -460,7 +460,7 @@
         {
             "strumTime" : 25.090, 
             "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorYPosition" : "redY"
         },
         {
             "strumTime" : 25.263, 

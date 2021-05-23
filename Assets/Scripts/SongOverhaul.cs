@@ -109,6 +109,7 @@ public class SongOverhaul : MonoBehaviour
     private void InstantiatePrefab(MappingOverhaul.MappingUnit unit, GameObject notePrefab){
         GameObject noteInstantiated = Instantiate(notePrefab, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);      
         noteInstantiated.GetComponent<Note>().speed = 0;
+        noteInstantiated.GetComponent<Note>().strumTime = unit.strumTime;
 
         unit.noteInstantiated = noteInstantiated;
     }
