@@ -308,8 +308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bluePrefab: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
   redPrefab: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
-  songSpeed: 7.5
+  songSpeed: 8
   jsonMappedSong: {fileID: 4900000, guid: 9ef6fa18bc950b144a494cfd995f96a3, type: 3}
+  songTime: 0
 --- !u!114 &1072322889 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 33204448571429086, guid: 1ef69d93f5ed6684a967d57b5ee636ed, type: 3}
@@ -962,7 +963,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: godMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: healthBar
@@ -974,7 +975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: note_speed
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: noteHealthHit

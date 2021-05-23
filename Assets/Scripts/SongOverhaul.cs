@@ -24,7 +24,7 @@ public class SongOverhaul : MonoBehaviour
     
     private float previousFrameTime;
     private float lastReportedPlayheadPosition;
-    private float songTime;   
+    public float songTime;   
 
     void Start(){        
         DeserializeMappedSong();

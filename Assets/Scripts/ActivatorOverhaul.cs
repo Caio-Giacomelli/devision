@@ -14,7 +14,7 @@ public class ActivatorOverhaul : MonoBehaviour
     private Color old_color;
     private SpriteRenderer sr;
     private AudioSource audio_source;
-    private GameObject note, gm;
+    private GameObject note, gm, mm;
     
     void Awake(){
         sr = GetComponent<SpriteRenderer>();
@@ -24,6 +24,7 @@ public class ActivatorOverhaul : MonoBehaviour
     
     void Start(){
         gm = GameObject.Find("GameManager");
+        mm = GameObject.Find("MusicManager");
         old_color = sr.color;
     }
 
@@ -118,6 +119,8 @@ public class ActivatorOverhaul : MonoBehaviour
         if (note != null && (note.transform.position.y - gameObject.transform.position.y) < 0.001){
             StartCoroutine(HandlePressedActivator());
             HandleSuccessNote();
+
+            Debug.LogWarning(message: $"song time: {mm.GetComponent<SongOverhaul>().songTime}");
         }
     }
 
