@@ -670,7 +670,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4277698441126321319, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_Name
-      value: Lv1 Song
+      value: MusicManager
       objectReference: {fileID: 0}
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: Pan2D

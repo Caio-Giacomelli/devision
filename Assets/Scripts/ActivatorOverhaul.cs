@@ -117,9 +117,7 @@ public class ActivatorOverhaul : MonoBehaviour
     private void HandleGodMode(){
         if (note != null && (note.transform.position.y - gameObject.transform.position.y) < 0.001){
             StartCoroutine(HandlePressedActivator());
-            Destroy(note);
-            gm.GetComponent<GameManager>().AddStreak();
-            AddScore();
+            HandleSuccessNote();
         }
     }
 

@@ -5,21 +5,26 @@ using UnityEngine.Audio;
 
 public class SongOverhaul : MonoBehaviour
 {   
+    [Header("Note Prefabs")]
     [SerializeField]
     private GameObject bluePrefab;
     [SerializeField]
     private GameObject redPrefab;
 
     [Header("Mapping Values")]
-    [SerializeField] private float songSpeed;
-    [SerializeField] private TextAsset jsonMappedSong;
+    [SerializeField] 
+    private float songSpeed;
+    
+    [Header("Song Mapped")]
+    [SerializeField] 
+    private TextAsset jsonMappedSong;
 
     private AudioSource audio_source;
+    private MappingOverhaul mappedSongJSON;
+    
     private float previousFrameTime;
     private float lastReportedPlayheadPosition;
-    private float songTime;
-
-    private MappingOverhaul mappedSongJSON;
+    private float songTime;   
 
     void Start(){        
         DeserializeMappedSong();
@@ -92,21 +97,19 @@ public class SongOverhaul : MonoBehaviour
     }
 
     private void InstantiateMappedNotes(){
-        foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong){
-            GameObject noteInstantiated;
-            
+        foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong){           
             if (mapping.activatorYPosition == "redY"){
-                noteInstantiated = Instantiate(redPrefab, new Vector3(mapping.xPosition, 100, 5), Quaternion.identity);
-                
-                noteInstantiated.GetComponent<Note>().speed = 0;
-                mapping.noteInstantiated = noteInstantiated;
-
+                InstantiatePrefab(mapping, redPrefab);
             } else if (mapping.activatorYPosition == "blueY"){
-                noteInstantiated = Instantiate(bluePrefab, new Vector3(mapping.xPosition, 100, 5), Quaternion.identity);
-
-                noteInstantiated.GetComponent<Note>().speed = 0;
-                mapping.noteInstantiated = noteInstantiated;
+                InstantiatePrefab(mapping, bluePrefab);
             }           
         }
+    }
+
+    private void InstantiatePrefab(MappingOverhaul.MappingUnit unit, GameObject notePrefab){
+        GameObject noteInstantiated = Instantiate(notePrefab, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);      
+        noteInstantiated.GetComponent<Note>().speed = 0;
+
+        unit.noteInstantiated = noteInstantiated;
     }
 }
