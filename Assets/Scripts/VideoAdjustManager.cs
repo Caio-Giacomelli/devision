@@ -63,7 +63,7 @@ public class VideoAdjustManager : MonoBehaviour
     IEnumerator FinishMetronomeExecution(){
         yield return new WaitForSeconds(totalCalibrationTime);
         CancelInvoke();
-        startButton.enabled = true;
+        startButton.interactable = true;
         metronomeButton.interactable = false;
     }
 
