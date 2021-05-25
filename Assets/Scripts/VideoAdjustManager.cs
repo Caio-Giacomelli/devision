@@ -44,18 +44,18 @@ public class VideoAdjustManager : MonoBehaviour
     }
 
     IEnumerator FlashCoroutine(){     
-        PreparaColorBlock(new Color(255, 255, 255));
+        PrepareColorBlock(new Color(255, 255, 255));
         metronomeButton.colors = colorBlock;
 
         shouldHaveClicked = Time.time;
 
         yield return new WaitForSeconds(flashTime);
         
-        PreparaColorBlock(baseColor);
+        PrepareColorBlock(baseColor);
         metronomeButton.colors = colorBlock;
     }
 
-    private void PreparaColorBlock(Color color){
+    private void PrepareColorBlock(Color color){
         colorBlock.normalColor = color;
         colorBlock.disabledColor = color;
         colorBlock.highlightedColor = color;
