@@ -29,7 +29,7 @@ public class SongOverhaul : MonoBehaviour
 
     void Start(){     
         videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
-        Debug.Log(videoCalibrationDelay);
+
         DeserializeMappedSong();
         InstantiateMappedNotes();
         StartSongControlVariables();

@@ -8,7 +8,7 @@ public class VideoAdjustManager : MonoBehaviour
     [Header("UI")]
     [SerializeField] private Button metronomeButton;
     [SerializeField] private Button startButton;
-    [SerializeField] private Text delayText;
+    [SerializeField] private InputField delayInput;
 
     [Header("Video Calibration Settings")]
     [SerializeField] private float repeatTime;
@@ -24,8 +24,11 @@ public class VideoAdjustManager : MonoBehaviour
     [SerializeField] private float shouldHaveClicked;
     [SerializeField] private float actualClick;
     [SerializeField] private float delayMs;
+    [SerializeField] private List<float> listDelay;
 
     void Start(){
+        listDelay = new List<float>();
+        delayInput.text = (PlayerPrefs.GetFloat("VideoDelay") * 1000).ToString();
         colorBlock = metronomeButton.colors;
         baseColor = colorBlock.normalColor;
     }
@@ -65,13 +68,28 @@ public class VideoAdjustManager : MonoBehaviour
         CancelInvoke();
         startButton.interactable = true;
         metronomeButton.interactable = false;
+
+        CalculateMedianDelay();
+        
+        delayInput.text = delayMs.ToString();
+    }
+
+    private void CalculateMedianDelay(){
+        float medianDelay = 0;
+        foreach (float delay in listDelay)
+        {
+            medianDelay += delay;
+        }
+
+        delayMs = (medianDelay / listDelay.Count) * 1000;
     }
 
     public void SetActualClick(){
-        actualClick = Time.time;
-        delayMs = (delayMs + (actualClick - shouldHaveClicked)) / 2;
-        
-        delayText.text = (delayMs*1000).ToString("F2") + " ms";
-        PlayerPrefs.SetFloat("VideoDelay", delayMs);
+        actualClick = Time.time;    
+        listDelay.Add(actualClick - shouldHaveClicked); 
+    }
+
+    public void SubmitDelayInput(string input){
+        PlayerPrefs.SetFloat("VideoDelay", float.Parse(input) / 1000);
     }
 } 
