@@ -72,5 +72,6 @@ public class VideoAdjustManager : MonoBehaviour
         delayMs = (delayMs + (actualClick - shouldHaveClicked)) / 2;
         
         delayText.text = (delayMs*1000).ToString("F2") + " ms";
+        PlayerPrefs.SetFloat("VideoDelay", delayMs);
     }
 } 

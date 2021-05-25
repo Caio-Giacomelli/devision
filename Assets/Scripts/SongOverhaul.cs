@@ -25,8 +25,11 @@ public class SongOverhaul : MonoBehaviour
     private float previousFrameTime;
     private float lastReportedPlayheadPosition;
     public float songTime;   
+    private float videoCalibrationDelay;
 
-    void Start(){        
+    void Start(){     
+        videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
+        Debug.Log(videoCalibrationDelay);
         DeserializeMappedSong();
         InstantiateMappedNotes();
         StartSongControlVariables();
@@ -40,7 +43,7 @@ public class SongOverhaul : MonoBehaviour
     private void RenderNoteFallingDownScreen(){
         foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong)
         {
-            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - (songTime - mapping.strumTime) * songSpeed, 5);
+            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((songTime - mapping.strumTime) * songSpeed) + videoCalibrationDelay, 5);
             if (mapping.noteInstantiated != null){
                 mapping.noteInstantiated.transform.position = updatedNotePosition;
             }
