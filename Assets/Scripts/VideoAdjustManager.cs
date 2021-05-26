@@ -35,7 +35,7 @@ public class VideoAdjustManager : MonoBehaviour
 
     public void StartVideoCalibration(){
         InvokeRepeating("FlashMetronomeButton", delayStartTime, repeatTime);
-        StartCoroutine(FinishMetronomeExecution());
+        StartCoroutine(FinishVideoCalibration());
     }
 
     private void FlashMetronomeButton(){
@@ -63,7 +63,7 @@ public class VideoAdjustManager : MonoBehaviour
         colorBlock.selectedColor = color;
     }
 
-    IEnumerator FinishMetronomeExecution(){
+    IEnumerator FinishVideoCalibration(){
         yield return new WaitForSeconds(totalCalibrationTime);
         CancelInvoke();
         startButton.interactable = true;
