@@ -2,505 +2,505 @@
     "mappedSong":[
         {
             "strumTime" : 8.705, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 8.801, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         }, 
         {
             "strumTime" : 8.984, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         }, 
         {
             "strumTime" : 9.085, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         }, 
         {
             "strumTime" : 9.269, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         }, 
         {
             "strumTime" : 9.371, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
 
 
         {
             "strumTime" : 9.842, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 9.963, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 10.174, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 10.241, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 10.456, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 10.542, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
 
 
         {
             "strumTime" : 11.003, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 11.110, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 11.271, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 11.375, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 11.576, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 11.674, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         
 
         {
             "strumTime" : 11.993, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 12.261, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 12.517, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 12.807, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 12.807, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
         },
         
         {
             "strumTime" : 13.269, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 13.412, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 13.577, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 13.657, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 13.852, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 13.959, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
 
         {
             "strumTime" : 14.422, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 14.580, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 14.725, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 14.832, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 14.943, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 15.121, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
 
         {
             "strumTime" : 15.569, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 15.685, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 15.842, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 15.958, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 16.128, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 16.231, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 16.231, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 16.514, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 16.514, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 16.800, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 16.800, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 17.088, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 17.088, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 17.380, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 17.380, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
 
 
 
         {
             "strumTime" : 17.844, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 17.934, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 18.125, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 18.236, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 18.420, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 18.525, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 18.991, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 19.069, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 19.291, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 19.384, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 19.559, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 19.677, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 20.128, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 20.230, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 20.410, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 20.523, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 20.699, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 20.820, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 21.094, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 21.094, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 21.369, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 21.668, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 21.955, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 21.955, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 22.417, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 22.512, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 22.701, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 22.800, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 22.983, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 23.099, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 23.561, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 23.660, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 23.843, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 23.964, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 24.129, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 24.236, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 24.708, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 24.790, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 24.988, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 25.090, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 25.263, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 25.377, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "blueY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
         },
         {
             "strumTime" : 25.662, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 25.662, 
-            "activatorXPosition" : "leftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 25.944, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 26.233, 
-            "activatorXPosition" : "middleRigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 26.233, 
-            "activatorXPosition" : "middleLeftX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
         },
         {
             "strumTime" : 26.514, 
-            "activatorXPosition" : "rigthX", 
-            "activatorYPosition" : "redY"
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
         }
     ]
 }

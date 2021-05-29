@@ -308,7 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bluePrefab: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
   redPrefab: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
-  songSpeed: 12
+  songSpeed: 4
   jsonMappedSong: {fileID: 4900000, guid: d6a240a2ea4be0948b1fbc5d9434d14b, type: 3}
   songTime: 0
 --- !u!114 &1072322889 stripped
@@ -474,6 +474,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 0
   instantiate_note: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
+--- !u!114 &1649295678 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1649295678, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+  m_PrefabInstance: {fileID: 8050579800445565869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1877993323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8867896601713843242, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
@@ -795,6 +806,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 613789467, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7465724715522067052, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
       propertyPath: m_Name
       value: Activators
@@ -860,9 +875,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1649295678, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2029460769}
     - target: {fileID: 8050579800301410883, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_Name
       value: Pause Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579800301410883, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8050579800301410911, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_Pivot.x
@@ -965,6 +988,10 @@ PrefabInstance:
       propertyPath: godMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: godToggle
+      value: 
+      objectReference: {fileID: 1649295678}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: healthBar
       value: 
