@@ -232,9 +232,269 @@
             "activatorYPosition" : "rY"
         },
         {
-            "strumTime" : 30.400, 
+            "strumTime" : 30.788, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 30.955, 
             "activatorXPosition" : "ml", 
-            "activatorYPosition" : "cY"
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 31.330, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 31.732, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 32.476, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 32.750, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 33.021, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 33.221, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 33.777, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 33.974, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 34.346, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 34.706, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 35.073, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 35.278, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 35.469, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 35.469, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 35.647, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 36.225, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 36.773, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 36.960, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 37.324, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 37.720, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 38.470, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 38.732, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 39.036, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 39.259, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 39.259, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 42.222, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 42.351, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 42.577, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 42.771, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 45.248, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 45.390, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 45.571, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 45.805, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 46.158, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 46.158, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 48.396, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 48.577, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 48.757, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 51.223, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 51.422, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 51.582, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 51.794, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 52.137, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 52.137, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 52.515, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 52.732, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 52.909, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 53.272, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 53.272, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 53.631, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 53.631, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
         }
     ]
 }
