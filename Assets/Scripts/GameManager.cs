@@ -3,42 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField]
-    private HealthBar healthBar;
 
-    [SerializeField]
-    private GameObject countdown_animation;
+    [Header("Health Configuration")]
+    [SerializeField] private HealthBar healthBar;
+    [SerializeField] private float life_per_second = 0.3f;
+    [SerializeField] private float noteHealthHit = 0.05f;
 
-    [SerializeField]
-    private int score_per_note = 10;
+    [Header("UI Configuration")]
+    [SerializeField] private GameObject countdown_animation;
+    [SerializeField] private Toggle godToggle;
 
-    [SerializeField]
-    private float life_per_second = 0.3f;
-
-    [SerializeField]
-    private float noteHealthHit = 0.05f;
-
-    [SerializeField]
-    public float note_speed = 4.5f;
-
-    [SerializeField]
-    public AudioMixer mixer;
-
-    public bool godMode;
+    [Header("Gameplay Configuration")]
+    [SerializeField] private int score_per_note = 10;
+    [SerializeField] public float note_speed = 4.5f; //deprecated
+    [SerializeField] public bool godMode;
+    [SerializeField] public bool is_paused;
     
-    [HideInInspector]
-    public bool is_paused;
+    [Header("Audio Configuration")]
+    [SerializeField] public AudioMixer mixer;
 
     private int multiplier = 1;
     private int streak = 0;
-    private float health;
+    private float health = 1f;
 
-    void Start(){
-        health = 1f;
-
+    void Start(){       
+        godToggle.isOn = godMode;
         InvokeRepeating("SetHealthBarSize", 0.0f, life_per_second);
         HandlePlayerPref();
         HandleMusicVolume();
@@ -149,5 +142,9 @@ public class GameManager : MonoBehaviour
             if (a.playOnAwake || a.panStereo == 0.02f) a.Play(); 
         }
         is_paused = false;
+    }
+
+    public void setGodMode(bool isGod){
+        godMode = isGod;
     }
 }
