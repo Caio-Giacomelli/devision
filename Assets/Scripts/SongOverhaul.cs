@@ -10,6 +10,8 @@ public class SongOverhaul : MonoBehaviour
     private GameObject bluePrefab;
     [SerializeField]
     private GameObject redPrefab;
+    [SerializeField]
+    private GameObject creatorPrefab;
 
     [Header("Mapping Values")]
     [SerializeField] 
@@ -95,6 +97,9 @@ public class SongOverhaul : MonoBehaviour
                 case "bY":
                     mapping.yPosition = MappingOverhaul.ActivatorPositions.blueY;
                     break;
+                case "cY":
+                    mapping.yPosition = MappingOverhaul.ActivatorPositions.creatorY;
+                    break;
             }
         }
     }
@@ -105,7 +110,9 @@ public class SongOverhaul : MonoBehaviour
                 InstantiatePrefab(mapping, redPrefab);
             } else if (mapping.activatorYPosition == "bY"){
                 InstantiatePrefab(mapping, bluePrefab);
-            }           
+            }  else if (mapping.activatorYPosition == "cY"){
+                InstantiatePrefab(mapping, creatorPrefab);
+            }          
         }
     }
 

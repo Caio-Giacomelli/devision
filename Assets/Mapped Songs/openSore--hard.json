@@ -230,6 +230,11 @@
             "strumTime" : 30.216, 
             "activatorXPosition" : "ml", 
             "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 30.400, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "cY"
         }
     ]
 }
