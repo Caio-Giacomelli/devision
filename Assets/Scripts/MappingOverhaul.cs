@@ -25,5 +25,6 @@ public class MappingOverhaul
        public const float rightX = 1.7f;
        public const float redY = -4f;
        public const float blueY = -2.6f;
+       public const float creatorY = -2.6f;
     }
 }

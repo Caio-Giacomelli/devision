@@ -73,26 +73,26 @@ public class SongOverhaul : MonoBehaviour
         {
             switch (mapping.activatorXPosition)
             {
-                case "leftX":
+                case "l":
                     mapping.xPosition = MappingOverhaul.ActivatorPositions.leftX;
                     break;
-                case "rigthX":
+                case "r":
                     mapping.xPosition = MappingOverhaul.ActivatorPositions.rightX;
                     break;
-                case "middleRigthX":
+                case "mr":
                     mapping.xPosition = MappingOverhaul.ActivatorPositions.middleRightX;
                     break;
-                case "middleLeftX":
+                case "ml":
                     mapping.xPosition = MappingOverhaul.ActivatorPositions.middleLeftX;
                     break;
             }
 
             switch (mapping.activatorYPosition)
             {
-                case "redY":
+                case "rY":
                     mapping.yPosition = MappingOverhaul.ActivatorPositions.redY;
                     break;
-                case "blueY":
+                case "bY":
                     mapping.yPosition = MappingOverhaul.ActivatorPositions.blueY;
                     break;
             }
@@ -101,9 +101,9 @@ public class SongOverhaul : MonoBehaviour
 
     private void InstantiateMappedNotes(){
         foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong){           
-            if (mapping.activatorYPosition == "redY"){
+            if (mapping.activatorYPosition == "rY"){
                 InstantiatePrefab(mapping, redPrefab);
-            } else if (mapping.activatorYPosition == "blueY"){
+            } else if (mapping.activatorYPosition == "bY"){
                 InstantiatePrefab(mapping, bluePrefab);
             }           
         }
