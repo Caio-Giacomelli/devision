@@ -1,0 +1,190 @@
+{
+    "mappedSong":[
+        {
+            "strumTime" : 1.513, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        }, 
+        {
+            "strumTime" : 2.263, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        }, 
+        {
+            "strumTime" : 3.013, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        }, 
+        {
+            "strumTime" : 3.752, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        }, 
+        {
+            "strumTime" : 4.514, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 5.443, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 5.818, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 6.202, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 7.712, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 9.219, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 12.218, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 13.743, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 15.226, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 18.197, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 18.759, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 18.955, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 19.324, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 19.717, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 20.474, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 20.742, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        
+        {
+            "strumTime" : 21.027, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 21.224, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 21.796, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 21.956, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 22.320, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 22.701, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 23.642, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 24.202, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 24.782, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 24.949, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 25.312, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 25.723, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 26.456, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 26.732, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 27.020, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 27.206, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        },
+        {
+            "strumTime" : 30.204, 
+            "activatorXPosition" : "leftX", 
+            "activatorYPosition" : "blueY"
+        }
+    ]
+}
