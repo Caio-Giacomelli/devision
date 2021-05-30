@@ -6,29 +6,25 @@ using UnityEngine.Audio;
 public class SongOverhaul : MonoBehaviour
 {   
     [Header("Note Prefabs")]
-    [SerializeField]
-    private GameObject bluePrefab;
-    [SerializeField]
-    private GameObject redPrefab;
-    [SerializeField]
-    private GameObject creatorPrefab;
+    [SerializeField] private GameObject bluePrefab;
+    [SerializeField] private GameObject redPrefab;
+    [SerializeField] private GameObject creatorPrefab;
+    [SerializeField] private GameObject winPrefab;
 
     [Header("Mapping Values")]
-    [SerializeField] 
-    private float songSpeed;
+    [SerializeField] private float songSpeed;
     
     [Header("Song Mapped")]
-    [SerializeField] 
-    private TextAsset jsonMappedSong;
+    [SerializeField] private TextAsset jsonMappedSong;
 
     private AudioSource audio_source;
     private MappingOverhaul mappedSongJSON;
     
     private float previousFrameTime;
-    private float lastReportedPlayheadPosition;
-    public float songTime;   
+    private float lastReportedPlayheadPosition; 
     private float videoCalibrationDelay;
-
+    
+    public float songTime; 
     void Start(){     
         videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
 
@@ -100,6 +96,9 @@ public class SongOverhaul : MonoBehaviour
                 case "cY":
                     mapping.yPosition = MappingOverhaul.ActivatorPositions.creatorY;
                     break;
+                case "wY":
+                    mapping.yPosition = MappingOverhaul.ActivatorPositions.creatorY;
+                    break;
             }
         }
     }
@@ -112,7 +111,9 @@ public class SongOverhaul : MonoBehaviour
                 InstantiatePrefab(mapping, bluePrefab);
             }  else if (mapping.activatorYPosition == "cY"){
                 InstantiatePrefab(mapping, creatorPrefab);
-            }          
+            }  else if (mapping.activatorYPosition == "wY"){
+                InstantiatePrefab(mapping, winPrefab);
+            }         
         }
     }
 

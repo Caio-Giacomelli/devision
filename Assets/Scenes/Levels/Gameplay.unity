@@ -309,7 +309,7 @@ MonoBehaviour:
   bluePrefab: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
   redPrefab: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
   creatorPrefab: {fileID: 2924924264865550420, guid: 21c8c18c3992f664ea3346f6f5cc60b7, type: 3}
-  songSpeed: 5
+  songSpeed: 8
   jsonMappedSong: {fileID: 4900000, guid: d6a240a2ea4be0948b1fbc5d9434d14b, type: 3}
   songTime: 0
 --- !u!114 &1072322889 stripped
@@ -809,7 +809,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 613789467, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
       propertyPath: m_Volume
-      value: 0.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 7465724715522067052, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
       propertyPath: m_Name
@@ -1096,7 +1096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6827311709444708157, guid: 1fea89c7b3073134b8ae4f0137900137, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 510.5
+      value: 795.94
       objectReference: {fileID: 0}
     - target: {fileID: 6827311709444708157, guid: 1fea89c7b3073134b8ae4f0137900137, type: 3}
       propertyPath: m_LocalPosition.z

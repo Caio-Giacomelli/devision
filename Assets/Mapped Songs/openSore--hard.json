@@ -495,6 +495,741 @@
             "strumTime" : 53.631, 
             "activatorXPosition" : "r", 
             "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 54.037, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 54.581, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 54.972, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 55.525, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 55.911, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 56.474, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 56.640, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 56.832, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 57.001, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 57.200, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 57.578, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 57.964, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 58.540, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 58.921, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 59.460, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 59.666, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 59.826, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 60.230, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 60.575, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 60.976, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 61.522, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 61.522, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 61.903, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 61.903, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 62.472, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 62.621, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 62.826, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 63.583, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 63.583, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 63.976, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 63.976, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 64.529, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 64.529, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 64.917, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 64.917, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 65.455, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 65.633, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 65.831, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 66.032, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 66.227, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 66.581, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 66.581, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 66.974, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 66.974, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 67.519, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 67.519, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 67.927, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 67.927, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 68.457, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 68.633, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 68.826, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 68.996, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 69.225, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 69.567, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 69.567, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 69.966, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 69.966, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 70.547, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 70.547, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 70.904, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 70.904, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 71.455, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 71.649, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 71.821, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 72.584, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 72.584, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 72.977, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 72.977, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 73.528, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 73.528, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 73.909, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 73.909, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 74.457, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 74.661, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 74.817, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 75.573, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 75.573, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 75.963, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 75.963, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 76.550, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 76.550, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 76.913, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 76.913, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 77.459, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 77.459, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 77.637, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 77.637, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 78.220, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 78.755, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 78.957, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 79.319, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 79.627, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 80.468, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 80.468, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 80.735, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 81.211, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 81.769, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 81.962, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 82.331, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 82.701, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 83.068, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 83.272, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 83.441, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 83.647, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 84.204, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 84.204, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 84.760, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 84.957, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 85.323, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 85.323, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 85.719, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 85.719, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 86.453, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 86.757, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 87.028, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 87.227, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 90.208, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 90.208, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 90.765, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 90.954, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 91.323, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 91.703, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 92.475, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 92.722, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 93.025, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 93.205, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 93.762, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 93.954, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 94.318, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 94.318, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 94.710, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 94.710, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 95.078, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 95.265, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 95.448, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 95.658, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 96.228, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 96.228, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 96.770, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 96.967, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 97.320, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 97.713, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "rY"
+        },
+        {
+            "strumTime" : 98.453, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 98.747, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 99.029, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 99.206, 
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "bY"
+        },
+        {
+            "strumTime" : 101.500,
+            "activatorXPosition" : "l", 
+            "activatorYPosition" : "wY"
         }
     ]
 }
