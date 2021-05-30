@@ -16,6 +16,7 @@ public class SongOverhaul : MonoBehaviour
     
     [Header("Song Mapped")]
     [SerializeField] private TextAsset jsonMappedSong;
+    [SerializeField] public float songTime; 
 
     private AudioSource audio_source;
     private MappingOverhaul mappedSongJSON;
@@ -23,8 +24,7 @@ public class SongOverhaul : MonoBehaviour
     private float previousFrameTime;
     private float lastReportedPlayheadPosition; 
     private float videoCalibrationDelay;
-    
-    public float songTime; 
+  
     void Start(){     
         videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
 
