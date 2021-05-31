@@ -310,7 +310,7 @@ MonoBehaviour:
   redPrefab: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
   creatorPrefab: {fileID: 2924924264865550420, guid: 21c8c18c3992f664ea3346f6f5cc60b7, type: 3}
   winPrefab: {fileID: 6827311709444708154, guid: 1fea89c7b3073134b8ae4f0137900137, type: 3}
-  songSpeed: 5
+  noteSpeed: 0
   jsonMappedSong: {fileID: 4900000, guid: d6a240a2ea4be0948b1fbc5d9434d14b, type: 3}
   songTime: 0
 --- !u!114 &1072322889 stripped
@@ -693,7 +693,7 @@ PrefabInstance:
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 220cfd73e197b1d48b6f38b36ea5da4a, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -977,6 +977,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2029460769}
+    - target: {fileID: 8050579801000642934, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadPlayableScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
 --- !u!1001 &8067732001049387763

@@ -6,6 +6,7 @@ using UnityEngine;
 public class MappingOverhaul
 {
     public MappingUnit[] mappedSong;
+    public float noteSpeed;
   
     [System.Serializable]
     public class MappingUnit{

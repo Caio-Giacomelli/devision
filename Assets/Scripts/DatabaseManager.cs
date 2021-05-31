@@ -22,7 +22,7 @@ public class DatabaseManager : MonoBehaviour
     }
 
     private void HandleSaveHighscore(){
-        levelName = PlayerPrefs.GetString("PreviousScene");
+        levelName = PlayerPrefs.GetString("NextScene");
         scoreValue =  PlayerPrefs.GetInt("Score");
         DBreference = ServerManager.Instance.DBreference;
         User = ServerManager.Instance.User;

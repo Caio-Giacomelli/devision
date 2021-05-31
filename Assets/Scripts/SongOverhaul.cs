@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement; // withdraw after improving the way that non-implemented level works
 
 public class SongOverhaul : MonoBehaviour
 {   
@@ -12,18 +13,30 @@ public class SongOverhaul : MonoBehaviour
     [SerializeField] private GameObject winPrefab;
 
     [Header("Mapping Values")]
-    [SerializeField] private float songSpeed;
+    [SerializeField] private float noteSpeed;
     
     [Header("Song Mapped")]
     [SerializeField] private TextAsset jsonMappedSong;
     [SerializeField] public float songTime; 
 
-    private AudioSource audio_source;
+    private AudioSource audioSource;
     private MappingOverhaul mappedSongJSON;
     
     private float previousFrameTime;
     private float lastReportedPlayheadPosition; 
     private float videoCalibrationDelay;
+
+    void Awake(){
+        jsonMappedSong = MapManagerST.Instance.GetJSONMap();
+        
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = MapManagerST.Instance.levelSong;
+
+        if (jsonMappedSong == null || audioSource.clip == null){
+            Debug.LogWarning("Level not implemented");
+            SceneManager.LoadScene("Level Select");
+        }
+    }
   
     void Start(){     
         videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
@@ -41,7 +54,7 @@ public class SongOverhaul : MonoBehaviour
     private void RenderNoteFallingDownScreen(){
         foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong)
         {
-            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((songTime - mapping.strumTime) * songSpeed) + videoCalibrationDelay, 5);
+            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((songTime - mapping.strumTime) * noteSpeed) + videoCalibrationDelay, 5);
             if (mapping.noteInstantiated != null){
                 mapping.noteInstantiated.transform.position = updatedNotePosition;
             }
@@ -49,23 +62,23 @@ public class SongOverhaul : MonoBehaviour
     }
 
     private void StartSongControlVariables(){
-        audio_source = GetComponent<AudioSource>();
         previousFrameTime = Time.time;
         lastReportedPlayheadPosition = 0f;
-        audio_source.Play();
+        audioSource.Play();
     }
 
     private void ControlSongVariables(){
         songTime += Time.time - previousFrameTime;
         previousFrameTime = Time.time;
-        if(audio_source.time != lastReportedPlayheadPosition) {
-            songTime = (songTime + audio_source.time)/2;
-            lastReportedPlayheadPosition = audio_source.time;
+        if(audioSource.time != lastReportedPlayheadPosition) {
+            songTime = (songTime + audioSource.time)/2;
+            lastReportedPlayheadPosition = audioSource.time;
         }
     }
 
     private void DeserializeMappedSong(){
         mappedSongJSON = JsonUtility.FromJson<MappingOverhaul>(jsonMappedSong.text);
+        noteSpeed = mappedSongJSON.noteSpeed;
 
         foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong)
         {

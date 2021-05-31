@@ -12,15 +12,17 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    public void LoadPreviousScene(){
+    public void LoadPreviousScene(){ //deprecated
         Time.timeScale = 1;
         string sceneName = PlayerPrefs.GetString("PreviousScene");
         SceneManager.LoadScene(sceneName);
     }
 
-    public void LoadPlayableScene(string difficulty){
-        string scene_name = PlayerPrefs.GetString("NextScene") + " " + difficulty;
-        SceneManager.LoadScene(scene_name);
+    public void LoadPlayableScene(){
+        //string scene_name = PlayerPrefs.GetString("NextScene") + " " + difficulty;
+        //SceneManager.LoadScene(scene_name);
+        
+        SceneManager.LoadScene("Gameplay");
     }
 
     public void SelectNextScene(string level_name){

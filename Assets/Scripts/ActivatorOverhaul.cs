@@ -119,8 +119,6 @@ public class ActivatorOverhaul : MonoBehaviour
         if (note != null && (note.transform.position.y - gameObject.transform.position.y) < 0.001){
             StartCoroutine(HandlePressedActivator());
             HandleSuccessNote();
-
-            Debug.LogWarning(message: $"song time: {mm.GetComponent<SongOverhaul>().songTime}");
         }
     }
 
