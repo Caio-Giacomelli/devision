@@ -311,7 +311,7 @@ MonoBehaviour:
   creatorPrefab: {fileID: 2924924264865550420, guid: 21c8c18c3992f664ea3346f6f5cc60b7, type: 3}
   winPrefab: {fileID: 6827311709444708154, guid: 1fea89c7b3073134b8ae4f0137900137, type: 3}
   noteSpeed: 0
-  jsonMappedSong: {fileID: 4900000, guid: d6a240a2ea4be0948b1fbc5d9434d14b, type: 3}
+  jsonMappedSong: {fileID: 4900000, guid: 4f32a664ed5d83d488d282a26752c78a, type: 3}
   songTime: 0
 --- !u!114 &1072322889 stripped
 MonoBehaviour:
@@ -693,7 +693,7 @@ PrefabInstance:
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: c32823693b3d2c94cbedb7bc8cd7bb6c, type: 3}
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

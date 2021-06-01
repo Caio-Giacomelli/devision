@@ -27,11 +27,13 @@ public class SongOverhaul : MonoBehaviour
     private float videoCalibrationDelay;
 
     void Awake(){
-        jsonMappedSong = MapManagerST.Instance.GetJSONMap();
-        
         audioSource = GetComponent<AudioSource>();
-        audioSource.clip = MapManagerST.Instance.levelSong;
-
+        
+        if (jsonMappedSong == null){
+            jsonMappedSong = MapManagerST.Instance.GetJSONMap();
+            audioSource.clip = MapManagerST.Instance.levelSong;
+        }
+        
         if (jsonMappedSong == null || audioSource.clip == null){
             Debug.LogWarning("Level not implemented");
             SceneManager.LoadScene("Level Select");
