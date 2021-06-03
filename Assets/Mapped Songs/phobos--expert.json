@@ -3,7 +3,7 @@
         {
             "strumTime": 2.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -13,7 +13,7 @@
         {
             "strumTime": 2.300002336502075,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -23,7 +23,7 @@
         {
             "strumTime": 2.4499988555908205,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -33,7 +33,7 @@
         {
             "strumTime": 2.5999999046325685,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -43,7 +43,7 @@
         {
             "strumTime": 2.7500011920928957,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -53,7 +53,7 @@
         {
             "strumTime": 2.9000022411346437,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -63,7 +63,7 @@
         {
             "strumTime": 3.0499987602233888,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -73,7 +73,7 @@
         {
             "strumTime": 3.200000047683716,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -83,7 +83,7 @@
         {
             "strumTime": 3.350001096725464,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -93,7 +93,7 @@
         {
             "strumTime": 3.500002384185791,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -103,7 +103,7 @@
         {
             "strumTime": 3.649998664855957,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -113,7 +113,7 @@
         {
             "strumTime": 3.799999713897705,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -123,7 +123,7 @@
         {
             "strumTime": 3.9500012397766115,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -133,7 +133,7 @@
         {
             "strumTime": 4.400000095367432,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -143,7 +143,7 @@
         {
             "strumTime": 4.700002193450928,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -153,7 +153,7 @@
         {
             "strumTime": 4.849998474121094,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -163,7 +163,7 @@
         {
             "strumTime": 5.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -173,7 +173,7 @@
         {
             "strumTime": 5.150001049041748,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -183,7 +183,7 @@
         {
             "strumTime": 5.300002098083496,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -193,7 +193,7 @@
         {
             "strumTime": 5.44999885559082,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -203,7 +203,7 @@
         {
             "strumTime": 5.59999942779541,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -213,7 +213,7 @@
         {
             "strumTime": 5.750000953674316,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -223,7 +223,7 @@
         {
             "strumTime": 5.900002479553223,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -233,7 +233,7 @@
         {
             "strumTime": 6.0499982833862309,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -243,7 +243,7 @@
         {
             "strumTime": 6.199999809265137,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -253,7 +253,7 @@
         {
             "strumTime": 6.350001335144043,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -263,7 +263,7 @@
         {
             "strumTime": 6.800000190734863,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -273,7 +273,7 @@
         {
             "strumTime": 7.100001811981201,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -283,7 +283,7 @@
         {
             "strumTime": 7.249999046325684,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -293,7 +293,7 @@
         {
             "strumTime": 7.399999618530273,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -303,7 +303,7 @@
         {
             "strumTime": 7.5500006675720219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -313,7 +313,7 @@
         {
             "strumTime": 7.700002193450928,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -323,7 +323,7 @@
         {
             "strumTime": 7.849998474121094,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -333,7 +333,7 @@
         {
             "strumTime": 8.0,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -343,7 +343,7 @@
         {
             "strumTime": 8.150001525878907,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -353,7 +353,7 @@
         {
             "strumTime": 8.300002098083496,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -363,7 +363,7 @@
         {
             "strumTime": 8.44999885559082,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -373,7 +373,7 @@
         {
             "strumTime": 8.600000381469727,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -383,7 +383,7 @@
         {
             "strumTime": 8.750000953674317,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -393,7 +393,7 @@
         {
             "strumTime": 9.19999885559082,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -403,7 +403,7 @@
         {
             "strumTime": 9.500001907348633,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -413,7 +413,7 @@
         {
             "strumTime": 9.649998664855957,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -423,7 +423,7 @@
         {
             "strumTime": 9.800000190734864,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -433,7 +433,7 @@
         {
             "strumTime": 9.950000762939454,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -443,7 +443,7 @@
         {
             "strumTime": 10.10000228881836,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -453,7 +453,7 @@
         {
             "strumTime": 10.249998092651368,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -463,7 +463,7 @@
         {
             "strumTime": 10.399999618530274,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -473,7 +473,7 @@
         {
             "strumTime": 10.55000114440918,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -483,7 +483,7 @@
         {
             "strumTime": 10.700002670288086,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -493,7 +493,7 @@
         {
             "strumTime": 10.849998474121094,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -503,7 +503,7 @@
         {
             "strumTime": 11.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -513,7 +513,7 @@
         {
             "strumTime": 11.15000057220459,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -523,7 +523,7 @@
         {
             "strumTime": 11.300002098083496,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -533,7 +533,7 @@
         {
             "strumTime": 11.600000381469727,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -543,7 +543,7 @@
         {
             "strumTime": 11.600000381469727,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -553,7 +553,7 @@
         {
             "strumTime": 11.89999771118164,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -563,7 +563,7 @@
         {
             "strumTime": 11.89999771118164,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -573,7 +573,7 @@
         {
             "strumTime": 12.049999237060547,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -583,7 +583,7 @@
         {
             "strumTime": 12.199999809265137,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -593,7 +593,7 @@
         {
             "strumTime": 12.500001907348633,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -603,7 +603,7 @@
         {
             "strumTime": 12.64999771118164,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -613,7 +613,7 @@
         {
             "strumTime": 12.950000762939454,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -623,7 +623,7 @@
         {
             "strumTime": 13.100001335144043,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -633,7 +633,7 @@
         {
             "strumTime": 13.399999618530274,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -643,7 +643,7 @@
         {
             "strumTime": 13.55000114440918,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -653,7 +653,7 @@
         {
             "strumTime": 13.999999046325684,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -663,7 +663,7 @@
         {
             "strumTime": 13.999999046325684,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -673,7 +673,7 @@
         {
             "strumTime": 14.300003051757813,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -683,7 +683,7 @@
         {
             "strumTime": 14.300003051757813,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -693,7 +693,7 @@
         {
             "strumTime": 14.44999885559082,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -703,7 +703,7 @@
         {
             "strumTime": 14.600000381469727,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -713,7 +713,7 @@
         {
             "strumTime": 14.900001525878907,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -723,7 +723,7 @@
         {
             "strumTime": 15.04999828338623,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -733,7 +733,7 @@
         {
             "strumTime": 15.350001335144043,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -743,7 +743,7 @@
         {
             "strumTime": 15.500001907348633,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -753,7 +753,7 @@
         {
             "strumTime": 15.800000190734864,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -763,7 +763,7 @@
         {
             "strumTime": 15.95000171661377,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -773,7 +773,7 @@
         {
             "strumTime": 16.39999771118164,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -783,7 +783,7 @@
         {
             "strumTime": 16.39999771118164,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -793,7 +793,7 @@
         {
             "strumTime": 16.700000762939454,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -803,7 +803,7 @@
         {
             "strumTime": 16.700000762939454,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -813,7 +813,7 @@
         {
             "strumTime": 16.849998474121095,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -823,7 +823,7 @@
         {
             "strumTime": 16.999998092651368,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -833,7 +833,7 @@
         {
             "strumTime": 17.30000114440918,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -843,7 +843,7 @@
         {
             "strumTime": 17.44999885559082,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -853,7 +853,7 @@
         {
             "strumTime": 17.75,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -863,7 +863,7 @@
         {
             "strumTime": 17.900001525878908,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -873,7 +873,7 @@
         {
             "strumTime": 18.200000762939454,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -883,7 +883,7 @@
         {
             "strumTime": 18.350000381469728,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -893,7 +893,7 @@
         {
             "strumTime": 18.799999237060548,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -903,7 +903,7 @@
         {
             "strumTime": 18.799999237060548,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -913,7 +913,7 @@
         {
             "strumTime": 19.10000228881836,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -923,7 +923,7 @@
         {
             "strumTime": 19.249996185302736,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -933,7 +933,7 @@
         {
             "strumTime": 19.549999237060548,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -943,7 +943,7 @@
         {
             "strumTime": 19.699996948242189,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -953,7 +953,7 @@
         {
             "strumTime": 20.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -963,7 +963,7 @@
         {
             "strumTime": 20.150001525878908,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -973,7 +973,7 @@
         {
             "strumTime": 20.449996948242189,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -983,7 +983,7 @@
         {
             "strumTime": 20.599998474121095,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -993,7 +993,7 @@
         {
             "strumTime": 20.75,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1003,7 +1003,7 @@
         {
             "strumTime": 20.900001525878908,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1013,7 +1013,7 @@
         {
             "strumTime": 21.200000762939454,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1023,7 +1023,7 @@
         {
             "strumTime": 21.200000762939454,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1033,7 +1033,7 @@
         {
             "strumTime": 21.500003814697267,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1043,7 +1043,7 @@
         {
             "strumTime": 21.500003814697267,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1053,7 +1053,7 @@
         {
             "strumTime": 21.64999771118164,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1063,7 +1063,7 @@
         {
             "strumTime": 21.799999237060548,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1073,7 +1073,7 @@
         {
             "strumTime": 22.10000228881836,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1083,7 +1083,7 @@
         {
             "strumTime": 22.250003814697267,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1093,7 +1093,7 @@
         {
             "strumTime": 22.549999237060548,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1103,7 +1103,7 @@
         {
             "strumTime": 22.700000762939454,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1113,7 +1113,7 @@
         {
             "strumTime": 23.0,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1123,7 +1123,7 @@
         {
             "strumTime": 23.149999618530275,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1133,7 +1133,7 @@
         {
             "strumTime": 23.599998474121095,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1143,7 +1143,7 @@
         {
             "strumTime": 23.599998474121095,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1153,7 +1153,7 @@
         {
             "strumTime": 23.89999771118164,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1163,7 +1163,7 @@
         {
             "strumTime": 23.89999771118164,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1173,7 +1173,7 @@
         {
             "strumTime": 24.049999237060548,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1183,7 +1183,7 @@
         {
             "strumTime": 24.200000762939454,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1193,7 +1193,7 @@
         {
             "strumTime": 24.500001907348634,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1203,7 +1203,7 @@
         {
             "strumTime": 24.64999771118164,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1213,7 +1213,7 @@
         {
             "strumTime": 24.950000762939454,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1223,7 +1223,7 @@
         {
             "strumTime": 25.10000228881836,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1233,7 +1233,7 @@
         {
             "strumTime": 25.399999618530275,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1243,7 +1243,7 @@
         {
             "strumTime": 25.55000114440918,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1253,7 +1253,7 @@
         {
             "strumTime": 25.999998092651368,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1263,7 +1263,7 @@
         {
             "strumTime": 25.999998092651368,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1273,7 +1273,7 @@
         {
             "strumTime": 26.30000114440918,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1283,7 +1283,7 @@
         {
             "strumTime": 26.30000114440918,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1293,7 +1293,7 @@
         {
             "strumTime": 26.450002670288087,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1303,7 +1303,7 @@
         {
             "strumTime": 26.599998474121095,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1313,7 +1313,7 @@
         {
             "strumTime": 26.899999618530275,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1323,7 +1323,7 @@
         {
             "strumTime": 27.049999237060548,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1333,7 +1333,7 @@
         {
             "strumTime": 27.350000381469728,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1343,7 +1343,7 @@
         {
             "strumTime": 27.5,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1353,7 +1353,7 @@
         {
             "strumTime": 27.799997329711915,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1363,7 +1363,7 @@
         {
             "strumTime": 27.950000762939454,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1373,7 +1373,7 @@
         {
             "strumTime": 28.399999618530275,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1383,7 +1383,7 @@
         {
             "strumTime": 28.399999618530275,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1393,7 +1393,7 @@
         {
             "strumTime": 28.699996948242189,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1403,7 +1403,7 @@
         {
             "strumTime": 28.850000381469728,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1413,7 +1413,7 @@
         {
             "strumTime": 29.149999618530275,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1423,7 +1423,7 @@
         {
             "strumTime": 29.299999237060548,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1433,7 +1433,7 @@
         {
             "strumTime": 29.600000381469728,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1443,7 +1443,7 @@
         {
             "strumTime": 29.75,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1453,7 +1453,7 @@
         {
             "strumTime": 30.049999237060548,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1463,7 +1463,7 @@
         {
             "strumTime": 30.200000762939454,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1473,7 +1473,7 @@
         {
             "strumTime": 30.350000381469728,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1483,7 +1483,7 @@
         {
             "strumTime": 30.5,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1493,7 +1493,7 @@
         {
             "strumTime": 30.799997329711915,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1503,7 +1503,7 @@
         {
             "strumTime": 30.799997329711915,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1513,7 +1513,7 @@
         {
             "strumTime": 31.100000381469728,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1523,7 +1523,7 @@
         {
             "strumTime": 31.100000381469728,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1533,7 +1533,7 @@
         {
             "strumTime": 31.25,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1543,7 +1543,7 @@
         {
             "strumTime": 31.399999618530275,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1553,7 +1553,7 @@
         {
             "strumTime": 31.700000762939454,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1563,7 +1563,7 @@
         {
             "strumTime": 31.850000381469728,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1573,7 +1573,7 @@
         {
             "strumTime": 32.150001525878909,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1583,7 +1583,7 @@
         {
             "strumTime": 32.29999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1593,7 +1593,7 @@
         {
             "strumTime": 32.599998474121097,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1603,7 +1603,7 @@
         {
             "strumTime": 32.75,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1613,7 +1613,7 @@
         {
             "strumTime": 33.20000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1623,7 +1623,7 @@
         {
             "strumTime": 33.20000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1633,7 +1633,7 @@
         {
             "strumTime": 33.5,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1643,7 +1643,7 @@
         {
             "strumTime": 33.5,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1653,7 +1653,7 @@
         {
             "strumTime": 33.650001525878909,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1663,7 +1663,7 @@
         {
             "strumTime": 33.79999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1673,7 +1673,7 @@
         {
             "strumTime": 34.10000228881836,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1683,7 +1683,7 @@
         {
             "strumTime": 34.25,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1693,7 +1693,7 @@
         {
             "strumTime": 34.54999923706055,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1703,7 +1703,7 @@
         {
             "strumTime": 34.70000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1713,7 +1713,7 @@
         {
             "strumTime": 35.000003814697269,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1723,7 +1723,7 @@
         {
             "strumTime": 35.150001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1733,7 +1733,7 @@
         {
             "strumTime": 35.599998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1743,7 +1743,7 @@
         {
             "strumTime": 35.599998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1753,7 +1753,7 @@
         {
             "strumTime": 35.900001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1763,7 +1763,7 @@
         {
             "strumTime": 35.900001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1773,7 +1773,7 @@
         {
             "strumTime": 36.04999923706055,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1783,7 +1783,7 @@
         {
             "strumTime": 36.20000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1793,7 +1793,7 @@
         {
             "strumTime": 36.5,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1803,7 +1803,7 @@
         {
             "strumTime": 36.650001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1813,7 +1813,7 @@
         {
             "strumTime": 36.95000076293945,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1823,7 +1823,7 @@
         {
             "strumTime": 37.099998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1833,7 +1833,7 @@
         {
             "strumTime": 37.39999771118164,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1843,7 +1843,7 @@
         {
             "strumTime": 37.55000305175781,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1853,7 +1853,7 @@
         {
             "strumTime": 38.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1863,7 +1863,7 @@
         {
             "strumTime": 38.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1873,7 +1873,7 @@
         {
             "strumTime": 38.29999542236328,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1883,7 +1883,7 @@
         {
             "strumTime": 38.45000076293945,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1893,7 +1893,7 @@
         {
             "strumTime": 38.75,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1903,7 +1903,7 @@
         {
             "strumTime": 38.900001525878909,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1913,7 +1913,7 @@
         {
             "strumTime": 39.20000457763672,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1923,7 +1923,7 @@
         {
             "strumTime": 39.349998474121097,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1933,7 +1933,7 @@
         {
             "strumTime": 39.650001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1943,7 +1943,7 @@
         {
             "strumTime": 39.79999923706055,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1953,7 +1953,7 @@
         {
             "strumTime": 39.94999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1963,7 +1963,7 @@
         {
             "strumTime": 40.099998474121097,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1973,7 +1973,7 @@
         {
             "strumTime": 40.400001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1983,7 +1983,7 @@
         {
             "strumTime": 40.400001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -1993,7 +1993,7 @@
         {
             "strumTime": 40.70000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2003,7 +2003,7 @@
         {
             "strumTime": 40.85000228881836,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2013,7 +2013,7 @@
         {
             "strumTime": 41.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2023,7 +2023,7 @@
         {
             "strumTime": 41.150001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2033,7 +2033,7 @@
         {
             "strumTime": 41.150001525878909,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2043,7 +2043,7 @@
         {
             "strumTime": 41.45000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2053,7 +2053,7 @@
         {
             "strumTime": 41.75,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2063,7 +2063,7 @@
         {
             "strumTime": 42.04999923706055,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2073,7 +2073,7 @@
         {
             "strumTime": 42.20000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2083,17 +2083,7 @@
         {
             "strumTime": 42.20000076293945,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
-            "strumTime": 42.349998474121097,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2103,7 +2093,7 @@
         {
             "strumTime": 42.349998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2113,7 +2103,7 @@
         {
             "strumTime": 42.79999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2123,7 +2113,7 @@
         {
             "strumTime": 42.79999923706055,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2133,7 +2123,7 @@
         {
             "strumTime": 43.099998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2143,7 +2133,7 @@
         {
             "strumTime": 43.249996185302737,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2153,7 +2143,7 @@
         {
             "strumTime": 43.400001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2163,7 +2153,7 @@
         {
             "strumTime": 43.54999923706055,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2173,7 +2163,7 @@
         {
             "strumTime": 43.54999923706055,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2183,7 +2173,7 @@
         {
             "strumTime": 43.849998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2193,7 +2183,7 @@
         {
             "strumTime": 44.150001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2203,7 +2193,7 @@
         {
             "strumTime": 44.45000076293945,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2213,7 +2203,7 @@
         {
             "strumTime": 44.599998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2223,17 +2213,7 @@
         {
             "strumTime": 44.599998474121097,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
-            "strumTime": 44.75,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2243,7 +2223,7 @@
         {
             "strumTime": 44.75,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2253,7 +2233,7 @@
         {
             "strumTime": 45.20000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2263,7 +2243,7 @@
         {
             "strumTime": 45.20000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2273,7 +2253,7 @@
         {
             "strumTime": 45.5,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2283,7 +2263,7 @@
         {
             "strumTime": 45.650001525878909,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2293,7 +2273,7 @@
         {
             "strumTime": 45.79999542236328,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2303,7 +2283,7 @@
         {
             "strumTime": 45.95000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2313,7 +2293,7 @@
         {
             "strumTime": 45.95000076293945,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2323,7 +2303,7 @@
         {
             "strumTime": 46.25,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2333,7 +2313,7 @@
         {
             "strumTime": 46.54999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2343,7 +2323,7 @@
         {
             "strumTime": 46.849998474121097,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2353,7 +2333,7 @@
         {
             "strumTime": 47.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2363,17 +2343,7 @@
         {
             "strumTime": 47.0,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
-            "strumTime": 47.150001525878909,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2383,7 +2353,7 @@
         {
             "strumTime": 47.150001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2393,7 +2363,7 @@
         {
             "strumTime": 47.599998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2403,7 +2373,7 @@
         {
             "strumTime": 47.599998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2413,7 +2383,7 @@
         {
             "strumTime": 47.900001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2423,7 +2393,7 @@
         {
             "strumTime": 48.04999923706055,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2433,7 +2403,7 @@
         {
             "strumTime": 48.20000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2443,7 +2413,7 @@
         {
             "strumTime": 48.35000228881836,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2453,7 +2423,7 @@
         {
             "strumTime": 48.650001525878909,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2463,7 +2433,7 @@
         {
             "strumTime": 48.95000076293945,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2473,7 +2443,7 @@
         {
             "strumTime": 49.099998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2483,7 +2453,7 @@
         {
             "strumTime": 49.25,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2493,7 +2463,7 @@
         {
             "strumTime": 49.400001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2503,7 +2473,7 @@
         {
             "strumTime": 49.54999923706055,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2513,7 +2483,7 @@
         {
             "strumTime": 50.000003814697269,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2523,7 +2493,7 @@
         {
             "strumTime": 50.000003814697269,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2533,7 +2503,7 @@
         {
             "strumTime": 50.29999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2543,7 +2513,7 @@
         {
             "strumTime": 50.45000076293945,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2553,7 +2523,7 @@
         {
             "strumTime": 50.599998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2563,7 +2533,7 @@
         {
             "strumTime": 50.749996185302737,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2573,7 +2543,7 @@
         {
             "strumTime": 50.749996185302737,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2583,7 +2553,7 @@
         {
             "strumTime": 51.04999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2593,7 +2563,7 @@
         {
             "strumTime": 51.349998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2603,7 +2573,7 @@
         {
             "strumTime": 51.64999771118164,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2613,7 +2583,7 @@
         {
             "strumTime": 51.79999923706055,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2623,17 +2593,7 @@
         {
             "strumTime": 51.79999923706055,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
-            "strumTime": 51.95000076293945,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2643,7 +2603,7 @@
         {
             "strumTime": 51.95000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2653,7 +2613,7 @@
         {
             "strumTime": 52.400001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2663,7 +2623,7 @@
         {
             "strumTime": 52.400001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2673,7 +2633,7 @@
         {
             "strumTime": 52.70000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2683,7 +2643,7 @@
         {
             "strumTime": 52.849998474121097,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2693,7 +2653,7 @@
         {
             "strumTime": 53.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2703,7 +2663,7 @@
         {
             "strumTime": 53.150001525878909,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2713,7 +2673,7 @@
         {
             "strumTime": 53.150001525878909,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2723,7 +2683,7 @@
         {
             "strumTime": 53.45000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2733,7 +2693,7 @@
         {
             "strumTime": 53.75,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2743,7 +2703,7 @@
         {
             "strumTime": 54.04999923706055,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2753,7 +2713,7 @@
         {
             "strumTime": 54.20000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2763,17 +2723,7 @@
         {
             "strumTime": 54.20000076293945,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
-            "strumTime": 54.349998474121097,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2783,7 +2733,7 @@
         {
             "strumTime": 54.349998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2793,7 +2743,7 @@
         {
             "strumTime": 54.79999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2803,7 +2753,7 @@
         {
             "strumTime": 54.79999923706055,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2813,7 +2763,7 @@
         {
             "strumTime": 55.099998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2823,7 +2773,7 @@
         {
             "strumTime": 55.25,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2833,7 +2783,7 @@
         {
             "strumTime": 55.400001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2843,7 +2793,7 @@
         {
             "strumTime": 55.54999923706055,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2853,7 +2803,7 @@
         {
             "strumTime": 55.54999923706055,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2863,7 +2813,7 @@
         {
             "strumTime": 55.849998474121097,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2873,7 +2823,7 @@
         {
             "strumTime": 56.150001525878909,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2883,7 +2833,7 @@
         {
             "strumTime": 56.45000076293945,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2893,7 +2843,7 @@
         {
             "strumTime": 56.599998474121097,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2903,17 +2853,7 @@
         {
             "strumTime": 56.599998474121097,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
-            "strumTime": 56.75,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2923,7 +2863,7 @@
         {
             "strumTime": 56.75,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2933,7 +2873,7 @@
         {
             "strumTime": 57.20000076293945,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2943,7 +2883,7 @@
         {
             "strumTime": 57.20000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2953,7 +2893,7 @@
         {
             "strumTime": 57.5,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2963,7 +2903,7 @@
         {
             "strumTime": 57.650001525878909,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2973,7 +2913,7 @@
         {
             "strumTime": 57.79999923706055,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2983,7 +2923,7 @@
         {
             "strumTime": 57.95000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -2993,7 +2933,7 @@
         {
             "strumTime": 58.25,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3003,7 +2943,7 @@
         {
             "strumTime": 58.54999923706055,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3013,7 +2953,7 @@
         {
             "strumTime": 58.70000076293945,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3023,7 +2963,7 @@
         {
             "strumTime": 58.849998474121097,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3033,7 +2973,7 @@
         {
             "strumTime": 59.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3043,7 +2983,7 @@
         {
             "strumTime": 59.150001525878909,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3053,7 +2993,7 @@
         {
             "strumTime": 59.29999923706055,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3063,7 +3003,7 @@
         {
             "strumTime": 59.599998474121097,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3073,7 +3013,7 @@
         {
             "strumTime": 59.599998474121097,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3083,7 +3023,7 @@
         {
             "strumTime": 69.19999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3093,7 +3033,7 @@
         {
             "strumTime": 69.19999694824219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3103,7 +3043,7 @@
         {
             "strumTime": 71.5999984741211,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3113,7 +3053,7 @@
         {
             "strumTime": 71.5999984741211,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3123,7 +3063,7 @@
         {
             "strumTime": 74.0,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3133,7 +3073,7 @@
         {
             "strumTime": 74.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3143,7 +3083,7 @@
         {
             "strumTime": 76.40000915527344,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3153,7 +3093,7 @@
         {
             "strumTime": 76.40000915527344,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3163,7 +3103,7 @@
         {
             "strumTime": 78.80000305175781,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3173,7 +3113,7 @@
         {
             "strumTime": 78.80000305175781,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3183,7 +3123,7 @@
         {
             "strumTime": 79.0999984741211,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3193,7 +3133,7 @@
         {
             "strumTime": 79.25,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3203,7 +3143,7 @@
         {
             "strumTime": 79.4000015258789,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3213,7 +3153,7 @@
         {
             "strumTime": 79.70000457763672,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3223,7 +3163,7 @@
         {
             "strumTime": 79.8499984741211,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3233,7 +3173,7 @@
         {
             "strumTime": 80.1500015258789,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3243,7 +3183,7 @@
         {
             "strumTime": 80.30000305175781,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3253,7 +3193,7 @@
         {
             "strumTime": 80.5999984741211,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3263,7 +3203,7 @@
         {
             "strumTime": 80.75,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3273,7 +3213,7 @@
         {
             "strumTime": 81.19999694824219,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3283,7 +3223,7 @@
         {
             "strumTime": 81.19999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3293,7 +3233,7 @@
         {
             "strumTime": 81.6500015258789,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3303,7 +3243,7 @@
         {
             "strumTime": 81.80000305175781,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3313,7 +3253,7 @@
         {
             "strumTime": 82.0999984741211,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3323,7 +3263,7 @@
         {
             "strumTime": 82.25000762939453,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3333,7 +3273,7 @@
         {
             "strumTime": 82.55000305175781,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3343,7 +3283,7 @@
         {
             "strumTime": 82.69999694824219,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3353,7 +3293,7 @@
         {
             "strumTime": 83.00000762939453,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3363,7 +3303,7 @@
         {
             "strumTime": 83.1500015258789,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3373,7 +3313,7 @@
         {
             "strumTime": 83.5999984741211,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3383,7 +3323,7 @@
         {
             "strumTime": 83.5999984741211,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3393,7 +3333,7 @@
         {
             "strumTime": 84.05000305175781,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3403,7 +3343,7 @@
         {
             "strumTime": 84.19999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3413,7 +3353,7 @@
         {
             "strumTime": 84.49999237060547,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3423,7 +3363,7 @@
         {
             "strumTime": 84.6500015258789,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3433,7 +3373,7 @@
         {
             "strumTime": 84.94999694824219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3443,7 +3383,7 @@
         {
             "strumTime": 85.0999984741211,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3453,7 +3393,7 @@
         {
             "strumTime": 85.4000015258789,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3463,7 +3403,7 @@
         {
             "strumTime": 85.55000305175781,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3473,7 +3413,7 @@
         {
             "strumTime": 86.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3483,7 +3423,7 @@
         {
             "strumTime": 86.0,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3493,7 +3433,7 @@
         {
             "strumTime": 86.44999694824219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3503,7 +3443,7 @@
         {
             "strumTime": 86.5999984741211,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3513,7 +3453,7 @@
         {
             "strumTime": 86.9000015258789,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3523,7 +3463,7 @@
         {
             "strumTime": 87.04999542236328,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3533,7 +3473,7 @@
         {
             "strumTime": 87.3499984741211,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3543,7 +3483,7 @@
         {
             "strumTime": 87.5,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3553,7 +3493,7 @@
         {
             "strumTime": 87.79999542236328,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3563,7 +3503,7 @@
         {
             "strumTime": 87.94999694824219,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3573,7 +3513,7 @@
         {
             "strumTime": 88.10000610351563,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3583,7 +3523,7 @@
         {
             "strumTime": 88.4000015258789,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3593,7 +3533,7 @@
         {
             "strumTime": 88.4000015258789,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3603,7 +3543,7 @@
         {
             "strumTime": 88.85000610351563,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3613,7 +3553,7 @@
         {
             "strumTime": 89.0,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3623,7 +3563,7 @@
         {
             "strumTime": 89.30000305175781,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3633,7 +3573,7 @@
         {
             "strumTime": 89.44999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3643,7 +3583,7 @@
         {
             "strumTime": 89.75,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3653,7 +3593,7 @@
         {
             "strumTime": 89.9000015258789,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3663,7 +3603,7 @@
         {
             "strumTime": 90.19999694824219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3673,7 +3613,7 @@
         {
             "strumTime": 90.34999084472656,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3683,7 +3623,7 @@
         {
             "strumTime": 90.80000305175781,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3693,7 +3633,7 @@
         {
             "strumTime": 90.80000305175781,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3703,7 +3643,7 @@
         {
             "strumTime": 91.25,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3713,7 +3653,7 @@
         {
             "strumTime": 91.40000915527344,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3723,7 +3663,7 @@
         {
             "strumTime": 91.69999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3733,7 +3673,7 @@
         {
             "strumTime": 91.8499984741211,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3743,7 +3683,7 @@
         {
             "strumTime": 92.15000915527344,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3753,7 +3693,7 @@
         {
             "strumTime": 92.30000305175781,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3763,7 +3703,7 @@
         {
             "strumTime": 92.5999984741211,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3773,7 +3713,7 @@
         {
             "strumTime": 92.75,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3783,7 +3723,7 @@
         {
             "strumTime": 93.19999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3793,7 +3733,7 @@
         {
             "strumTime": 93.19999694824219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3803,7 +3743,7 @@
         {
             "strumTime": 93.64999389648438,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3813,7 +3753,7 @@
         {
             "strumTime": 93.80000305175781,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3823,7 +3763,7 @@
         {
             "strumTime": 94.0999984741211,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3833,7 +3773,7 @@
         {
             "strumTime": 94.25,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3843,7 +3783,7 @@
         {
             "strumTime": 94.55000305175781,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3853,7 +3793,7 @@
         {
             "strumTime": 94.70000457763672,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3863,7 +3803,7 @@
         {
             "strumTime": 95.0,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3873,7 +3813,7 @@
         {
             "strumTime": 95.1500015258789,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "bY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3883,7 +3823,7 @@
         {
             "strumTime": 95.5999984741211,
             "activatorXPosition": "l",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3893,7 +3833,7 @@
         {
             "strumTime": 95.5999984741211,
             "activatorXPosition": "r",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3903,7 +3843,7 @@
         {
             "strumTime": 96.05000305175781,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3913,7 +3853,7 @@
         {
             "strumTime": 96.19999694824219,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3923,7 +3863,7 @@
         {
             "strumTime": 96.5,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3933,7 +3873,7 @@
         {
             "strumTime": 96.6500015258789,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3943,7 +3883,7 @@
         {
             "strumTime": 96.94999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3953,7 +3893,7 @@
         {
             "strumTime": 97.0999984741211,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3963,7 +3903,7 @@
         {
             "strumTime": 97.4000015258789,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3973,7 +3913,7 @@
         {
             "strumTime": 97.55000305175781,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3983,7 +3923,7 @@
         {
             "strumTime": 97.69999694824219,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -3993,7 +3933,7 @@
         {
             "strumTime": 98.00000762939453,
             "activatorXPosition": "ml",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -4003,7 +3943,7 @@
         {
             "strumTime": 98.00000762939453,
             "activatorXPosition": "mr",
-            "activatorYPosition": "cY",
+            "activatorYPosition": "rY",
             "xPosition": 0.0,
             "yPosition": 0.0,
             "noteInstantiated": {
@@ -4011,7 +3951,7 @@
             }
         },
         {
-            "strumTime": 100,
+            "strumTime": 101,
             "activatorXPosition": "mr",
             "activatorYPosition": "wY",
             "xPosition": 0.0,
@@ -4021,5 +3961,6 @@
             }
         }
     ],
-    "noteSpeed": 0.0
+    "noteSpeed": 8.0,
+    "fixedDelay": 0
 }

@@ -311,8 +311,12 @@ MonoBehaviour:
   creatorPrefab: {fileID: 2924924264865550420, guid: 21c8c18c3992f664ea3346f6f5cc60b7, type: 3}
   winPrefab: {fileID: 6827311709444708154, guid: 1fea89c7b3073134b8ae4f0137900137, type: 3}
   noteSpeed: 0
-  jsonMappedSong: {fileID: 0}
+  jsonMappedSong: {fileID: 4900000, guid: 4f32a664ed5d83d488d282a26752c78a, type: 3}
   songTime: 0
+  mappedSongJSON:
+    mappedSong: []
+    noteSpeed: 0
+    fixedDelay: 0
 --- !u!114 &1072322889 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 33204448571429086, guid: 1ef69d93f5ed6684a967d57b5ee636ed, type: 3}
@@ -362,6 +366,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 0
   instantiate_note: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
+--- !u!1 &1240146104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240146105}
+  - component: {fileID: 1240146106}
+  m_Layer: 0
+  m_Name: MapUtils
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1240146105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240146104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1240146106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240146104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bfbdc59c9403f4e90814b78a70276a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicManager: {fileID: 629729240}
+  songSpeed: 1
+  delayMS: 0
 --- !u!1 &1357455464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 511531578594380120, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
@@ -581,6 +631,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3462971320475132657, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -747
+      objectReference: {fileID: 0}
     - target: {fileID: 3462971321206190927, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -673,6 +727,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 160997870}
+    - target: {fileID: 3462971322549063094, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462971322549063094, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 31
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
 --- !u!1001 &4277698439604525168
@@ -691,9 +753,13 @@ PrefabInstance:
       value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
+      propertyPath: m_Pitch
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: c32823693b3d2c94cbedb7bc8cd7bb6c, type: 3}
     - target: {fileID: 4277698441126321320, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

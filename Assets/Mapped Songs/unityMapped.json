@@ -1,5 +1,6 @@
 {
     "noteSpeed": 8,
+    "fixedDelay": 0.0,
     "mappedSong":[
         {
             "strumTime" : 8.705, 
@@ -502,6 +503,12 @@
             "strumTime" : 26.514, 
             "activatorXPosition" : "r", 
             "activatorYPosition" : "rY"
+        }
+        ,
+        {
+            "strumTime" : 30.514, 
+            "activatorXPosition" : "r", 
+            "activatorYPosition" : "wY"
         }
     ]
 }
