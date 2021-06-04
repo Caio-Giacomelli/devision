@@ -31,7 +31,9 @@ public class GameManager : MonoBehaviour
     private float health = 1f;
 
     void Start(){       
-        godToggle.isOn = godMode;
+        godToggle.isOn = PlayerPrefs.GetInt("GodMode") == 1 ? true : false;
+        godMode = PlayerPrefs.GetInt("GodMode") == 1 ? true : false;
+        
         InvokeRepeating("SetHealthBarSize", 0.0f, life_per_second);
         HandlePlayerPref();
         HandleMusicVolume();
@@ -146,5 +148,7 @@ public class GameManager : MonoBehaviour
 
     public void setGodMode(bool isGod){
         godMode = isGod;
+        PlayerPrefs.SetInt("GodMode", isGod ? 1 : 0);
+        
     }
 }
