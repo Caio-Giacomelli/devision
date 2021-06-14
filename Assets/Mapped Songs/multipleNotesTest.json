@@ -1,0 +1,46 @@
+{
+    "mappedSong": [
+        {
+            "strumTime": 2.1,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.3,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.5,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.7,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "noteSpeed": 4.1,
+    "fixedDelay": 0
+}

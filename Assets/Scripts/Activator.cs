@@ -14,7 +14,8 @@ public class Activator : MonoBehaviour
     private Color old_color;
     private SpriteRenderer sr;
     private AudioSource audio_source;
-    private GameObject note, gm;
+    private GameObject gm;
+    private Queue notes = new Queue();
     
     void Awake(){
         sr = GetComponent<SpriteRenderer>();
@@ -43,7 +44,7 @@ public class Activator : MonoBehaviour
             (gameObject.tag == "Red Activator" && other.gameObject.tag == "Red Note"))
         {
             active = true;
-            note = other.gameObject;
+            notes.Enqueue(other.gameObject);
             if (gm.GetComponent<GameManager>().godMode)  HandleGodMode();
         }
     }
@@ -104,13 +105,14 @@ public class Activator : MonoBehaviour
     }
 
     private void HandleSuccessNote(){
-        Destroy(note);
+        Destroy((Note) notes.Dequeue());
         gm.GetComponent<GameManager>().AddStreak();
         AddScore();
         active = false;
     }
 
     private void HandleGodMode(){
+        Note note = (Note) notes.Dequeue();
         if (note.transform.position.y == gameObject.transform.position.y){
             Destroy(note);
         }

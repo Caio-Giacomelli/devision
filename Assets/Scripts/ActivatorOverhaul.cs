@@ -14,7 +14,10 @@ public class ActivatorOverhaul : MonoBehaviour
     private Color old_color;
     private SpriteRenderer sr;
     private AudioSource audio_source;
-    private GameObject note, gm, mm;
+     private GameObject gm, mm;
+    private Queue notes = new Queue();
+
+    GameObject currentGodNote = null;
     
     void Awake(){
         sr = GetComponent<SpriteRenderer>();
@@ -44,12 +47,13 @@ public class ActivatorOverhaul : MonoBehaviour
             (gameObject.tag == "Red Activator" && other.gameObject.tag == "Red Note"))
         {
             active = true;
-            note = other.gameObject;        
+            notes.Enqueue(other.gameObject);      
         }
     }
 
     void OnTriggerExit2D(Collider2D other){
-        active = false;     
+        active = false;
+        if (notes.Count > 0) notes.Dequeue();     
     }
 
     // Handle God Mode
@@ -70,7 +74,8 @@ public class ActivatorOverhaul : MonoBehaviour
                 //We now raycast with this information. If we have hit something we can process it.
                 //TODO: Study Raycast constructor
                 RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
-                
+                Debug.Log(message: $"Input.GetTouch(i).phase {Input.GetTouch(i).phase}");
+                Debug.Log(message: $"hitInformation.collider {hitInformation.collider}");
                 if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
                     //We should have hit something with a 2D Physics collider!
                     GameObject touchedObject = hitInformation.transform.gameObject;
@@ -98,9 +103,10 @@ public class ActivatorOverhaul : MonoBehaviour
 
     private void HandleTouchInput(){
         if (CheckHasTouchInput()){
+            Debug.Log(message: $"CheckHasTouchInput = true e active = {active}");
             StartCoroutine(HandlePressedActivator());
             audio_source.Play();
-            if (active){
+            if (notes.Count > 0){
                 HandleSuccessNote();
             } else {
                 gm.GetComponent<GameManager>().ResetStreak(); 
@@ -109,16 +115,17 @@ public class ActivatorOverhaul : MonoBehaviour
     }
 
     private void HandleSuccessNote(){
-        Destroy(note);
+        Destroy((GameObject) notes.Dequeue());
         gm.GetComponent<GameManager>().AddStreak();
         AddScore();
         active = false;
     }
 
     private void HandleGodMode(){
-        if (note != null && (note.transform.position.y - gameObject.transform.position.y) < 0.001){
+        if (notes.Count > 0 ) currentGodNote = (GameObject) notes.Dequeue();
+        if (currentGodNote != null && (currentGodNote.transform.position.y - gameObject.transform.position.y) < 0.001){
             StartCoroutine(HandlePressedActivator());
-            HandleSuccessNote();
+            Destroy(currentGodNote);
         }
     }
 

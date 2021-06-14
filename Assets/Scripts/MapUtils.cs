@@ -8,7 +8,7 @@ public class MapUtils : MonoBehaviour
     public GameObject musicManager;
 
     [Header ("Control")]
-    [Range(0.5f, 4f)]
+    [Range(0.1f, 4f)]
     public float songSpeed;
     public float delayMS;
 

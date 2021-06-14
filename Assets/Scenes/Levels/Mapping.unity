@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonMapHard: {fileID: 0}
-  jsonMapExpert: {fileID: 4900000, guid: 4f32a664ed5d83d488d282a26752c78a, type: 3}
+  jsonMapExpert: {fileID: 4900000, guid: bc5283ab16104954d99cbd1308db04db, type: 3}
   levelSong: {fileID: 8300000, guid: c32823693b3d2c94cbedb7bc8cd7bb6c, type: 3}
   difficulty: Expert
 --- !u!4 &175290864
@@ -1079,8 +1079,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2029460769}
     - target: {fileID: 8050579801000642934, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579801000642934, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadPlayableScene
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050579801000642934, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Mapping
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
@@ -1113,11 +1121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: noteHealthHit
-      value: 0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: life_per_second
-      value: 0.3
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: countdown_animation
