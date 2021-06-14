@@ -1,33 +1,33 @@
 {
-    "noteSpeed": 5,
+    "noteSpeed": 6,
     "fixedDelay": 0.0,
     "mappedSong":[
         {
-            "strumTime" : 8, 
+            "strumTime" : 2, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         },{
-            "strumTime" : 8.05, 
+            "strumTime" : 2.05, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         },{
-            "strumTime" : 8.1, 
+            "strumTime" : 2.1, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         },{
-            "strumTime" : 8.15, 
+            "strumTime" : 2.15, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         },{
-            "strumTime" : 8.2, 
+            "strumTime" : 2.2, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         },{
-            "strumTime" : 8.25, 
+            "strumTime" : 2.25, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         },{
-            "strumTime" : 8.3, 
+            "strumTime" : 2.3, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"
         }

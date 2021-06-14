@@ -191,16 +191,6 @@
             }
         },
         {
-            "strumTime": 3.5650017261505129,
-            "activatorXPosition": "ml",
-            "activatorYPosition": "rY",
-            "xPosition": 0.0,
-            "yPosition": 0.0,
-            "noteInstantiated": {
-                "instanceID": 0
-            }
-        },
-        {
             "strumTime": 3.7525017261505129,
             "activatorXPosition": "r",
             "activatorYPosition": "rY",
@@ -4941,5 +4931,6 @@
             }
         }
     ],
-    "noteSpeed": 8.0
+    "noteSpeed": 8.0,
+    "fixedDelay": 0.6
 }
