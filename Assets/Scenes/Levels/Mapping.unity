@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonMapHard: {fileID: 0}
-  jsonMapExpert: {fileID: 4900000, guid: 8b41de49678c1a24eb8e262fc2c52aeb, type: 3}
+  jsonMapExpert: {fileID: 4900000, guid: c758766c40c1e8042b85405f7c75f67b, type: 3}
   levelSong: {fileID: 8300000, guid: 220cfd73e197b1d48b6f38b36ea5da4a, type: 3}
   difficulty: Expert
 --- !u!4 &175290864
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicManager: {fileID: 629729240}
   songSpeed: 1
-  delayMS: 0
+  delayMS: 1
 --- !u!1 &1357455464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 511531578594380120, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}

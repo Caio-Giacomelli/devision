@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2924924264789596487}
   - component: {fileID: 2924924264789596480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Inside Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2924924264865550416}
   - component: {fileID: 2924924264865550423}
   - component: {fileID: 2924924264865550422}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Red Note
   m_TagString: Red Note
   m_Icon: {fileID: 0}
@@ -220,3 +220,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4.5
+  strumTime: 0
