@@ -158,8 +158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonMapHard: {fileID: 0}
-  jsonMapExpert: {fileID: 4900000, guid: 4f32a664ed5d83d488d282a26752c78a, type: 3}
-  levelSong: {fileID: 8300000, guid: c32823693b3d2c94cbedb7bc8cd7bb6c, type: 3}
+  jsonMapExpert: {fileID: 4900000, guid: 8b41de49678c1a24eb8e262fc2c52aeb, type: 3}
+  levelSong: {fileID: 8300000, guid: 220cfd73e197b1d48b6f38b36ea5da4a, type: 3}
   difficulty: Expert
 --- !u!4 &175290864
 Transform:
@@ -1093,7 +1093,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: godMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: godToggle

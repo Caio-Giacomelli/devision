@@ -1,0 +1,4945 @@
+{
+    "mappedSong": [
+        {
+            "strumTime": 0.1899999976158142,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 0.377500057220459,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 0.5650001764297485,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 0.7525002360343933,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 0.9400002956390381,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 1.1275005340576172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 1.3150005340576172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 1.5025005340576172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 1.6900005340576172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 1.8775007724761963,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.0650010108947756,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.2525010108947756,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.4400010108947756,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.6275010108947756,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 2.8150010108947756,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.0025012493133547,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.1900012493133547,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.3775017261505129,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.4712512493133547,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.5650017261505129,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.7525017261505129,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 3.940001964569092,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 4.127498149871826,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 4.315001964569092,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 4.502498149871826,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 4.689998149871826,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 4.877498149871826,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 5.064998626708984,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 5.25250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 5.439998626708984,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 5.627498626708984,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 5.814998626708984,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.002498626708984,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.189998626708984,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.189998626708984,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.377499103546143,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.564999103546143,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.752499103546143,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 6.939999103546143,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 7.127499103546143,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 7.314999103546143,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 7.502499580383301,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 7.689999580383301,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 7.689999580383301,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 7.877499580383301,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 8.064998626708985,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 8.2524995803833,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 8.4399995803833,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 8.6274995803833,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 8.8149995803833,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.0024995803833,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.1899995803833,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.1899995803833,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.3774995803833,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.5649995803833,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.7524995803833,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 9.9399995803833,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 10.1274995803833,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 10.3149995803833,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 10.5024995803833,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 10.6899995803833,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 10.877501487731934,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 11.065001487731934,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 11.2524995803833,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 11.4399995803833,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 11.6274995803833,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 11.815001487731934,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.002501487731934,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.190001487731934,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.190001487731934,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.377501487731934,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.565001487731934,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.752501487731934,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 12.940001487731934,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 13.127501487731934,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 13.315001487731934,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 13.50250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 13.689997673034668,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 13.689997673034668,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 13.877501487731934,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 14.06500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 14.252497673034668,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 14.44000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 14.627497673034668,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 14.814998626708985,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.002497673034668,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.189998626708985,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.189998626708985,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.377497673034668,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.564998626708985,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.752498626708985,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 15.939997673034668,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 16.127498626708986,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 16.315000534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 16.502500534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 16.690000534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 16.877500534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 17.065000534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 17.252500534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 17.440000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 17.627500534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 17.815000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 18.002500534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 18.190000534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 18.190000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 18.752500534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 18.752500534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 18.940000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 19.315000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 19.690000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 19.690000534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 20.440000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 20.627504348754884,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 20.627504348754884,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.002500534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.002500534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.190000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.190000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.752500534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.752500534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.940000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 21.940000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 22.315000534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 22.315000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 22.690000534057618,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 22.690000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 23.065000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 23.252500534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 23.440000534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 23.627500534057618,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 24.190000534057618,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 24.190000534057618,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 24.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 24.75250244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 24.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 24.94000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 25.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 25.31500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 25.69000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 25.69000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 26.44000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 26.62750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.00250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.189998626708986,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.189998626708986,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.37750244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.56500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.75250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 27.940004348754884,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 28.12750244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 28.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 28.50250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 28.69000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 28.877498626708986,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 29.06500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 29.252498626708986,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 29.439998626708986,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 29.627498626708986,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 29.814998626708986,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.00249671936035,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.189998626708986,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.189998626708986,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.75250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.939998626708986,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 30.939998626708986,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 31.314998626708986,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 31.314998626708986,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 31.68999671936035,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 31.68999671936035,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 32.439998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 32.62749481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 33.002498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 33.189998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 33.752498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 33.752498626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 33.939998626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 33.939998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 34.31499481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 34.31499481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 34.689998626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 34.689998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.064998626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.064998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.252498626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.252498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.439998626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.439998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.627498626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 35.627498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 36.189998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 36.189998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 36.752498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 36.752498626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 36.939998626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 36.939998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 37.314998626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 37.314998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 37.68999481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 37.68999481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 38.439998626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 38.439998626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 38.721248626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 38.721248626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.002498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.002498626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.189998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.189998626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.377498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.564998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.752498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 39.939998626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 40.127498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 40.314998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 40.502498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 40.689998626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 40.877498626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 41.064998626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 41.252498626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 41.439998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 41.627498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 41.814998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 42.002498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 42.189998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 42.377498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 42.564998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 42.752498626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 45.189998626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 45.377498626708987,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 45.564998626708987,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 45.752498626708987,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 46.127498626708987,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 48.37750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 48.56500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 48.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 51.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 51.37750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 51.56500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 51.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 52.12750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 52.50250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 52.69000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 52.87750244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 53.06500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 53.25250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 53.62750244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.002506256103519,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.37750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.56500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.56500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.75250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 54.94000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.12750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.50250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.50250244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.690006256103519,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.87749481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 55.87749481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 56.06500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 56.25250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 56.44000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 56.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 56.81500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.00250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.19000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.19000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.377506256103519,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.56499481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.56499481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.75249481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.94000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 57.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.12749099731445,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.31499481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.50249481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.50249481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.68999481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.87749481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 58.87749481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 59.06499481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 59.25249481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 59.43999481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 59.62750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 59.81499099731445,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.18999481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.18999481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.37749481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.56499481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.56499481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.75249481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.93999481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 60.93999481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.12749481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.31500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.50249099731445,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.50249099731445,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.68999481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.87749481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 61.87749481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.06499481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.25249481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.43999481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.43999481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.62749481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.62749481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.81499481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 62.81499481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.18999099731445,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.18999099731445,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.37749481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.56499481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.56499481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.75249481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.93999481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 63.93999481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.12749481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.31500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.50250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.50250244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.69000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.87749481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 64.87749481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 65.06499481201172,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 65.25250244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 65.44000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 65.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 65.81500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.00250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.19000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.37750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.56499481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.56499481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.75249481201172,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 66.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.12750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.50250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.50250244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.69000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.87750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 67.87750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 68.06500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 68.25250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 68.43999481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 68.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 68.81500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.00250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.19000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.19000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.37750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.56500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.56500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 69.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.12749481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.31500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.50250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.50250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.69000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.87750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 70.87750244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 71.06500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 71.25250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 71.44000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 71.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 71.81499481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.19000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.37750244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.56500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.56500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.75250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.94000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 72.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.12750244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.31500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.50249481201172,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.50249481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.69000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.87750244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 73.87750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.06500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.25250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.44000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.44000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.62750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.81500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 74.81500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.18999481201172,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.37750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.56500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.56500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 75.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 76.12750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 76.31500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 76.50250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 76.50250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 76.69000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 76.87750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 77.06500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 77.25250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 77.44000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 77.62750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 77.81500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.00250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.19000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.19000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.75250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.75250244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 78.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 79.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 79.69000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 79.69000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 80.44000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 80.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.00250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.19000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.75250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 81.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 82.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 82.69000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 83.06500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 83.25250244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 83.44000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 83.62750244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 84.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 84.19000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 84.75250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 84.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 85.31500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 85.69000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 85.69000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 86.44000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 86.72125244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 87.00250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 87.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 87.19000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 90.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 90.19000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 90.75250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 90.75250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 90.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 90.94000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 91.31500244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 91.69000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 91.69000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 92.44000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 92.44000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 92.72125244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 93.00250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 93.19000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 93.19000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 93.75250244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 93.94000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 94.31500244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 94.31500244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 94.69000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 94.69000244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 95.06500244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 95.25250244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 95.44000244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 95.62750244140625,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 95.62750244140625,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 96.19000244140625,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 96.19000244140625,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 96.75251007080078,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 96.75251007080078,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 96.94001007080078,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 96.94001007080078,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 97.31501007080078,
+            "activatorXPosition": "l",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 97.31501007080078,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 97.69001007080078,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 97.69001007080078,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "rY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 98.44001007080078,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 98.44001007080078,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 98.72126007080078,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 98.72126007080078,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 99.00251007080078,
+            "activatorXPosition": "ml",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 99.00251007080078,
+            "activatorXPosition": "r",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 99.19001007080078,
+            "activatorXPosition": "l",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 99.19001007080078,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "bY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        },
+        {
+            "strumTime": 101,
+            "activatorXPosition": "mr",
+            "activatorYPosition": "wY",
+            "xPosition": 0.0,
+            "yPosition": 0.0,
+            "noteInstantiated": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "noteSpeed": 8.0
+}
