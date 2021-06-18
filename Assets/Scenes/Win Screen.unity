@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08b2e424af5711439782ac203773286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highScoreText: {fileID: 2079580830623544471}
+  _highscoreText: {fileID: 2079580830623544471}
 --- !u!4 &1993311154
 Transform:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
 --- !u!114 &2079580830623544471 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4118579999964704206, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4118579998562596886, guid: c9289f94e87ebc247be247a4ee43764f, type: 3}
   m_PrefabInstance: {fileID: 2079580830623544470}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
