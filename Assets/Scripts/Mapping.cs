@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class MappingOverhaul
+public class Mapping
 {
     public MappingUnit[] mappedSong;
     public float noteSpeed;

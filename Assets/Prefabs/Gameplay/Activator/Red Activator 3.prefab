@@ -110,8 +110,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 669217916976612436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac65904fa20c0174f813c51da70494e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 107
+  key: 0
   instantiate_note: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
+  noteCount: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapUtils : MonoBehaviour
+public class MappingAuxiliar : MonoBehaviour
 {
     [Header ("Managers")]
     public GameObject musicManager;
@@ -13,12 +13,12 @@ public class MapUtils : MonoBehaviour
     public float delayMS;
 
     private AudioSource audioSource;
-    private SongOverhaul songManager;
+    private SongSpawner songManager;
     private bool shouldFixedUpdate = true;
 
     void Start(){
         audioSource = musicManager.GetComponent<AudioSource>();
-        songManager = musicManager.GetComponent<SongOverhaul>();
+        songManager = musicManager.GetComponent<SongSpawner>();
        
     }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement; // withdraw after improving the way that non-implemented level works
 
-public class SongOverhaul : MonoBehaviour
+public class SongSpawner : MonoBehaviour
 {   
     [Header("Note Prefabs")]
     [SerializeField] private GameObject bluePrefab;
@@ -20,7 +20,7 @@ public class SongOverhaul : MonoBehaviour
     [SerializeField] public float songTime; 
 
     private AudioSource audioSource;
-    [HideInInspector] public MappingOverhaul mappedSongJSON;
+    [HideInInspector] public Mapping mappedSongJSON;
     
     private float previousFrameTime;
     private float lastReportedPlayheadPosition; 
@@ -54,7 +54,7 @@ public class SongOverhaul : MonoBehaviour
     }
 
     private void RenderNoteFallingDownScreen(){
-        foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong)
+        foreach (Mapping.MappingUnit mapping in mappedSongJSON.mappedSong)
         {
             Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((songTime - (mapping.strumTime + mappedSongJSON.offset)) * noteSpeed) + videoCalibrationDelay + mappedSongJSON.fixedDelay, 5);
             if (mapping.noteInstantiated != null){
@@ -79,47 +79,47 @@ public class SongOverhaul : MonoBehaviour
     }
 
     private void DeserializeMappedSong(){
-        mappedSongJSON = JsonUtility.FromJson<MappingOverhaul>(jsonMappedSong.text);
+        mappedSongJSON = JsonUtility.FromJson<Mapping>(jsonMappedSong.text);
         noteSpeed = mappedSongJSON.noteSpeed;
 
-        foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong)
+        foreach (Mapping.MappingUnit mapping in mappedSongJSON.mappedSong)
         {
             switch (mapping.activatorXPosition)
             {
                 case "l":
-                    mapping.xPosition = MappingOverhaul.ActivatorPositions.leftX;
+                    mapping.xPosition = Mapping.ActivatorPositions.leftX;
                     break;
                 case "r":
-                    mapping.xPosition = MappingOverhaul.ActivatorPositions.rightX;
+                    mapping.xPosition = Mapping.ActivatorPositions.rightX;
                     break;
                 case "mr":
-                    mapping.xPosition = MappingOverhaul.ActivatorPositions.middleRightX;
+                    mapping.xPosition = Mapping.ActivatorPositions.middleRightX;
                     break;
                 case "ml":
-                    mapping.xPosition = MappingOverhaul.ActivatorPositions.middleLeftX;
+                    mapping.xPosition = Mapping.ActivatorPositions.middleLeftX;
                     break;
             }
 
             switch (mapping.activatorYPosition)
             {
                 case "rY":
-                    mapping.yPosition = MappingOverhaul.ActivatorPositions.redY;
+                    mapping.yPosition = Mapping.ActivatorPositions.redY;
                     break;
                 case "bY":
-                    mapping.yPosition = MappingOverhaul.ActivatorPositions.blueY;
+                    mapping.yPosition = Mapping.ActivatorPositions.blueY;
                     break;
                 case "cY":
-                    mapping.yPosition = MappingOverhaul.ActivatorPositions.creatorY;
+                    mapping.yPosition = Mapping.ActivatorPositions.creatorY;
                     break;
                 case "wY":
-                    mapping.yPosition = MappingOverhaul.ActivatorPositions.creatorY;
+                    mapping.yPosition = Mapping.ActivatorPositions.creatorY;
                     break;
             }
         }
     }
 
     private void InstantiateMappedNotes(){
-        foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong){           
+        foreach (Mapping.MappingUnit mapping in mappedSongJSON.mappedSong){           
             if (mapping.activatorYPosition == "rY"){
                 InstantiatePrefab(mapping, redPrefab);
             } else if (mapping.activatorYPosition == "bY"){
@@ -132,7 +132,7 @@ public class SongOverhaul : MonoBehaviour
         }
     }
 
-    private void InstantiatePrefab(MappingOverhaul.MappingUnit unit, GameObject notePrefab){
+    private void InstantiatePrefab(Mapping.MappingUnit unit, GameObject notePrefab){
         GameObject noteInstantiated = Instantiate(notePrefab, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);      
         noteInstantiated.GetComponent<Note>().speed = 0;
         noteInstantiated.GetComponent<Note>().strumTime = unit.strumTime;

@@ -11,7 +11,6 @@ public class Note : MonoBehaviour
 
     void Awake(){
         rb = GetComponent<Rigidbody2D>();
-        GetComponent<Activator>();
     }
     
     void Start(){
@@ -19,8 +18,8 @@ public class Note : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D other) {
-        if (other.gameObject.GetComponent<ActivatorOverhaul>() != null){
-            Queue notes = other.gameObject.GetComponent<ActivatorOverhaul>().notes;
+        if (other.gameObject.GetComponent<Activator>() != null){
+            Queue notes = other.gameObject.GetComponent<Activator>().notes;
             if(notes.Count > 0){
                 notes.Dequeue();
             }

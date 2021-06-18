@@ -7,10 +7,10 @@ using Firebase.Auth;
 using Firebase.Database;
 using System.Threading.Tasks;
 
-public class ServerManager : MonoBehaviour
+public class ServerManagerST : MonoBehaviour
 {
 
-    public static ServerManager Instance {get; private set; }
+    public static ServerManagerST Instance {get; private set; }
 
     public bool has_connected;
     public FirebaseAuth auth;

@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 1240146105}
   - component: {fileID: 1240146106}
   m_Layer: 0
-  m_Name: MapUtils
+  m_Name: MappingAuxiliar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,6 +464,9 @@ MonoBehaviour:
   musicManager: {fileID: 629729240}
   songSpeed: 1
   delayMS: 2.6
+  audioSource: {fileID: 0}
+  songManager: {fileID: 0}
+  shouldFixedUpdate: 1
 --- !u!1 &1357455464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 511531578594380120, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}

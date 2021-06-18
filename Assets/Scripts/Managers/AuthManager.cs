@@ -48,7 +48,7 @@ public class AuthManager : MonoBehaviour
 
     private IEnumerator Login(string _email, string _password)
     {
-        FirebaseAuth auth = ServerManager.Instance.auth;
+        FirebaseAuth auth = ServerManagerST.Instance.auth;
         //Call the Firebase auth signin function passing the email and password
         var LoginTask = auth.SignInWithEmailAndPasswordAsync(_email, _password);
         //Wait until the task completes
@@ -87,7 +87,7 @@ public class AuthManager : MonoBehaviour
             //User is now logged in
             //Now get the result
             User = LoginTask.Result;
-            ServerManager.Instance.User = User;
+            ServerManagerST.Instance.User = User;
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = User.DisplayName + " Has Logged In";
@@ -113,7 +113,7 @@ public class AuthManager : MonoBehaviour
         else 
         {
             //Call the Firebase auth signin function passing the email and password
-            FirebaseAuth auth = ServerManager.Instance.auth;
+            FirebaseAuth auth = ServerManagerST.Instance.auth;
             var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
             //Wait until the task completes
             yield return new WaitUntil(predicate: () => RegisterTask.IsCompleted);
