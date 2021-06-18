@@ -1,66 +1,64 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Firebase;
 using Firebase.Auth;
 using Firebase.Database;
 using UnityEngine.UI;
 
-public class DatabaseManager : MonoBehaviour
-{
+public class DatabaseManager : MonoBehaviour{
 
     [Header("Highscore")]
-    public Text highScoreText;
+    public Text _highscoreText;
 
-    private int scoreValue;
-    private string levelName;
-    private DatabaseReference DBreference;
-    private FirebaseUser User;
+    private DatabaseReference _DBReference;
+    private FirebaseUser _user;
+    private int _scoreValue;
+    private string _levelName;
 
     void Awake(){
         HandleSaveHighscore();  
     }
 
     private void HandleSaveHighscore(){
-        levelName = PlayerPrefs.GetString("NextScene");
-        scoreValue =  PlayerPrefs.GetInt("Score");
-        DBreference = ServerManagerST.Instance.DBreference;
-        User = ServerManagerST.Instance.User;
+        _levelName = PlayerPrefs.GetString("NextScene");
+        _scoreValue =  PlayerPrefs.GetInt("Score");
+        _DBReference = ServerManagerST.Instance.DBreference;
+        _user = ServerManagerST.Instance.User;
 
         StartCoroutine(ConditionToSaveHighscore());
     }
 
     private IEnumerator ConditionToSaveHighscore(){
-        var DBTask = DBreference.Child("users").Child(User.UserId).Child("highscores").Child(levelName).GetValueAsync();
+        var DBTask = _DBReference.Child("users").Child(_user.UserId).Child("highscores").Child(_levelName).GetValueAsync();
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 
         if (DBTask.Exception != null){
             Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
         } 
         else if (DBTask.Result.Value == null){
-            highScoreText.text = scoreValue.ToString();
+            _highscoreText.text = _scoreValue.ToString();
             StartCoroutine(SaveHighscore());
         } else {
             DataSnapshot snapshot = DBTask.Result;
 
             long previousHighscore = (long) snapshot.Value;
-            if (scoreValue > previousHighscore){
-                highScoreText.text = scoreValue.ToString();
+            if (_scoreValue > previousHighscore){
+                _highscoreText.text = _scoreValue.ToString();
                 StartCoroutine(SaveHighscore());
             } else {
-                highScoreText.text = previousHighscore.ToString();
+                _highscoreText.text = previousHighscore.ToString();
             }
         }      
     }
 
     private IEnumerator SaveHighscore(){
-        var DBTask = DBreference.Child("users").Child(User.UserId).Child("highscores").Child(levelName).SetValueAsync(scoreValue);
+        var DBTask = _DBReference.Child("users").Child(_user.UserId).Child("highscores").Child(_levelName).SetValueAsync(_scoreValue);
+        
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 
         if (DBTask.Exception != null){
             Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
         } else {
-            /* Successfully saved */
+            Debug.Log(message: $"Highscore successfully saved");
         }
     }
 }
