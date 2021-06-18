@@ -128,8 +128,6 @@ public class ActivatorOverhaul : MonoBehaviour
 
         //Destroy((GameObject) notes.Dequeue());
 
-
-
         gm.GetComponent<GameManager>().AddStreak();
         AddScore();
         active = false;
@@ -140,6 +138,9 @@ public class ActivatorOverhaul : MonoBehaviour
         if (currentGodNote != null && (currentGodNote.transform.position.y - gameObject.transform.position.y) < 0.001){
             StartCoroutine(HandlePressedActivator());
             Destroy(currentGodNote);
+
+            gm.GetComponent<GameManager>().AddStreak();
+            AddScore();
         }
     }
 

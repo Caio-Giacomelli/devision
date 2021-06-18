@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     private int multiplier = 1;
     private int streak = 0;
-    private float health = 1f;
+    public float health = 1f;
 
     void Start(){       
         godToggle.isOn = PlayerPrefs.GetInt("GodMode") == 1 ? true : false;
