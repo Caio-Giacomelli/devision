@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -12,15 +8,7 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    public void LoadPreviousScene(){ //deprecated
-        Time.timeScale = 1;
-        string sceneName = PlayerPrefs.GetString("PreviousScene");
-        SceneManager.LoadScene(sceneName);
-    }
-
     public void LoadPlayableScene(){
-        //string scene_name = PlayerPrefs.GetString("NextScene") + " " + difficulty;
-        //SceneManager.LoadScene(scene_name);
         Time.timeScale = 1;
         SceneManager.LoadScene("Gameplay");
     }
@@ -28,10 +16,6 @@ public class ButtonManager : MonoBehaviour
     public void SelectNextScene(string level_name){
         PlayerPrefs.SetString("NextScene", level_name);
     } 
-
-    public void Quit(){
-        Application.Quit();
-    }
 
     public void Pause(GameObject canvas){
         GameObject gm = GameObject.Find("GameManager");
@@ -46,5 +30,9 @@ public class ButtonManager : MonoBehaviour
             canvas.SetActive(true);
             gm.GetComponent<GameManager>().is_paused = true;
         }     
+    }
+
+    public void Quit(){
+        Application.Quit();
     }
 }
