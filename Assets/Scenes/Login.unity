@@ -859,9 +859,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _emailLogin
+      value: 
+      objectReference: {fileID: 179167718}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
       propertyPath: email_login
       value: 
       objectReference: {fileID: 179167718}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _emailRegister
+      value: 
+      objectReference: {fileID: 1855056860}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _passwordLogin
+      value: 
+      objectReference: {fileID: 867577730}
     - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
       propertyPath: email_register
       value: 
@@ -871,11 +883,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 867577730}
     - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _sceneAfterAuth
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
       propertyPath: confirmLoginText
       value: 
       objectReference: {fileID: 486197091}
     - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
       propertyPath: warningLoginText
+      value: 
+      objectReference: {fileID: 1140251861}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _confirmLoginText
+      value: 
+      objectReference: {fileID: 486197091}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _passwordRegister
+      value: 
+      objectReference: {fileID: 992735386}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _usernameRegister
+      value: 
+      objectReference: {fileID: 980587556}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _warningLoginText
       value: 
       objectReference: {fileID: 1140251861}
     - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
@@ -894,6 +926,18 @@ PrefabInstance:
       propertyPath: warningRegisterText
       value: 
       objectReference: {fileID: 1277279353}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _confirmRegisterText
+      value: 
+      objectReference: {fileID: 1107224162}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _warningRegisterText
+      value: 
+      objectReference: {fileID: 1277279353}
+    - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
+      propertyPath: _passwordVerifyRegister
+      value: 
+      objectReference: {fileID: 765500630}
     - target: {fileID: 9111370814029469065, guid: 9099f97240526c24f9ec1f740e3c058d, type: 3}
       propertyPath: password_verigy_register
       value: 
