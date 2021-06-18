@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonManager : MonoBehaviour
-{
+public class ButtonManager : MonoBehaviour{
     public void LoadScene(string scene){
         Time.timeScale = 1;
         SceneManager.LoadScene(scene);
