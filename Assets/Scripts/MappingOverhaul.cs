@@ -8,6 +8,7 @@ public class MappingOverhaul
     public MappingUnit[] mappedSong;
     public float noteSpeed;
     public float fixedDelay;
+    public float offset;
   
     [System.Serializable]
     public class MappingUnit{

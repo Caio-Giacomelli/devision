@@ -366,6 +366,7 @@ MonoBehaviour:
     mappedSong: []
     noteSpeed: 0
     fixedDelay: 0
+    offset: 0
 --- !u!114 &1072322889 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 33204448571429086, guid: 1ef69d93f5ed6684a967d57b5ee636ed, type: 3}
@@ -461,8 +462,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicManager: {fileID: 629729240}
-  songSpeed: 0.28
-  delayMS: 1
+  songSpeed: 1
+  delayMS: 2.6
 --- !u!1 &1357455464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 511531578594380120, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}

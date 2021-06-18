@@ -4932,5 +4932,6 @@
         }
     ],
     "noteSpeed": 8.0,
-    "fixedDelay": 0.6
+    "fixedDelay": 0.6,
+    "offset": 2.0
 }

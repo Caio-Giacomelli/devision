@@ -4,7 +4,6 @@ using System.Collections;
 public class Note : MonoBehaviour
 {
     Rigidbody2D rb;
-
     [SerializeField]
     public float speed;
 
@@ -12,6 +11,7 @@ public class Note : MonoBehaviour
 
     void Awake(){
         rb = GetComponent<Rigidbody2D>();
+        GetComponent<Activator>();
     }
     
     void Start(){

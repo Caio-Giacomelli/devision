@@ -56,7 +56,7 @@ public class SongOverhaul : MonoBehaviour
     private void RenderNoteFallingDownScreen(){
         foreach (MappingOverhaul.MappingUnit mapping in mappedSongJSON.mappedSong)
         {
-            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((songTime - mapping.strumTime) * noteSpeed) + videoCalibrationDelay + mappedSongJSON.fixedDelay, 5);
+            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((songTime - (mapping.strumTime + mappedSongJSON.offset)) * noteSpeed) + videoCalibrationDelay + mappedSongJSON.fixedDelay, 5);
             if (mapping.noteInstantiated != null){
                 mapping.noteInstantiated.transform.position = updatedNotePosition;
             }
