@@ -21,7 +21,7 @@ public class ButtonManager : MonoBehaviour
     public void LoadPlayableScene(){
         //string scene_name = PlayerPrefs.GetString("NextScene") + " " + difficulty;
         //SceneManager.LoadScene(scene_name);
-        
+        Time.timeScale = 1;
         SceneManager.LoadScene("Gameplay");
     }
 
