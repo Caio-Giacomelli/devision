@@ -406,11 +406,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1142570923}
     - target: {fileID: 6482985304306983120, guid: 7449f7276f4d0dd449bbdf18cc697d8d, type: 3}
+      propertyPath: _delayInput
+      value: 
+      objectReference: {fileID: 1142570923}
+    - target: {fileID: 6482985304306983120, guid: 7449f7276f4d0dd449bbdf18cc697d8d, type: 3}
       propertyPath: startButton
       value: 
       objectReference: {fileID: 1240264137}
     - target: {fileID: 6482985304306983120, guid: 7449f7276f4d0dd449bbdf18cc697d8d, type: 3}
+      propertyPath: _startButton
+      value: 
+      objectReference: {fileID: 1240264137}
+    - target: {fileID: 6482985304306983120, guid: 7449f7276f4d0dd449bbdf18cc697d8d, type: 3}
       propertyPath: metronomeButton
+      value: 
+      objectReference: {fileID: 1394036084}
+    - target: {fileID: 6482985304306983120, guid: 7449f7276f4d0dd449bbdf18cc697d8d, type: 3}
+      propertyPath: _metronomeButton
       value: 
       objectReference: {fileID: 1394036084}
     - target: {fileID: 6482985304306983121, guid: 7449f7276f4d0dd449bbdf18cc697d8d, type: 3}

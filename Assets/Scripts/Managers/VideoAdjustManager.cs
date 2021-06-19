@@ -3,90 +3,89 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class VideoAdjustManager : MonoBehaviour
-{
+public class VideoAdjustManager : MonoBehaviour{
+    
     [Header("UI")]
-    [SerializeField] private Button metronomeButton;
-    [SerializeField] private Button startButton;
-    [SerializeField] private InputField delayInput;
+    [SerializeField] private Button _metronomeButton;
+    [SerializeField] private Button _startButton;
+    [SerializeField] private InputField _delayInput;
 
     [Header("Video Calibration Settings")]
-    [SerializeField] private float repeatTime;
-    [SerializeField] private float flashTime;
-    [SerializeField] private float delayStartTime;
-    [SerializeField] private float totalCalibrationTime;
+    [SerializeField] private float _repeatTime;
+    [SerializeField] private float _flashTime;
+    [SerializeField] private float _delayStartTime;
+    [SerializeField] private float _totalCalibrationTime;
 
     [Header("Color Visualization")]
-    [SerializeField] private Color baseColor;
-    [SerializeField] private ColorBlock colorBlock;
+    [SerializeField] private Color _baseColor;
+    [SerializeField] private ColorBlock _colorBlock;
 
-    [Header("Video Calibration Results")]
-    [SerializeField] private float shouldHaveClicked;
-    [SerializeField] private float actualClick;
-    [SerializeField] private float delayMs;
-    [SerializeField] private List<float> listDelay;
+    private float _shouldHaveClicked;
+    private float _actualClick;
+    private float _delayMs;
+    private List<float> _listDelay;
 
     void Start(){
-        listDelay = new List<float>();
-        delayInput.text = (PlayerPrefs.GetFloat("VideoDelay") * 1000).ToString();
-        colorBlock = metronomeButton.colors;
-        baseColor = colorBlock.normalColor;
+        _listDelay = new List<float>();
+        _delayInput.text = (PlayerPrefs.GetFloat("VideoDelay") * 1000).ToString();
+        _colorBlock = _metronomeButton.colors;
+        _baseColor = _colorBlock.normalColor;
     }
 
     public void StartVideoCalibration(){
-        InvokeRepeating("FlashMetronomeButton", delayStartTime, repeatTime);
+        InvokeRepeating("FlashMetronomeButton", _delayStartTime, _repeatTime);
         StartCoroutine(FinishVideoCalibration());
     }
 
     private void FlashMetronomeButton(){
-        metronomeButton.interactable = true;
+        _metronomeButton.interactable = true;
         StartCoroutine(FlashCoroutine());
     }
 
     IEnumerator FlashCoroutine(){     
         PrepareColorBlock(new Color(255, 255, 255));
-        metronomeButton.colors = colorBlock;
+        _metronomeButton.colors = _colorBlock;
 
-        shouldHaveClicked = Time.time;
+        _shouldHaveClicked = Time.time;
 
-        yield return new WaitForSeconds(flashTime);
+        yield return new WaitForSeconds(_flashTime);
         
-        PrepareColorBlock(baseColor);
-        metronomeButton.colors = colorBlock;
+        PrepareColorBlock(_baseColor);
+        _metronomeButton.colors = _colorBlock;
     }
 
     private void PrepareColorBlock(Color color){
-        colorBlock.normalColor = color;
-        colorBlock.disabledColor = color;
-        colorBlock.highlightedColor = color;
-        colorBlock.pressedColor = color;
-        colorBlock.selectedColor = color;
+        _colorBlock.normalColor = color;
+        _colorBlock.disabledColor = color;
+        _colorBlock.highlightedColor = color;
+        _colorBlock.pressedColor = color;
+        _colorBlock.selectedColor = color;
     }
 
     IEnumerator FinishVideoCalibration(){
-        yield return new WaitForSeconds(totalCalibrationTime);
+        yield return new WaitForSeconds(_totalCalibrationTime);
         CancelInvoke();
-        startButton.interactable = true;
-        metronomeButton.interactable = false;
+        _startButton.interactable = true;
+        _metronomeButton.interactable = false;
 
         CalculateMedianDelay();
         
-        delayInput.text = delayMs.ToString();
+        _delayInput.text = _delayMs.ToString();
     }
 
     private void CalculateMedianDelay(){
         float medianDelay = 0;
-        foreach (float delay in listDelay)
+        foreach (float delay in _listDelay)
         {
             medianDelay += delay;
         }
 
-        delayMs = (medianDelay / listDelay.Count) * 1000;
+        _delayMs = (medianDelay / _listDelay.Count) * 1000;
     }
 
     public void SetActualClick(){
-        actualClick = Time.time;    
-        listDelay.Add(actualClick - shouldHaveClicked); 
+        _actualClick = Time.time;    
+        _listDelay.Add(_actualClick - _shouldHaveClicked); 
     }
 
     public void SubmitDelayInput(string input){
