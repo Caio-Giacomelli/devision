@@ -35,7 +35,7 @@ public class Activator : MonoBehaviour
     }
 
     void Update(){
-        if (Time.timeScale != 0 && !gm.GetComponent<GameManager>().godMode){     
+        if (Time.timeScale != 0 && !gm.GetComponent<GameManager>()._godMode){     
             HandleKeyInput();
             HandleTouchInput();           
         }
@@ -63,7 +63,7 @@ public class Activator : MonoBehaviour
 
     // Handle God Mode
     void OnTriggerStay2D(Collider2D other){
-        if (gm.GetComponent<GameManager>().godMode)  HandleGodMode();
+        if (gm.GetComponent<GameManager>()._godMode)  HandleGodMode();
     }
 
     private bool CheckHasTouchInput(){

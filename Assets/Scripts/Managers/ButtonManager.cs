@@ -18,7 +18,7 @@ public class ButtonManager : MonoBehaviour{
 
     public void Pause(GameObject canvas){
         GameObject gm = GameObject.Find("GameManager");
-        if (!gm.GetComponent<GameManager>().is_paused){            
+        if (!gm.GetComponent<GameManager>()._isPaused){            
             Time.timeScale = 0;
 
             AudioSource[] audios = FindObjectsOfType<AudioSource>();       
@@ -27,7 +27,7 @@ public class ButtonManager : MonoBehaviour{
             }
 
             canvas.SetActive(true);
-            gm.GetComponent<GameManager>().is_paused = true;
+            gm.GetComponent<GameManager>()._isPaused = true;
         }     
     }
 

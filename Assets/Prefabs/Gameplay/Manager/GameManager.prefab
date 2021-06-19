@@ -70,9 +70,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2761f6a2b5eae42a834cc631690350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
-  score_per_note: 10
-  life_per_second: 0.3
-  note_speed: 4.5
+  _healthBar: {fileID: 0}
+  _repeatRateHealthDegen: 0.3
+  _amountHealthDegen: 0.01
+  _missNoteHealthDegen: 0.05
+  _scorePerNote: 10
+  _streakThresholds: 080000001000000018000000
+  _countdownAnimation: {fileID: 0}
+  _godToggle: {fileID: 0}
+  godMode: 0
+  is_paused: 0
   mixer: {fileID: 24100000, guid: cfd952dcd6c1cda49a27df4991947d1d, type: 2}
-  createMode: 1
+  health: 1

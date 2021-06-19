@@ -464,9 +464,6 @@ MonoBehaviour:
   musicManager: {fileID: 629729240}
   songSpeed: 1
   delayMS: 2.6
-  audioSource: {fileID: 0}
-  songManager: {fileID: 0}
-  shouldFixedUpdate: 1
 --- !u!1 &1357455464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 511531578594380120, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
@@ -1112,6 +1109,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: _mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: cfd952dcd6c1cda49a27df4991947d1d, type: 2}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: godMode
       value: 1
       objectReference: {fileID: 0}
@@ -1121,6 +1122,14 @@ PrefabInstance:
       objectReference: {fileID: 1649295678}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1072322889}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: _godToggle
+      value: 
+      objectReference: {fileID: 1649295678}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: _healthBar
       value: 
       objectReference: {fileID: 1072322889}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
@@ -1139,6 +1148,10 @@ PrefabInstance:
       propertyPath: life_per_second
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: _countdownAnimation
+      value: 
+      objectReference: {fileID: 369100563}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: countdown_animation
       value: 

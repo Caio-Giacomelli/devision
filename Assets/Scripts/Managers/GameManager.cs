@@ -1,46 +1,47 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour{
 
-    [Header("Health Configuration")]
-    [SerializeField] private HealthBar healthBar;
-    [SerializeField] private float life_per_second = 0.3f;
-    [SerializeField] private float noteHealthHit = 0.05f;
+    [Header("_health Configuration")]
+    [SerializeField] private HealthBar _healthBar;
+    [SerializeField] private float _repeatRateHealthDegen = 0.3f;
+    [SerializeField] private float _amountHealthDegen = 0.01f;
+    [SerializeField] private float _missNoteHealthDegen = 0.05f;
+
+    [Header("Score Configuration")]
+    [SerializeField] private int _scorePerNote = 10;
+    [SerializeField] private int[] _streakThresholds = new int[3];
 
     [Header("UI Configuration")]
-    [SerializeField] private GameObject countdown_animation;
-    [SerializeField] private Toggle godToggle;
+    [SerializeField] private GameObject _countdownAnimation;
+    [SerializeField] private Toggle _godToggle;
 
     [Header("Gameplay Configuration")]
-    [SerializeField] private int score_per_note = 10;
-    [SerializeField] public float note_speed = 4.5f; //deprecated
-    [SerializeField] public bool godMode;
-    [SerializeField] public bool is_paused;
+    [SerializeField] public bool _godMode;
+    [SerializeField] public bool _isPaused;
     
     [Header("Audio Configuration")]
-    [SerializeField] public AudioMixer mixer;
+    [SerializeField] private AudioMixer _mixer;
 
-    private int multiplier = 1;
-    private int streak = 0;
-    public float health = 1f;
+    private float _health = 1f;
+    private int _multiplier = 1;
+    private int _streak = 0;
 
     void Start(){       
-        godToggle.isOn = PlayerPrefs.GetInt("GodMode") == 1 ? true : false;
-        godMode = PlayerPrefs.GetInt("GodMode") == 1 ? true : false;
+        _godToggle.isOn = PlayerPrefs.GetInt("_godMode") == 1 ? true : false;
+        _godMode = PlayerPrefs.GetInt("_godMode") == 1 ? true : false;
         
-        InvokeRepeating("SetHealthBarSize", 0.0f, life_per_second);
+        InvokeRepeating("SetHealthBarSize", 0.0f, _repeatRateHealthDegen);
         HandlePlayerPref();
         HandleMusicVolume();
     }
 
     void Update(){
-        if (health == 0f){
+        if (_health == 0f){
             Lose();
         }
     }
@@ -52,18 +53,16 @@ public class GameManager : MonoBehaviour
     }
 
     public void AddStreak(){
-        streak++;
+        _streak++;
 
-        if(streak >= 24){
-            multiplier = 4;        
+        if(_streak >= _streakThresholds[2]){
+            _multiplier = 4;        
         } 
-        else if (streak >= 16){
-            multiplier = 3;
+        else if (_streak >= _streakThresholds[1]){
+            _multiplier = 3;
         }
-        else if (streak >= 8){
-            multiplier = 2;
-        } else {
-            multiplier = 1;
+        else if (_streak >= _streakThresholds[0]){
+            _multiplier = 2;
         }
 
         AddHealth();
@@ -71,24 +70,24 @@ public class GameManager : MonoBehaviour
     }
 
     public void ResetStreak(){
-        streak = 0;
-        multiplier = 1;
+        _streak = 0;
+        _multiplier = 1;
         LoseHealth();
         UpdateGUI();
     }
 
     void UpdateGUI(){
-        PlayerPrefs.SetInt("Mult", multiplier);
+        PlayerPrefs.SetInt("Mult", _multiplier);
     }
 
     public int GetScore(){
-        return score_per_note * multiplier;
+        return _scorePerNote * _multiplier;
     }
 
     private void SetHealthBarSize(){
-        health -= .01f;
-        health = Mathf.Clamp(health, 0f, 1f);
-        healthBar.SetSize(health);
+        _health -= _amountHealthDegen;
+        _health = Mathf.Clamp(_health, 0f, 1f);
+        _healthBar.SetSize(_health);
     }
 
     public void Win(){
@@ -100,15 +99,15 @@ public class GameManager : MonoBehaviour
     }
 
     private void AddHealth(){
-        health += 0.1f * multiplier;
-        health = Mathf.Clamp(health, 0f, 1f);
-        healthBar.SetSize(health);
+        _health += 0.1f * _multiplier;
+        _health = Mathf.Clamp(_health, 0f, 1f);
+        _healthBar.SetSize(_health);
     }
 
     private void LoseHealth(){
-        health -= noteHealthHit;
-        health = Mathf.Clamp(health, 0f, 1f);
-        healthBar.SetSize(health);
+        _health -= _missNoteHealthDegen;
+        _health = Mathf.Clamp(_health, 0f, 1f);
+        _healthBar.SetSize(_health);
     }
 
     private void HandlePlayerPref(){
@@ -120,12 +119,12 @@ public class GameManager : MonoBehaviour
     private void HandleMusicVolume(){
         float slider_value = PlayerPrefs.GetFloat("musicSlider");
         float musicVol = Mathf.Log10(slider_value) * 20;
-        mixer.SetFloat("MusicVol", musicVol);
+        _mixer.SetFloat("MusicVol", musicVol);
     }
 
     public void Resume(GameObject canvas){
         canvas.SetActive(false);
-        countdown_animation.SetActive(true);
+        _countdownAnimation.SetActive(true);
         StartCoroutine("ResumeWithDelay");
     }
 
@@ -135,7 +134,7 @@ public class GameManager : MonoBehaviour
             yield return 0;
         }
 
-        countdown_animation.SetActive(false);
+        _countdownAnimation.SetActive(false);
               
         Time.timeScale = 1;
 
@@ -143,12 +142,12 @@ public class GameManager : MonoBehaviour
         foreach(AudioSource a in audios){
             if (a.playOnAwake || a.panStereo == 0.02f) a.Play(); 
         }
-        is_paused = false;
+        _isPaused = false;
     }
 
     public void setGodMode(bool isGod){
-        godMode = isGod;
-        PlayerPrefs.SetInt("GodMode", isGod ? 1 : 0);
+        _godMode = isGod;
+        PlayerPrefs.SetInt("_godMode", isGod ? 1 : 0);
         
     }
 }
