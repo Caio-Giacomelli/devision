@@ -21,8 +21,8 @@ public class DatabaseManager : MonoBehaviour{
     private void HandleSaveHighscore(){
         _levelName = PlayerPrefs.GetString("NextScene");
         _scoreValue =  PlayerPrefs.GetInt("Score");
-        _DBReference = ServerManagerST.Instance.DBreference;
-        _user = ServerManagerST.Instance.User;
+        _DBReference = ServerManagerST.Instance._dBReference;
+        _user = ServerManagerST.Instance._user;
 
         StartCoroutine(ConditionToSaveHighscore());
     }

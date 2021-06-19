@@ -49,7 +49,7 @@ public class AuthManager : MonoBehaviour{
     }
 
     private IEnumerator Login(string _email, string _password){
-        FirebaseAuth auth = ServerManagerST.Instance.auth;
+        FirebaseAuth auth = ServerManagerST.Instance._auth;
     
         var LoginTask = auth.SignInWithEmailAndPasswordAsync(_email, _password);
 
@@ -82,7 +82,7 @@ public class AuthManager : MonoBehaviour{
         }
         else{
             _user = LoginTask.Result;
-            ServerManagerST.Instance.User = _user;
+            ServerManagerST.Instance._user = _user;
             Debug.LogFormat("User signed in successfully: {0} ({1})", _user.DisplayName, _user.Email);
             _warningLoginText.text = "";
             _confirmLoginText.text = _user.DisplayName + " Has Logged In";
@@ -101,7 +101,7 @@ public class AuthManager : MonoBehaviour{
             _warningRegisterText.text = "Password Does Not Match!";
         }
         else {
-            FirebaseAuth auth = ServerManagerST.Instance.auth;
+            FirebaseAuth auth = ServerManagerST.Instance._auth;
             var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
 
             yield return new WaitUntil(predicate: () => RegisterTask.IsCompleted);

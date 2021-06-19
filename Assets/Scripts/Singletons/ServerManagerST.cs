@@ -7,34 +7,34 @@ using Firebase.Auth;
 using Firebase.Database;
 using System.Threading.Tasks;
 
-public class ServerManagerST : MonoBehaviour
-{
+public class ServerManagerST : MonoBehaviour{
 
-    public static ServerManagerST Instance {get; private set; }
-
-    public bool has_connected;
-    public FirebaseAuth auth;
-    public FirebaseUser User;
-    public DatabaseReference DBreference;
+    public static ServerManagerST Instance {get; private set;}
+    
+    public FirebaseAuth _auth;
+    public FirebaseUser _user;
+    public DatabaseReference _dBReference;
+    public bool _hasConnected;
 
     void Awake() {
         if (Instance == null){
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
-            Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(handleFirebaseConnection);
         } else {
             Destroy(gameObject);
         }
+    }
 
+    void Start(){
+        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(handleFirebaseConnection);
     }
 
     private void handleFirebaseConnection(Task<DependencyStatus> task) {
         var dependencyStatus = task.Result;
         if (dependencyStatus == Firebase.DependencyStatus.Available) {
-            has_connected = true;
-            auth = FirebaseAuth.DefaultInstance;
-            DBreference = FirebaseDatabase.DefaultInstance.RootReference;
+            _hasConnected = true;
+            _auth = FirebaseAuth.DefaultInstance;
+            _dBReference = FirebaseDatabase.DefaultInstance.RootReference;
         }
         else
         {
