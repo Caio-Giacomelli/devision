@@ -31,7 +31,7 @@ public class SongSpawner : MonoBehaviour
         
         if (jsonMappedSong == null){
             jsonMappedSong = MapManagerST.Instance.GetJSONMap();
-            audioSource.clip = MapManagerST.Instance.levelSong;
+            audioSource.clip = MapManagerST.Instance._levelSong;
         }
         
         if (jsonMappedSong == null || audioSource.clip == null){

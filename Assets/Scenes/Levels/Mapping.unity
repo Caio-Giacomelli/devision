@@ -157,10 +157,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbf3ad3d538a7848ac6f711c74f34f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonMapHard: {fileID: 0}
-  jsonMapExpert: {fileID: 4900000, guid: 8b41de49678c1a24eb8e262fc2c52aeb, type: 3}
-  levelSong: {fileID: 8300000, guid: 220cfd73e197b1d48b6f38b36ea5da4a, type: 3}
-  difficulty: Expert
+  _jsonMapHard: {fileID: 0}
+  _jsonMapExpert: {fileID: 4900000, guid: 4f32a664ed5d83d488d282a26752c78a, type: 3}
+  _levelSong: {fileID: 8300000, guid: c32823693b3d2c94cbedb7bc8cd7bb6c, type: 3}
+  _difficulty: Expert
 --- !u!4 &175290864
 Transform:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicManager: {fileID: 629729240}
-  songSpeed: 1
+  songSpeed: 0.4
   delayMS: 2.6
 --- !u!1 &1357455464 stripped
 GameObject:
@@ -1149,6 +1149,10 @@ PrefabInstance:
       value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: _amountHealthDegen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: _countdownAnimation
       value: 
       objectReference: {fileID: 369100563}
@@ -1156,6 +1160,10 @@ PrefabInstance:
       propertyPath: countdown_animation
       value: 
       objectReference: {fileID: 369100563}
+    - target: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}
+      propertyPath: _missNoteHealthDegen
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8067732000674619990, guid: 4823912f4b35124409508683f24cd031, type: 3}
       propertyPath: m_Name
       value: GameManager

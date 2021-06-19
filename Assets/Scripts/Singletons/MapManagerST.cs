@@ -1,17 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 
-public class MapManagerST : MonoBehaviour
-{
-    public static MapManagerST Instance {get; private set; }
+public class MapManagerST : MonoBehaviour{
+    public static MapManagerST Instance {get; private set;}
 
-    [Header("Song Mapped")]
-    [SerializeField] public TextAsset jsonMapHard;
-    [SerializeField] public TextAsset jsonMapExpert;
-    [SerializeField] public AudioClip levelSong;
-    [SerializeField] public string difficulty;
+    [Header("Song Charts")]
+    [SerializeField] public TextAsset _jsonMapHard;
+    [SerializeField] public TextAsset _jsonMapExpert;
+
+    [Header("Audio Clip")]
+    [SerializeField] public AudioClip _levelSong;
+    
+    [Header("Song Settings")]
+    [SerializeField] public string _difficulty;
 
     void Awake() {
         if (Instance == null) {
@@ -25,29 +25,28 @@ public class MapManagerST : MonoBehaviour
     }  
 
     public void SetJSONMapHard(TextAsset jsonMap){
-        jsonMapHard = jsonMap;
+        _jsonMapHard = jsonMap;
     }
 
     public void SetJSONMapExpert(TextAsset jsonMap){
-        jsonMapExpert = jsonMap;
+        _jsonMapExpert = jsonMap;
     }
 
-    public void SetLevelSong(AudioClip levelSong){
-        this.levelSong = levelSong;
+    public void SetLevelSong(AudioClip _levelSong){
+        this._levelSong = _levelSong;
     }
     
-    public void SetDifficulty(string difficulty){
-        this.difficulty = difficulty;
+    public void SetDifficulty(string _difficulty){
+        this._difficulty = _difficulty;
     }
 
     public TextAsset GetJSONMap(){
-        switch (difficulty)
-            {
+        switch (_difficulty){
                 case "Hard":
-                    return jsonMapHard;
+                    return _jsonMapHard;
                 case "Expert":
-                    return jsonMapExpert;
+                    return _jsonMapExpert;
             }
-        return jsonMapHard;
+        return _jsonMapHard;
     }
 }
