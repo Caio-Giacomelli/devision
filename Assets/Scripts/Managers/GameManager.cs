@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private float _repeatRateHealthDegen = 0.3f;
     [SerializeField] private float _amountHealthDegen = 0.01f;
     [SerializeField] private float _missNoteHealthDegen = 0.05f;
+    [SerializeField] private float _hitNoteHealthRegen = 0.1f;
 
     [Header("Score Configuration")]
     [SerializeField] private int _scorePerNote = 10;
@@ -32,12 +33,12 @@ public class GameManager : MonoBehaviour{
     private int _streak = 0;
 
     void Start(){       
-        _godToggle.isOn = PlayerPrefs.GetInt("_godMode") == 1 ? true : false;
-        _godMode = PlayerPrefs.GetInt("_godMode") == 1 ? true : false;
-        
-        InvokeRepeating("SetHealthBarSize", 0.0f, _repeatRateHealthDegen);
-        HandlePlayerPref();
+
+        StartGodModeVariables();    
+        StartPlayerPrefs();
         HandleMusicVolume();
+
+        InvokeRepeating("HandleHealthBarDegen", 0.0f, _repeatRateHealthDegen);
     }
 
     void Update(){
@@ -46,7 +47,7 @@ public class GameManager : MonoBehaviour{
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
+    void OnTriggerEnter2D(Collider2D other){
         Destroy(other.gameObject);
         LoseHealth();
         ResetStreak(); 
@@ -84,7 +85,7 @@ public class GameManager : MonoBehaviour{
         return _scorePerNote * _multiplier;
     }
 
-    private void SetHealthBarSize(){
+    private void HandleHealthBarDegen(){
         _health -= _amountHealthDegen;
         _health = Mathf.Clamp(_health, 0f, 1f);
         _healthBar.SetSize(_health);
@@ -99,7 +100,7 @@ public class GameManager : MonoBehaviour{
     }
 
     private void AddHealth(){
-        _health += 0.1f * _multiplier;
+        _health += _hitNoteHealthRegen;
         _health = Mathf.Clamp(_health, 0f, 1f);
         _healthBar.SetSize(_health);
     }
@@ -110,15 +111,15 @@ public class GameManager : MonoBehaviour{
         _healthBar.SetSize(_health);
     }
 
-    private void HandlePlayerPref(){
+    private void StartPlayerPrefs(){
         PlayerPrefs.SetInt("Score", 0);
         PlayerPrefs.SetInt("Mult", 1);
         PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
     }
 
     private void HandleMusicVolume(){
-        float slider_value = PlayerPrefs.GetFloat("musicSlider");
-        float musicVol = Mathf.Log10(slider_value) * 20;
+        float sliderValue = PlayerPrefs.GetFloat("musicSlider");
+        float musicVol = Mathf.Log10(sliderValue) * 20;
         _mixer.SetFloat("MusicVol", musicVol);
     }
 
@@ -129,8 +130,8 @@ public class GameManager : MonoBehaviour{
     }
 
     IEnumerator ResumeWithDelay(){
-        float pause_time = Time.realtimeSinceStartup + 2f;
-        while (Time.realtimeSinceStartup < pause_time){
+        float pauseTime = Time.realtimeSinceStartup + 2f;
+        while (Time.realtimeSinceStartup < pauseTime){
             yield return 0;
         }
 
@@ -145,9 +146,13 @@ public class GameManager : MonoBehaviour{
         _isPaused = false;
     }
 
+    private void StartGodModeVariables(){
+        _godToggle.isOn = PlayerPrefs.GetInt("_godMode") == 1 ? true : false;
+        _godMode = PlayerPrefs.GetInt("_godMode") == 1 ? true : false;
+    }
+
     public void setGodMode(bool isGod){
         _godMode = isGod;
-        PlayerPrefs.SetInt("_godMode", isGod ? 1 : 0);
-        
+        PlayerPrefs.SetInt("_godMode", isGod ? 1 : 0);    
     }
 }
