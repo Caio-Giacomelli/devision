@@ -1,16 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthBar : MonoBehaviour
-{
-    private Transform bar;
+public class HealthBar : MonoBehaviour{
+    private Transform _barTransform;
     
-    private void Start(){
-        bar = transform.Find("Bar");
+    private void Awake(){
+        _barTransform = transform.Find("Bar");
     }
 
-    public void SetSize(float size_normalized){
-        bar.localScale = new Vector3(size_normalized, 1f);
+    public void SetSize(float sizeNormalized){
+        _barTransform.localScale = new Vector3(sizeNormalized, 1f);
     }
 }

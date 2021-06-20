@@ -1,28 +1,16 @@
 using UnityEngine;
 using System.Collections;
 
-public class Note : MonoBehaviour
-{
-    Rigidbody2D rb;
-    [SerializeField]
-    public float speed;
+public class Note : MonoBehaviour{
+    public float _strumTime;
 
-    public float strumTime;
+    private void OnTriggerExit2D(Collider2D other){
+        Activator activator = other.gameObject.GetComponent<Activator>();      
+        if (activator == null) return;
 
-    void Awake(){
-        rb = GetComponent<Rigidbody2D>();
-    }
-    
-    void Start(){
-        rb.velocity = new Vector2(0, -speed);
-    }
-
-    private void OnTriggerExit2D(Collider2D other) {
-        if (other.gameObject.GetComponent<Activator>() != null){
-            Queue notes = other.gameObject.GetComponent<Activator>()._activeNotes;
-            if(notes.Count > 0){
-                notes.Dequeue();
-            }
+        Queue notes = activator._activeNotes;
+        if(notes.Count > 0){
+            notes.Dequeue();
         }
     }
 }

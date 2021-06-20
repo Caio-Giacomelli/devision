@@ -1,26 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class Volume : MonoBehaviour
-{
-    [SerializeField]
-    private AudioMixer mixer;
-
-    [SerializeField]
-    private Slider slider;
+public class Volume : MonoBehaviour{
+     
+    [SerializeField] private AudioMixer _mixer;
+    [SerializeField] private Slider _slider;
 
     void Start(){
-        slider.value = PlayerPrefs.GetFloat("musicSlider");
+        _slider.value = PlayerPrefs.GetFloat("musicSlider");
     }
 
     public void SetVolume(float sliderValue){
         float musicVol = Mathf.Log10(sliderValue) * 20;
         
         PlayerPrefs.SetFloat("musicSlider", sliderValue);
-
-        mixer.SetFloat("MusicVol", musicVol);
+        _mixer.SetFloat("MusicVol", musicVol);
     }    
 }
