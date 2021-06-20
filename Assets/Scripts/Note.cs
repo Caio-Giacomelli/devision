@@ -19,7 +19,7 @@ public class Note : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other) {
         if (other.gameObject.GetComponent<Activator>() != null){
-            Queue notes = other.gameObject.GetComponent<Activator>().notes;
+            Queue notes = other.gameObject.GetComponent<Activator>()._activeNotes;
             if(notes.Count > 0){
                 notes.Dequeue();
             }

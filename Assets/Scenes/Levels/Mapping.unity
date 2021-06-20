@@ -315,9 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
-  noteCount: 0
+  _key: 100
 --- !u!1 &504188180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2304173756131139716, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
@@ -335,9 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
-  noteCount: 0
+  _key: 106
 --- !u!1 &629729240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4277698441126321319, guid: a54cc854f33323543a52d9ea55ed4ee1, type: 3}
@@ -395,9 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
-  noteCount: 0
+  _key: 115
 --- !u!1 &1207759485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5279155174864966706, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
@@ -415,9 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
-  noteCount: 0
+  _key: 104
 --- !u!1 &1240146104
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,9 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
-  noteCount: 0
+  _key: 108
 --- !u!1 &1478682624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5067395107098787864, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
@@ -501,9 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
-  noteCount: 0
+  _key: 107
 --- !u!1001 &1534304077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -578,9 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
-  noteCount: 0
+  _key: 102
 --- !u!114 &1649295678 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1649295678, guid: 65eebff945b24f1478c4ab1ea64c04f6, type: 3}
@@ -609,9 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
-  instantiate_note: {fileID: 2924924264865550420, guid: 4beeeec52d79eb34aa5c6bc839a2e9bc, type: 3}
-  noteCount: 0
+  _key: 97
 --- !u!114 &2029460769 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8067732000674619989, guid: 4823912f4b35124409508683f24cd031, type: 3}

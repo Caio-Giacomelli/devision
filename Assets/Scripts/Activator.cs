@@ -1,156 +1,131 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Audio;
 
-public class Activator : MonoBehaviour
-{
-    [SerializeField]
-    private KeyCode key;
+public class Activator : MonoBehaviour{
     
-    [SerializeField]
-    private GameObject instantiate_note;
+    [Header("Key Testing Configuration")]
+    [SerializeField] private KeyCode _key;
 
-    public Queue notes = new Queue();
-
-
-    public int noteCount;
-
-    private bool active = false;  
-    private Color old_color;
-    private SpriteRenderer sr;
-    private AudioSource audio_source;
-    private GameObject gm, mm;
-    private GameObject currentGodNote = null;
+    public Queue _activeNotes = new Queue();
+    
+    private SpriteRenderer _spriteRenderer;
+    private AudioSource _audioSource;
+    private GameManager _gameManager;
+    private GameObject _currentGodNoteOnStay = null;
+    private Color _baseActivatorColor;  
     
     void Awake(){
-        sr = GetComponent<SpriteRenderer>();
-        
-        audio_source = gameObject.GetComponentInParent(typeof(AudioSource)) as AudioSource;
+        _spriteRenderer = GetComponent<SpriteRenderer>();   
+        _audioSource = gameObject.GetComponentInParent(typeof(AudioSource)) as AudioSource;
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
     
     void Start(){
-        gm = GameObject.Find("GameManager");
-        mm = GameObject.Find("MusicManager");
-        old_color = sr.color;
+        _baseActivatorColor = _spriteRenderer.color;
     }
 
-    void Update(){
-        if (Time.timeScale != 0 && !gm.GetComponent<GameManager>()._godMode){     
-            HandleKeyInput();
-            HandleTouchInput();           
-        }
-
-        noteCount = notes.Count;
-
+    void Update(){      
+        if (ShouldActivatorPause()) return;   
+        
+        HandleKeyInput();
+        HandleTouchInput();           
     }
 
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Win Note" && gameObject.tag == "Red Activator"){
-            gm.GetComponent<GameManager>().Win();
+            _gameManager.Win();
         }       
         
         if ((gameObject.tag == "Blue Activator" && other.gameObject.tag == "Blue Note") || 
             (gameObject.tag == "Red Activator" && other.gameObject.tag == "Red Note"))
         {
-            active = true;
-            notes.Enqueue(other.gameObject);      
+            _activeNotes.Enqueue(other.gameObject);      
         }
     }
 
-    void OnTriggerExit2D(Collider2D other){
-        active = false;  
-    }
-
-    // Handle God Mode
     void OnTriggerStay2D(Collider2D other){
-        if (gm.GetComponent<GameManager>()._godMode)  HandleGodMode();
+        if (_gameManager._godMode) HandleGodMode();
     }
 
     private bool CheckHasTouchInput(){
-        if (Input.touchCount > 0){
+        if (Input.touchCount == 0) return false;
 
-            for (int i = 0; i < Input.touchCount; i++){
-                //The reason why I have to make the position convert to World View is because the position is measured in pixels. I need the value in units.
-                Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
+        for (int i = 0; i < Input.touchCount; i++){
+            Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
+            Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
+            RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
 
-                //Convert to Vector2 for 2D reasons
-                Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
+            if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
+                GameObject touchedObject = hitInformation.transform.gameObject;
 
-                //We now raycast with this information. If we have hit something we can process it.
-                //TODO: Study Raycast constructor
-                RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
-
-                if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
-                    //We should have hit something with a 2D Physics collider!
-                    GameObject touchedObject = hitInformation.transform.gameObject;
-
-                    if (touchedObject.transform.name == gameObject.name){
-                        return true;
-                    }
-                } 
-            }
+                if (touchedObject.transform.name == gameObject.name){
+                    return true;
+                }
+            } 
         }
         return false;
     }
 
     private void HandleKeyInput(){
-        if (Input.GetKeyDown(key)){
+        if (Input.GetKeyDown(_key)){
             StartCoroutine(HandlePressedActivator());
         }
 
-        if (Input.GetKeyDown(key) && active){       
-            HandleSuccessNote();  
+        if (Input.GetKeyDown(_key)){       
+            if (hasNoteOnQueue()) HandleSuccessNote();  
         }
-        else if (Input.GetKeyDown(key) && !active){       
-            gm.GetComponent<GameManager>().ResetStreak();
+        else if (Input.GetKeyDown(_key)){       
+            _gameManager.ResetStreak();
         }
     }
 
     private void HandleTouchInput(){
         if (CheckHasTouchInput()){
             StartCoroutine(HandlePressedActivator());
-            audio_source.Play();
-            if (notes.Count > 0){
+            _audioSource.Play();
+            
+            if (hasNoteOnQueue()){
                 HandleSuccessNote();
             } else {
-                gm.GetComponent<GameManager>().ResetStreak(); 
+                _gameManager.ResetStreak(); 
             }
         }
     }
 
-    private void HandleSuccessNote(){
-        
-        GameObject noteToDestroy = (GameObject) notes.Dequeue();
-
-        print(noteToDestroy.GetComponent<Note>().strumTime);
-
+    private void HandleSuccessNote(){       
+        GameObject noteToDestroy = (GameObject) _activeNotes.Dequeue();
         Destroy(noteToDestroy);
 
-        //Destroy((GameObject) notes.Dequeue());
-
-        gm.GetComponent<GameManager>().AddStreak();
+        _gameManager.AddStreak();
         AddScore();
-        active = false;
     }
 
     private void HandleGodMode(){
-        if (notes.Count > 0 ) currentGodNote = (GameObject) notes.Dequeue();
-        if (currentGodNote != null && (currentGodNote.transform.position.y - gameObject.transform.position.y) < 0.001){
+        if (hasNoteOnQueue()) _currentGodNoteOnStay = (GameObject) _activeNotes.Dequeue();
+        if (_currentGodNoteOnStay != null && (_currentGodNoteOnStay.transform.position.y - gameObject.transform.position.y) < 0.001){
             StartCoroutine(HandlePressedActivator());
-            Destroy(currentGodNote);
+            Destroy(_currentGodNoteOnStay);
 
-            gm.GetComponent<GameManager>().AddStreak();
+            _gameManager.AddStreak();
             AddScore();
         }
     }
 
     private void AddScore(){
-        PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + gm.GetComponent<GameManager>().GetScore());
+        PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + _gameManager.GetScore());
+    }
+
+    private bool ShouldActivatorPause(){
+        return Time.timeScale == 0 || _gameManager._godMode ? true : false;
+    }
+
+    private bool hasNoteOnQueue(){
+        return _activeNotes.Count > 0 ? true : false;
     }
 
     IEnumerator HandlePressedActivator(){     
-        sr.color = new Color(0, 0, 0);
+        _spriteRenderer.color = new Color(0, 0, 0);
         yield return new WaitForSeconds(0.05f);
-        sr.color = old_color;
+        _spriteRenderer.color = _baseActivatorColor;
     }
 }
