@@ -22,7 +22,11 @@ public class SongSpawner : MonoBehaviour
 
     void Awake(){
         _audioSource = GetComponent<AudioSource>();
-        
+    }
+  
+    void Start(){     
+        _videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
+
         if (_jsonChartAsset == null){
             _jsonChartAsset = MapManagerST.Instance.GetJSONMap();
             _audioSource.clip = MapManagerST.Instance._levelSong;
@@ -32,10 +36,6 @@ public class SongSpawner : MonoBehaviour
             Debug.LogWarning("Level not implemented");
             SceneManager.LoadScene("Level Select");
         }
-    }
-  
-    void Start(){     
-        _videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
 
         DeserializeMappedSong();
         InstantiateMappedNotes();
