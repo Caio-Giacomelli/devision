@@ -10,9 +10,10 @@ public class Mapping{
     [System.Serializable]
     public class MappingUnit{
         public float strumTime;
+        public float? endContinuous;
         public string activatorXPosition;
         public string activatorYPosition;
-
+        
         public float xPosition;
         public float yPosition;
         public GameObject noteInstantiated;

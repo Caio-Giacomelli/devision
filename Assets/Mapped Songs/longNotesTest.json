@@ -1,0 +1,23 @@
+{
+    "noteSpeed": 6,
+    "fixedDelay": 0.0,
+    "mappedSong":[
+        {
+            "strumTime" : 2, 
+            "endContinuous": 4,
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"    
+        },
+        {
+            "strumTime" : 2, 
+            "endContinuous": 4,
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"         
+        },       
+        {
+            "strumTime" : 8, 
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"    
+        }
+    ]
+}

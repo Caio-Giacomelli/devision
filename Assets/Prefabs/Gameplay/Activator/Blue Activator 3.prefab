@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 985376905432847133}
   - component: {fileID: 8916817226352347068}
   - component: {fileID: 2954994780019094966}
-  - component: {fileID: 3182278448939103869}
+  - component: {fileID: 4990051106801880943}
   m_Layer: 0
   m_Name: Blue Activator 3
   m_TagString: Blue Activator
@@ -101,7 +101,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3182278448939103869
+--- !u!114 &4990051106801880943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,8 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3198777300076519582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac65904fa20c0174f813c51da70494e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3413249f2eb2fa342aefddb5e47506d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 100
-  instantiate_note: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
+  _key: 100
