@@ -106,12 +106,28 @@ public class SongSpawner : MonoBehaviour
                 case "wY":
                     mapping.yPosition = Mapping.ActivatorPositions.creatorY;
                     break;
+                case "bYLB":
+                    mapping.yPosition = Mapping.ActivatorPositions.blueY;
+                    break;
+                case "bYLE":
+                    mapping.yPosition = Mapping.ActivatorPositions.blueY;
+                    break;
+                case "rYLB":
+                    mapping.yPosition = Mapping.ActivatorPositions.redY;
+                    break;
+                case "rYLE":
+                    mapping.yPosition = Mapping.ActivatorPositions.redY;
+                    break;
             }
         }
     }
 
     private void InstantiateMappedNotes(){
         foreach (Mapping.MappingUnit mapping in _mappingSong.mappedSong){           
+            
+            if (mapping.endContinuous != null){
+                   InstantiatePrefab(mapping, _creatorPrefab);
+            }
             if (mapping.activatorYPosition == "rY"){
                 InstantiatePrefab(mapping, _redPrefab);
             } else if (mapping.activatorYPosition == "bY"){
@@ -120,7 +136,7 @@ public class SongSpawner : MonoBehaviour
                 InstantiatePrefab(mapping, _creatorPrefab);
             }  else if (mapping.activatorYPosition == "wY"){
                 InstantiatePrefab(mapping, _winPrefab);
-            }         
+            }
         }
     }
 
