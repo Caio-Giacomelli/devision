@@ -8,6 +8,7 @@ public class SongSpawner : MonoBehaviour
     [SerializeField] private GameObject _redPrefab;
     [SerializeField] private GameObject _creatorPrefab;
     [SerializeField] private GameObject _winPrefab;
+    [SerializeField] private GameObject _longNoteBar;
 
     [Header("Chart Speed")]
     [SerializeField] private float _chartSpeed;
@@ -48,10 +49,19 @@ public class SongSpawner : MonoBehaviour
     }
 
     private void RenderNoteFallingDownScreen(){
-        foreach (Mapping.MappingUnit mapping in _mappingSong.mappedSong){
-            Vector3 updatedNotePosition = new Vector3(mapping.xPosition, mapping.yPosition - ((_songTime - (mapping.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
-            if (mapping.noteInstantiated != null){
-                mapping.noteInstantiated.transform.position = updatedNotePosition;
+        foreach (Mapping.MappingUnit unit in _mappingSong.mappedSong){
+            Vector3 updatedNotePosition = new Vector3(unit.xPosition, unit.yPosition - ((_songTime - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
+            if (unit.noteInstantiated != null){
+                unit.noteInstantiated.transform.position = updatedNotePosition; 
+            }
+            if (unit.longBarInstantiated != null){
+                float yPositionLongBar = (unit.strumTime + unit.endContinuous) / 2;
+                Debug.Log(message: $"endContinuous {unit.endContinuous}");
+                Debug.Log(message: $"unit.strumTime {unit.strumTime}");
+                Debug.Log(message: $"yPositionLongBar {yPositionLongBar}");
+
+                Vector3 updatedLongBarInstantiated = new Vector3(unit.xPosition, unit.yPosition - ((_songTime - (yPositionLongBar + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
+                unit.longBarInstantiated.transform.position = updatedNotePosition; 
             }
         }             
     }
@@ -106,27 +116,14 @@ public class SongSpawner : MonoBehaviour
                 case "wY":
                     mapping.yPosition = Mapping.ActivatorPositions.creatorY;
                     break;
-                case "bYLB":
-                    mapping.yPosition = Mapping.ActivatorPositions.blueY;
-                    break;
-                case "bYLE":
-                    mapping.yPosition = Mapping.ActivatorPositions.blueY;
-                    break;
-                case "rYLB":
-                    mapping.yPosition = Mapping.ActivatorPositions.redY;
-                    break;
-                case "rYLE":
-                    mapping.yPosition = Mapping.ActivatorPositions.redY;
-                    break;
             }
         }
     }
 
     private void InstantiateMappedNotes(){
         foreach (Mapping.MappingUnit mapping in _mappingSong.mappedSong){           
-            
-            if (mapping.endContinuous != null){
-                   InstantiatePrefab(mapping, _creatorPrefab);
+            if (mapping.endContinuous > 0){
+                InstantiateLongNotePrefab(mapping, _bluePrefab);
             }
             if (mapping.activatorYPosition == "rY"){
                 InstantiatePrefab(mapping, _redPrefab);
@@ -145,5 +142,17 @@ public class SongSpawner : MonoBehaviour
         noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
 
         unit.noteInstantiated = noteInstantiated;
+    }
+
+    private void InstantiateLongNotePrefab(Mapping.MappingUnit unit, GameObject notePrefab){
+        InstantiatePrefab(unit, notePrefab);
+        InstantiateLongBar(unit);
+    }
+
+    private void InstantiateLongBar(Mapping.MappingUnit unit){
+        GameObject longBar = Instantiate(_longNoteBar, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);
+        longBar.transform.localScale = new Vector3(0.2f, ((float) unit.endContinuous) - unit.strumTime, 1f);
+
+        unit.longBarInstantiated = longBar;
     }
 }
