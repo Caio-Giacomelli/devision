@@ -836,7 +836,11 @@ PrefabInstance:
     - target: {fileID: 6974462518378834359, guid: 0a4b5ce7d9cabf84d9b1cccc45436f6f, type: 3}
       propertyPath: _longNoteBar
       value: 
-      objectReference: {fileID: 2036006076378505425, guid: 29b71ebd43438ed479244cc3d7d06fbf, type: 3}
+      objectReference: {fileID: 3477692806794449142, guid: 54e664671e6c62649baee7d1c231558a, type: 3}
+    - target: {fileID: 6974462518378834359, guid: 0a4b5ce7d9cabf84d9b1cccc45436f6f, type: 3}
+      propertyPath: _longBluePrefab
+      value: 
+      objectReference: {fileID: 1931288929360584509, guid: 54e664671e6c62649baee7d1c231558a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a4b5ce7d9cabf84d9b1cccc45436f6f, type: 3}
 --- !u!1001 &7060912582231416326

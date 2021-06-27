@@ -3,21 +3,32 @@
     "fixedDelay": 0.0,
     "mappedSong":[
         {
-            "strumTime" : 2, 
-            "endContinuous": 4,
+            "strumTime" : 1, 
+            "endContinuous": 2,
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"    
         },
         {
-            "strumTime" : 2, 
-            "endContinuous": 4,
+            "strumTime" : 1, 
+            "endContinuous": 2,
             "activatorXPosition" : "ml", 
             "activatorYPosition" : "bY"         
         },       
         {
-            "strumTime" : 8, 
+            "strumTime" : 2, 
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"    
+        },
+        {
+            "strumTime" : 4, 
+            "endContinuous": 8.96,
+            "activatorXPosition" : "mr", 
+            "activatorYPosition" : "bY"    
+        },
+        {
+            "strumTime" : 8.96, 
+            "activatorXPosition" : "ml", 
+            "activatorYPosition" : "bY"         
         }
     ]
 }

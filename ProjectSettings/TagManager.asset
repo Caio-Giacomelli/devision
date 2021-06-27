@@ -10,6 +10,8 @@ TagManager:
   - Blue Note
   - Red Note
   - Win Note
+  - Long Blue Note
+  - Long Red Note
   layers:
   - Default
   - TransparentFX
