@@ -29,9 +29,8 @@ public class NoteSpawner : MonoBehaviour {
   
     void Start(){     
         _videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
-        Debug.Log(message: $"MapManagerST.Instance.GetJSONMap() {MapManagerST.Instance.GetJSONMap()}");
+
         if (_jsonChartAsset == null){
-            Debug.Log(message: $"MapManagerST.Instance.GetJSONMap() {MapManagerST.Instance.GetJSONMap()}");
             _jsonChartAsset = MapManagerST.Instance.GetJSONMap();
             _audioSource.clip = MapManagerST.Instance._levelSong;
         }
