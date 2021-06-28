@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SongSpawner : MonoBehaviour
-{   
+public class NoteSpawner : MonoBehaviour {
+    
     [Header("Note Prefabs")]
     [SerializeField] private GameObject _bluePrefab;
     [SerializeField] private GameObject _redPrefab;
@@ -12,23 +12,26 @@ public class SongSpawner : MonoBehaviour
 
     [Header("Chart Speed")]
     [SerializeField] private float _chartSpeed;
+
+    [Header("Song Manager")]
+    [SerializeField] private GameObject _songManagerObject;
   
     [HideInInspector] public Mapping _mappingSong;
     private TextAsset _jsonChartAsset;
     private AudioSource _audioSource;
-    private float _songTime;
-    private float _previousFrameTime;
-    private float _lastReportedPlayheadPosition; 
     private float _videoCalibrationDelay;
+    private SongManager _songManager;
 
     void Awake(){
-        _audioSource = GetComponent<AudioSource>();
+        _audioSource = _songManagerObject.GetComponent<AudioSource>();
+        _songManager = _songManagerObject.GetComponent<SongManager>();  
     }
   
     void Start(){     
         _videoCalibrationDelay = PlayerPrefs.GetFloat("VideoDelay");
-
+        Debug.Log(message: $"MapManagerST.Instance.GetJSONMap() {MapManagerST.Instance.GetJSONMap()}");
         if (_jsonChartAsset == null){
+            Debug.Log(message: $"MapManagerST.Instance.GetJSONMap() {MapManagerST.Instance.GetJSONMap()}");
             _jsonChartAsset = MapManagerST.Instance.GetJSONMap();
             _audioSource.clip = MapManagerST.Instance._levelSong;
         }
@@ -40,37 +43,20 @@ public class SongSpawner : MonoBehaviour
 
         DeserializeMappedSong();
         InstantiateMappedNotes();
-        StartSongControlVariables();
+        _songManager.StartSongControlVariables();
     }
 
     void Update(){
-        ControlSongVariables();
         RenderNoteFallingDownScreen();
     }
 
     private void RenderNoteFallingDownScreen(){
         foreach (Mapping.MappingUnit unit in _mappingSong.mappedSong){
-            Vector3 updatedNotePosition = new Vector3(unit.xPosition, unit.yPosition - ((_songTime - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
+            Vector3 updatedNotePosition = new Vector3(unit.xPosition, unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
             if (unit.noteInstantiated != null){
                 unit.noteInstantiated.transform.position = updatedNotePosition; 
             }
         }             
-    }
-
-    private void StartSongControlVariables(){
-        _previousFrameTime = Time.time;
-        _lastReportedPlayheadPosition = 0f;
-        _audioSource.Play();
-    }
-
-    private void ControlSongVariables(){
-        _songTime += Time.time - _previousFrameTime;
-        _previousFrameTime = Time.time;
-        
-        if(_audioSource.time != _lastReportedPlayheadPosition){
-            _songTime = (_songTime + _audioSource.time)/2;
-            _lastReportedPlayheadPosition = _audioSource.time;
-        }
     }
 
     private void DeserializeMappedSong(){
@@ -139,10 +125,11 @@ public class SongSpawner : MonoBehaviour
 
         Transform longNoteParentTransform = unit.noteInstantiated.transform.GetChild(1);
                     
-        float yBase = unit.yPosition - ((_songTime - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
-        float yCeiling = unit.yPosition - ((_songTime - (unit.endContinuous + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
+        float yBase = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
+        float yCeiling = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.endContinuous + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
         float yLongBarLocalScale = (yCeiling - yBase) / 0.85f;
 
         longNoteParentTransform.localScale = new Vector3(0.2f, yLongBarLocalScale, 1f);
     }
+    
 }

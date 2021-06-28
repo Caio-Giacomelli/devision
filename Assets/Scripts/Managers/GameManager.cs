@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour{
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        Destroy(other.gameObject);
+        if (other.tag != "Long Blue Note") Destroy(other.gameObject);
         LoseHealth();
         ResetStreak(); 
     }
