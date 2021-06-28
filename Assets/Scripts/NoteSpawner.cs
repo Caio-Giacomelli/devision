@@ -115,7 +115,9 @@ public class NoteSpawner : MonoBehaviour {
 
     private void InstantiatePrefab(Mapping.MappingUnit unit, GameObject notePrefab){
         GameObject noteInstantiated = Instantiate(notePrefab, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);
-        noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
+        
+        if (unit.endContinuous == 0) noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
+        else noteInstantiated.GetComponent<NoteLong>()._strumTime = unit.strumTime;
 
         unit.noteInstantiated = noteInstantiated;
     }

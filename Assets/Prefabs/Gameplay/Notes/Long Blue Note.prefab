@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1931288929360584502}
   - component: {fileID: 1931288929360584505}
   - component: {fileID: 1931288929360584504}
-  - component: {fileID: 1931288929360584507}
+  - component: {fileID: 5580386758308688279}
   m_Layer: 3
   m_Name: Long Blue Note
   m_TagString: Long Blue Note
@@ -125,7 +125,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!114 &1931288929360584507
+--- !u!114 &5580386758308688279
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1931288929360584509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70f2f7c41d01a794abdac2afd0b6cf0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b65a329e2619384190b7ed078e2dd55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _strumTime: 0
