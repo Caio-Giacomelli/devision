@@ -7,6 +7,7 @@ public class Activator : MonoBehaviour{
     [SerializeField] private KeyCode _key;
 
     public Queue _activeNotes = new Queue();
+    public Queue _longActiveNotes = new Queue();
     
     private SpriteRenderer _spriteRenderer;
     private AudioSource _audioSource;
@@ -40,6 +41,12 @@ public class Activator : MonoBehaviour{
             (gameObject.tag == "Red Activator" && other.gameObject.tag == "Red Note"))
         {
             _activeNotes.Enqueue(other.gameObject);      
+        }
+
+        if ((gameObject.tag == "Blue Activator" && other.gameObject.tag == "Long Blue Note") || 
+            (gameObject.tag == "Red Activator" && other.gameObject.tag == "Long Red Note"))
+        {
+            _longActiveNotes.Enqueue(other.gameObject);      
         }
     }
 
@@ -86,10 +93,24 @@ public class Activator : MonoBehaviour{
             
             if (hasNoteOnQueue()){
                 HandleSuccessNote();
-            } else {
+            } 
+            else if (hasNoteOnLongQueue()){
+                HandleLongSuccessNote();
+            }
+            else {
                 _gameManager.ResetStreak(); 
             }
         }
+    }
+
+    private void HandleLongSuccessNote(){       
+        GameObject noteToDestroy = (GameObject) _longActiveNotes.Dequeue();
+        NoteLong currentActiveLongNote = noteToDestroy.GetComponent<NoteLong>();
+        currentActiveLongNote.RemoveNote();
+
+
+        //_gameManager.AddStreak();
+        //AddScore();
     }
 
     private void HandleSuccessNote(){       
@@ -121,6 +142,10 @@ public class Activator : MonoBehaviour{
 
     private bool hasNoteOnQueue(){
         return _activeNotes.Count > 0 ? true : false;
+    }
+
+    private bool hasNoteOnLongQueue(){
+        return _longActiveNotes.Count > 0 ? true : false;
     }
 
     IEnumerator HandlePressedActivator(){     

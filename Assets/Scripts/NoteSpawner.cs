@@ -116,7 +116,10 @@ public class NoteSpawner : MonoBehaviour {
         GameObject noteInstantiated = Instantiate(notePrefab, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);
         
         if (unit.endTime == 0) noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
-        else noteInstantiated.GetComponent<NoteLong>()._strumTime = unit.strumTime;
+        else {
+            noteInstantiated.GetComponent<NoteLong>()._strumTime = unit.strumTime;
+            noteInstantiated.GetComponent<NoteLong>()._endTime = unit.endTime;
+        }
 
         unit.noteInstantiated = noteInstantiated;
     }
@@ -124,11 +127,11 @@ public class NoteSpawner : MonoBehaviour {
     private void InstantiateLongNotePrefab(Mapping.MappingUnit unit, GameObject notePrefab){
         InstantiatePrefab(unit, _longBluePrefab);
 
-        Transform longNoteParentTransform = unit.noteInstantiated.transform.GetChild(1);
+        Transform longNoteParentTransform = unit.noteInstantiated.transform.GetChild(0);
                     
         float yBase = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
         float yCeiling = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.endTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
-        float yLongBarLocalScale = (yCeiling - yBase) / 0.85f;
+        float yLongBarLocalScale = (yCeiling - yBase);
 
         longNoteParentTransform.localScale = new Vector3(0.2f, yLongBarLocalScale, 1f);
     }
