@@ -98,7 +98,7 @@ public class NoteSpawner : MonoBehaviour {
 
     private void InstantiateMappedNotes(){
         foreach (Mapping.MappingUnit mapping in _mappingSong.mappedSong){           
-            if (mapping.endContinuous > 0){
+            if (mapping.endTime > 0){
                 InstantiateLongNotePrefab(mapping, _longBluePrefab);
             } else if (mapping.activatorYPosition == "rY"){
                 InstantiatePrefab(mapping, _redPrefab);
@@ -115,7 +115,7 @@ public class NoteSpawner : MonoBehaviour {
     private void InstantiatePrefab(Mapping.MappingUnit unit, GameObject notePrefab){
         GameObject noteInstantiated = Instantiate(notePrefab, new Vector3(unit.xPosition, 100, 5), Quaternion.identity);
         
-        if (unit.endContinuous == 0) noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
+        if (unit.endTime == 0) noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
         else noteInstantiated.GetComponent<NoteLong>()._strumTime = unit.strumTime;
 
         unit.noteInstantiated = noteInstantiated;
@@ -127,7 +127,7 @@ public class NoteSpawner : MonoBehaviour {
         Transform longNoteParentTransform = unit.noteInstantiated.transform.GetChild(1);
                     
         float yBase = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
-        float yCeiling = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.endContinuous + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
+        float yCeiling = unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.endTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay;
         float yLongBarLocalScale = (yCeiling - yBase) / 0.85f;
 
         longNoteParentTransform.localScale = new Vector3(0.2f, yLongBarLocalScale, 1f);

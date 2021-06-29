@@ -4,13 +4,13 @@
     "mappedSong":[
         {
             "strumTime" : 1, 
-            "endContinuous": 2,
+            "endTime": 2,
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"    
         },
         {
             "strumTime" : 1, 
-            "endContinuous": 2,
+            "endTime": 2,
             "activatorXPosition" : "ml", 
             "activatorYPosition" : "bY"         
         },       
@@ -21,7 +21,7 @@
         },
         {
             "strumTime" : 4, 
-            "endContinuous": 8.96,
+            "endTime": 8.96,
             "activatorXPosition" : "mr", 
             "activatorYPosition" : "bY"    
         },

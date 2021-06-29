@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class NoteLong : MonoBehaviour {
     public float _strumTime;
+    public float _endTime;
 
     private void OnTriggerExit2D(Collider2D other){
         Activator activator = other.gameObject.GetComponent<Activator>();      

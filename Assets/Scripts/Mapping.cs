@@ -10,7 +10,7 @@ public class Mapping{
     [System.Serializable]
     public class MappingUnit{
         public float strumTime;
-        public float endContinuous;
+        public float endTime;
         public string activatorXPosition;
         public string activatorYPosition;
         
