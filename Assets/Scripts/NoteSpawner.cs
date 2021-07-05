@@ -52,8 +52,12 @@ public class NoteSpawner : MonoBehaviour {
     private void RenderNoteFallingDownScreen(){
         foreach (Mapping.MappingUnit unit in _mappingSong.mappedSong){
             Vector3 updatedNotePosition = new Vector3(unit.xPosition, unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
-            if (unit.noteInstantiated != null){
+            if (unit.noteInstantiated != null && unit.endTime <= 0){
                 unit.noteInstantiated.transform.position = updatedNotePosition; 
+            } else if (unit.noteInstantiated != null && unit.endTime > 0 && unit.longComponent.teste == 0){
+                unit.noteInstantiated.transform.position = updatedNotePosition; 
+            } else if (unit.noteInstantiated != null && unit.endTime > 0 && unit.longComponent.teste == 1){
+                unit.longComponent.setBarScale(_songManager.getCurrentSongTime(), _mappingSong.offset, _chartSpeed, _videoCalibrationDelay, _mappingSong.fixedDelay, unit.yPosition);
             }
         }             
     }
@@ -117,6 +121,7 @@ public class NoteSpawner : MonoBehaviour {
         
         if (unit.endTime == 0) noteInstantiated.GetComponent<Note>()._strumTime = unit.strumTime;
         else {
+            unit.longComponent = noteInstantiated.GetComponent<NoteLong>();
             noteInstantiated.GetComponent<NoteLong>()._strumTime = unit.strumTime;
             noteInstantiated.GetComponent<NoteLong>()._endTime = unit.endTime;
         }

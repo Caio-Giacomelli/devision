@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 2103303624}
   - component: {fileID: 2103303626}
   - component: {fileID: 2103303625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Long Blue Note
   m_TagString: Long Blue Note
   m_Icon: {fileID: 0}
@@ -544,6 +544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _strumTime: 0
   _endTime: 0
+  teste: 0
 --- !u!50 &2103303625
 Rigidbody2D:
   serializedVersion: 4
@@ -558,8 +559,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1176,7 +1177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6591202525593033241}
   - component: {fileID: 6591202524657824375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Long Note Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,7 +1260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6591202524840563002}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Long Note Bar Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}

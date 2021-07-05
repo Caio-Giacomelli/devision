@@ -17,7 +17,7 @@ public class Mapping{
         public float xPosition;
         public float yPosition;
         public GameObject noteInstantiated;
-        public GameObject longBarInstantiated;
+        public NoteLong longComponent;
     }
 
     public static class ActivatorPositions{
