@@ -13,7 +13,10 @@ public class Activator : MonoBehaviour{
     private AudioSource _audioSource;
     private GameManager _gameManager;
     private GameObject _currentGodNoteOnStay = null;
-    private Color _baseActivatorColor;  
+    private Color _baseActivatorColor; 
+
+    private NoteLong _currentActiveLongNoteComponent;
+    private GameObject _currentActiveLongNoteGameObject;
     
     void Awake(){
         _spriteRenderer = GetComponent<SpriteRenderer>();   
@@ -29,7 +32,8 @@ public class Activator : MonoBehaviour{
         if (ShouldActivatorPause()) return;   
         
         HandleKeyInput();
-        HandleTouchInput();           
+        HandleTouchInput();
+        HandleLongNoteContinuousInput();      
     }
 
     void OnTriggerEnter2D(Collider2D other){
@@ -54,7 +58,7 @@ public class Activator : MonoBehaviour{
         if (_gameManager._godMode) HandleGodMode();
     }
 
-    private bool CheckHasTouchInput(){
+    private bool CheckHasTouchInput(TouchPhase inputPhase){
         if (Input.touchCount == 0) return false;
 
         for (int i = 0; i < Input.touchCount; i++){
@@ -62,7 +66,7 @@ public class Activator : MonoBehaviour{
             Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
             RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
 
-            if (Input.GetTouch(i).phase == TouchPhase.Began && hitInformation.collider != null){
+            if (Input.GetTouch(i).phase == inputPhase && hitInformation.collider != null){
                 GameObject touchedObject = hitInformation.transform.gameObject;
 
                 if (touchedObject.transform.name == gameObject.name){
@@ -71,6 +75,16 @@ public class Activator : MonoBehaviour{
             } 
         }
         return false;
+    }
+
+    private void HandleLongNoteContinuousInput(){
+        if (_currentActiveLongNoteComponent == null || !_currentActiveLongNoteComponent._shouldDecreaseNoteBar) return;
+        
+        if (CheckHasTouchInput(TouchPhase.Stationary)){
+            AddLongNoteScore();
+        } else if (CheckHasTouchInput(TouchPhase.Ended)){
+            Destroy(_currentActiveLongNoteGameObject);
+        }
     }
 
     private void HandleKeyInput(){
@@ -87,7 +101,7 @@ public class Activator : MonoBehaviour{
     }
 
     private void HandleTouchInput(){
-        if (CheckHasTouchInput()){
+        if (CheckHasTouchInput(TouchPhase.Began)){
             StartCoroutine(HandlePressedActivator());
             _audioSource.Play();
             
@@ -103,20 +117,20 @@ public class Activator : MonoBehaviour{
         }
     }
 
-    private void HandleLongSuccessNote(){       
-        GameObject noteToDestroy = (GameObject) _longActiveNotes.Dequeue();
+    private void HandleLongSuccessNote(){      
+        GameObject noteToDestroy = (GameObject) _longActiveNotes.Dequeue();      
+        
         NoteLong currentActiveLongNote = noteToDestroy.GetComponent<NoteLong>();
-        currentActiveLongNote.RemoveNote();
-
-
-        //_gameManager.AddStreak();
-        //AddScore();
+        currentActiveLongNote.RemoveNote(this.gameObject.transform.position.y);
+        
+        _currentActiveLongNoteComponent = currentActiveLongNote;
+        _currentActiveLongNoteGameObject = noteToDestroy;
     }
 
     private void HandleSuccessNote(){       
         GameObject noteToDestroy = (GameObject) _activeNotes.Dequeue();
         Destroy(noteToDestroy);
-
+        
         _gameManager.AddStreak();
         AddScore();
     }
@@ -134,6 +148,10 @@ public class Activator : MonoBehaviour{
 
     private void AddScore(){
         PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + _gameManager.GetScore());
+    }
+
+    private void AddLongNoteScore(){
+        PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + _gameManager.GetLongNoteScore());
     }
 
     private bool ShouldActivatorPause(){

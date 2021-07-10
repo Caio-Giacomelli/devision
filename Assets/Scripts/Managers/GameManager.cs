@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour{
 
     [Header("Score Configuration")]
     [SerializeField] private int _scorePerNote = 10;
+    [SerializeField] private int _scorePerLongPressedNote = 1;
     [SerializeField] private int[] _streakThresholds = new int[3];
 
     [Header("UI Configuration")]
@@ -83,6 +84,10 @@ public class GameManager : MonoBehaviour{
 
     public int GetScore(){
         return _scorePerNote * _multiplier;
+    }
+
+    public int GetLongNoteScore(){
+        return (int) (_scorePerLongPressedNote * _multiplier);
     }
 
     private void HandleHealthBarDegen(){

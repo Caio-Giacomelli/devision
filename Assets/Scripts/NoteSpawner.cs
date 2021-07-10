@@ -54,9 +54,9 @@ public class NoteSpawner : MonoBehaviour {
             Vector3 updatedNotePosition = new Vector3(unit.xPosition, unit.yPosition - ((_songManager.getCurrentSongTime() - (unit.strumTime + _mappingSong.offset)) * _chartSpeed) + _videoCalibrationDelay + _mappingSong.fixedDelay, 5);
             if (unit.noteInstantiated != null && unit.endTime <= 0){
                 unit.noteInstantiated.transform.position = updatedNotePosition; 
-            } else if (unit.noteInstantiated != null && unit.endTime > 0 && unit.longComponent.teste == 0){
+            } else if (unit.noteInstantiated != null && unit.endTime > 0 && !unit.longComponent._shouldDecreaseNoteBar){
                 unit.noteInstantiated.transform.position = updatedNotePosition; 
-            } else if (unit.noteInstantiated != null && unit.endTime > 0 && unit.longComponent.teste == 1){
+            } else if (unit.noteInstantiated != null && unit.endTime > 0 && unit.longComponent._shouldDecreaseNoteBar){
                 unit.longComponent.setBarScale(_songManager.getCurrentSongTime(), _mappingSong.offset, _chartSpeed, _videoCalibrationDelay, _mappingSong.fixedDelay, unit.yPosition);
             }
         }             

@@ -4,7 +4,7 @@ using UnityEngine;
 public class NoteLong : MonoBehaviour {
     public float _strumTime;
     public float _endTime;
-    public int teste = 0;
+    public bool _shouldDecreaseNoteBar = false;
 
     private void OnTriggerExit2D(Collider2D other){
         Activator activator = other.gameObject.GetComponent<Activator>();      
@@ -14,11 +14,16 @@ public class NoteLong : MonoBehaviour {
         if(notes.Count > 0){
             notes.Dequeue();
         }
+        Destroy(this.gameObject);
     }
 
-    public void RemoveNote(){
+    public void RemoveNote(float yActivatorPosition){
+        Vector3 currentNotePosition = this.gameObject.transform.position;
         this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
-        teste = 1;
+
+
+        this.gameObject.transform.position = new Vector3(currentNotePosition.x, yActivatorPosition, currentNotePosition.z);
+        _shouldDecreaseNoteBar = true;
     }
 
     public void setBarScale(float currentTime, float offset, float chartSpeed, float calibDelay, float fixedDelay, float activatorYposition){
@@ -35,8 +40,7 @@ public class NoteLong : MonoBehaviour {
         if(yLongBarLocalScale >= 0){
             noteTransform.GetChild(0).localScale = new Vector3(0.2f, yLongBarLocalScale, 1f);
         } else {
-            Destroy(this);
-            Debug.Log(message: $"Destroyed!#@!@#!");
+            Destroy(this.gameObject);
         }
  
     }
