@@ -12,8 +12,10 @@ public class Activator : MonoBehaviour{
     private SpriteRenderer _spriteRenderer;
     private AudioSource _audioSource;
     private GameManager _gameManager;
+    private Color _baseActivatorColor;
+
     private GameObject _currentGodNoteOnStay = null;
-    private Color _baseActivatorColor; 
+    private GameObject _currentGodNoteLongOnStay = null;
 
     private NoteLong _currentActiveLongNoteComponent;
     private GameObject _currentActiveLongNoteGameObject;
@@ -137,12 +139,24 @@ public class Activator : MonoBehaviour{
 
     private void HandleGodMode(){
         if (hasNoteOnQueue()) _currentGodNoteOnStay = (GameObject) _activeNotes.Dequeue();
+        if (hasNoteOnLongQueue()) _currentGodNoteLongOnStay = (GameObject) _longActiveNotes.Dequeue();
+
         if (_currentGodNoteOnStay != null && (_currentGodNoteOnStay.transform.position.y - gameObject.transform.position.y) < 0.001){
+            Debug.Log(message: $"Note Hit!");
             StartCoroutine(HandlePressedActivator());
             Destroy(_currentGodNoteOnStay);
 
             _gameManager.AddStreak();
             AddScore();
+        }
+
+        if (_currentGodNoteLongOnStay != null && (_currentGodNoteLongOnStay.transform.position.y - gameObject.transform.position.y) < 0.001){
+            
+            NoteLong currentActiveLongNote = _currentGodNoteLongOnStay.GetComponent<NoteLong>();
+            currentActiveLongNote.RemoveNote(this.gameObject.transform.position.y);
+            
+            _currentActiveLongNoteComponent = currentActiveLongNote;
+            _currentActiveLongNoteGameObject = _currentGodNoteLongOnStay;
         }
     }
 
