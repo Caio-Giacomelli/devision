@@ -357,6 +357,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _key: 108
+--- !u!1 &1402228493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1402228495}
+  - component: {fileID: 1402228494}
+  m_Layer: 0
+  m_Name: FPS Display
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1402228494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402228493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fc4eac555540a4189b9ff4d6d0a2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1402228495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402228493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1534304077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -605,7 +648,7 @@ PrefabInstance:
     - target: {fileID: 1757480647181014380, guid: d10c4ae84bbf8b14ba8a5f1ef67f4e60, type: 3}
       propertyPath: _redPrefab
       value: 
-      objectReference: {fileID: 2924924264865550420, guid: b3d0ae94566771f4b866b012216ddd90, type: 3}
+      objectReference: {fileID: 2924924264865550420, guid: d5ac96100717878448ca8c1dc80c37ef, type: 3}
     - target: {fileID: 1757480647181014380, guid: d10c4ae84bbf8b14ba8a5f1ef67f4e60, type: 3}
       propertyPath: _bluePrefab
       value: 

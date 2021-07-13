@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 74370655977091556}
   - component: {fileID: 74370655977091559}
   m_Layer: 3
-  m_Name: Blue Note 1
+  m_Name: Blue Note Transcript
   m_TagString: Blue Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
