@@ -35,8 +35,22 @@ public class Activator : MonoBehaviour{
         
         HandleKeyInput();
         HandleTouchInput();
-        HandleLongNoteContinuousInput();      
+        HandleLongNoteContinuousInput(); 
+
+        HandleActivatorEffects();     
     }
+
+
+    void HandleActivatorEffects(){
+        if (CheckHasTouchInput(TouchPhase.Began)){
+            _spriteRenderer.color = new Color(0, 0, 0);
+        } else if (CheckHasTouchInput(TouchPhase.Stationary)){
+            _spriteRenderer.color = new Color(0, 0, 0);
+        } else if (CheckHasTouchInput(TouchPhase.Ended)){
+            _spriteRenderer.color = _baseActivatorColor;
+        }
+    }
+    
 
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Win Note" && gameObject.tag == "Red Activator"){
@@ -58,6 +72,10 @@ public class Activator : MonoBehaviour{
 
     void OnTriggerStay2D(Collider2D other){
         if (_gameManager._godMode) HandleGodMode();
+    }
+
+    void OnTriggerExit2D(Collider2D other){
+        if (_gameManager._godMode) _spriteRenderer.color = _baseActivatorColor;
     }
 
     private bool CheckHasTouchInput(TouchPhase inputPhase){
@@ -83,8 +101,10 @@ public class Activator : MonoBehaviour{
         if (_currentActiveLongNoteComponent == null || !_currentActiveLongNoteComponent._shouldDecreaseNoteBar) return;
         
         if (CheckHasTouchInput(TouchPhase.Stationary)){
+            _spriteRenderer.color = new Color(0, 0, 0);
             AddLongNoteScore();
         } else if (CheckHasTouchInput(TouchPhase.Ended)){
+            _spriteRenderer.color = _baseActivatorColor;
             Destroy(_currentActiveLongNoteGameObject);
         }
     }
@@ -104,7 +124,7 @@ public class Activator : MonoBehaviour{
 
     private void HandleTouchInput(){
         if (CheckHasTouchInput(TouchPhase.Began)){
-            StartCoroutine(HandlePressedActivator());
+            //StartCoroutine(HandlePressedActivator());
             _audioSource.Play();
             
             if (hasNoteOnQueue()){
@@ -143,7 +163,7 @@ public class Activator : MonoBehaviour{
 
         if (_currentGodNoteOnStay != null && (_currentGodNoteOnStay.transform.position.y - gameObject.transform.position.y) < 0.001){
             Debug.Log(message: $"Note Hit!");
-            StartCoroutine(HandlePressedActivator());
+            //StartCoroutine(HandlePressedActivator());
             Destroy(_currentGodNoteOnStay);
 
             _gameManager.AddStreak();
@@ -157,6 +177,7 @@ public class Activator : MonoBehaviour{
             
             _currentActiveLongNoteComponent = currentActiveLongNote;
             _currentActiveLongNoteGameObject = _currentGodNoteLongOnStay;
+            _spriteRenderer.color = new Color(0, 0, 0);
         }
     }
 

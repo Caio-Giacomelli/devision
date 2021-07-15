@@ -19,7 +19,11 @@ public class NoteLong : MonoBehaviour {
 
     public void RemoveNote(float yActivatorPosition){
         Vector3 currentNotePosition = this.gameObject.transform.position;
-        this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+        GameObject childObject = this.gameObject.transform.GetChild(1).gameObject;
+        childObject.SetActive(false);
+
+        GameObject barObject = this.gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
+        barObject.GetComponent<SpriteRenderer>().color = new Color(255, 116, 32);
 
 
         this.gameObject.transform.position = new Vector3(currentNotePosition.x, yActivatorPosition, currentNotePosition.z);
@@ -29,7 +33,7 @@ public class NoteLong : MonoBehaviour {
     public void setBarScale(float currentTime, float offset, float chartSpeed, float calibDelay, float fixedDelay, float activatorYposition){
 
         if (this == null || this.gameObject == null) return; 
-        
+
         Transform noteTransform = this.gameObject.transform;        
 
         float yBase = activatorYposition - ((currentTime - (currentTime + offset)) * chartSpeed) + calibDelay + fixedDelay;
