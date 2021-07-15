@@ -41,13 +41,20 @@ public class Activator : MonoBehaviour{
     }
 
 
-    void HandleActivatorEffects(){
+    private void HandleActivatorEffects(){
+
+        Debug.Log(message: $"CheckHasTouchInput Ended: {CheckHasTouchInput(TouchPhase.Stationary)}");
+
         if (CheckHasTouchInput(TouchPhase.Began)){
             _spriteRenderer.color = new Color(0, 0, 0);
         } else if (CheckHasTouchInput(TouchPhase.Stationary)){
             _spriteRenderer.color = new Color(0, 0, 0);
         } else if (CheckHasTouchInput(TouchPhase.Ended)){
             _spriteRenderer.color = _baseActivatorColor;
+        } else if (CheckHasTouchInput(TouchPhase.Canceled)){
+            _spriteRenderer.color = _baseActivatorColor;
+        } else if (CheckHasTouchInput(TouchPhase.Moved)){
+            
         }
     }
     
