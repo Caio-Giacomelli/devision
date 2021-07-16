@@ -42,19 +42,25 @@ public class Activator : MonoBehaviour{
 
 
     private void HandleActivatorEffects(){
+        TouchPhase currentPhase = CheckHasTouchInput();
 
-        Debug.Log(message: $"CheckHasTouchInput Ended: {CheckHasTouchInput(TouchPhase.Stationary)}");
-
-        if (CheckHasTouchInput(TouchPhase.Began)){
-            _spriteRenderer.color = new Color(0, 0, 0);
-        } else if (CheckHasTouchInput(TouchPhase.Stationary)){
-            _spriteRenderer.color = new Color(0, 0, 0);
-        } else if (CheckHasTouchInput(TouchPhase.Ended)){
-            _spriteRenderer.color = _baseActivatorColor;
-        } else if (CheckHasTouchInput(TouchPhase.Canceled)){
-            _spriteRenderer.color = _baseActivatorColor;
-        } else if (CheckHasTouchInput(TouchPhase.Moved)){
-            
+        switch (currentPhase)
+        {
+            case TouchPhase.Began:
+                _spriteRenderer.color = new Color(0, 0, 0);
+                break;
+            case TouchPhase.Stationary:
+                _spriteRenderer.color = new Color(0, 0, 0);
+                break;
+            case TouchPhase.Ended:
+                _spriteRenderer.color = _baseActivatorColor;
+                break;
+            case TouchPhase.Canceled:
+                _spriteRenderer.color = _baseActivatorColor;
+                break;
+            case TouchPhase.Moved:
+                // implement moved logic
+                break;
         }
     }
     
@@ -85,32 +91,34 @@ public class Activator : MonoBehaviour{
         if (_gameManager._godMode) _spriteRenderer.color = _baseActivatorColor;
     }
 
-    private bool CheckHasTouchInput(TouchPhase inputPhase){
-        if (Input.touchCount == 0) return false;
+    private TouchPhase CheckHasTouchInput(){
+        if (Input.touchCount == 0) return TouchPhase.Canceled;
 
         for (int i = 0; i < Input.touchCount; i++){
             Vector3 touch_unit_position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
             Vector2 touch_unit_position_2d = new Vector2(touch_unit_position.x, touch_unit_position.y);
             RaycastHit2D hitInformation = Physics2D.Raycast(touch_unit_position_2d, Camera.main.transform.forward);              
 
-            if (Input.GetTouch(i).phase == inputPhase && hitInformation.collider != null){
+            if (hitInformation.collider != null){
                 GameObject touchedObject = hitInformation.transform.gameObject;
 
                 if (touchedObject.transform.name == gameObject.name){
-                    return true;
+                    return Input.GetTouch(i).phase;
                 }
             } 
         }
-        return false;
+        return TouchPhase.Canceled;
     }
 
     private void HandleLongNoteContinuousInput(){
         if (_currentActiveLongNoteComponent == null || !_currentActiveLongNoteComponent._shouldDecreaseNoteBar) return;
+
+        TouchPhase currentPhase = CheckHasTouchInput();
         
-        if (CheckHasTouchInput(TouchPhase.Stationary)){
+        if (currentPhase == TouchPhase.Stationary){
             _spriteRenderer.color = new Color(0, 0, 0);
             AddLongNoteScore();
-        } else if (CheckHasTouchInput(TouchPhase.Ended)){
+        } else if (currentPhase == TouchPhase.Ended){
             _spriteRenderer.color = _baseActivatorColor;
             Destroy(_currentActiveLongNoteGameObject);
         }
@@ -130,7 +138,7 @@ public class Activator : MonoBehaviour{
     }
 
     private void HandleTouchInput(){
-        if (CheckHasTouchInput(TouchPhase.Began)){
+        if (CheckHasTouchInput() == TouchPhase.Began){
             //StartCoroutine(HandlePressedActivator());
             _audioSource.Play();
             
