@@ -336,5 +336,25 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadPlayableScene
       objectReference: {fileID: 0}
+    - target: {fileID: 5204286648541249901, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
+      propertyPath: _nameScore
+      value: Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204286648541249902, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1073.2961
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204286648541249902, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204286648541249902, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204286648541249903, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}
+      propertyPath: m_Text
+      value: 000000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78f8875b526b0d54a8770e745b7220e6, type: 3}

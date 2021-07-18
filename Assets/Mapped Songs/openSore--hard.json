@@ -1,6 +1,7 @@
 {
     "noteSpeed": 5,
     "fixedDelay": 0.0,
+    "offset": 2.0,
     "mappedSong":[
         {
             "strumTime" : 1.513, 

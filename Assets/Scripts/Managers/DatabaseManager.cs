@@ -19,7 +19,7 @@ public class DatabaseManager : MonoBehaviour{
     }
 
     private void HandleSaveHighscore(){
-        _levelName = PlayerPrefs.GetString("NextScene");
+        _levelName = PlayerPrefs.GetString("NextScene") + " " +  MapManagerST.Instance._difficulty;
         _scoreValue =  PlayerPrefs.GetInt("Score");
         _DBReference = ServerManagerST.Instance._dBReference;
         _user = ServerManagerST.Instance._user;

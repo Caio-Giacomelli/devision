@@ -97,7 +97,8 @@ public class GameManager : MonoBehaviour{
     }
 
     public void Win(){
-        SceneManager.LoadScene("Win Screen");
+        if (SceneManager.GetActiveScene().name == "Mapping" ) SceneManager.LoadScene("Mapping");
+        else SceneManager.LoadScene("Win Screen");
     }
 
     public void Lose(){
