@@ -652,6 +652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Note Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 1757480647181014383, guid: d10c4ae84bbf8b14ba8a5f1ef67f4e60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d10c4ae84bbf8b14ba8a5f1ef67f4e60, type: 3}
 --- !u!114 &2029460769 stripped
@@ -956,6 +960,7 @@ PrefabInstance:
     - {fileID: 4677323298657195990, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
     - {fileID: 7010409014495050240, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
     - {fileID: 381720864164327290, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
+    - {fileID: 3420324534215077865, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b59424bad0b11be45afe07ef3ac127ee, type: 3}
 --- !u!1001 &8050579800445565869
 PrefabInstance:

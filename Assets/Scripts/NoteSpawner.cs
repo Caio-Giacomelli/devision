@@ -9,12 +9,10 @@ public class NoteSpawner : MonoBehaviour {
     [SerializeField] private GameObject _creatorPrefab;
     [SerializeField] private GameObject _winPrefab;
     [SerializeField] private GameObject _longBluePrefab;
+    [SerializeField] private GameObject _longRedPrefab;
 
     [Header("Chart Speed")]
     [SerializeField] private float _chartSpeed;
-
-    [Header("Song Manager")]
-    [SerializeField] private GameObject _songManagerObject;
   
     [HideInInspector] public Mapping _mappingSong;
     private TextAsset _jsonChartAsset;
@@ -23,8 +21,8 @@ public class NoteSpawner : MonoBehaviour {
     private SongManager _songManager;
 
     void Awake(){
-        _audioSource = _songManagerObject.GetComponent<AudioSource>();
-        _songManager = _songManagerObject.GetComponent<SongManager>();  
+        _audioSource = GetComponent<AudioSource>();
+        _songManager = GetComponent<SongManager>();  
     }
   
     void Start(){     

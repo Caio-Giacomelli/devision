@@ -46,6 +46,5 @@ public class NoteLong : MonoBehaviour {
         } else {
             Destroy(this.gameObject);
         }
- 
     }
 }

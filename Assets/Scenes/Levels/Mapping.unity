@@ -666,6 +666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Note Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 1757480647181014383, guid: d10c4ae84bbf8b14ba8a5f1ef67f4e60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d10c4ae84bbf8b14ba8a5f1ef67f4e60, type: 3}
 --- !u!1001 &3462971322219738366
@@ -775,6 +779,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 160997870}
+    - target: {fileID: 3462971322481207353, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 704.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462971322481207353, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1675.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d58b9c832afac46bd6640ca246f2a7, type: 3}
 --- !u!1001 &4119943639064301140

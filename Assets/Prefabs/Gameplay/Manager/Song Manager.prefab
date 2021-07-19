@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6300053272875917458}
   - component: {fileID: 6300053272875917457}
   - component: {fileID: 22544996321450502}
+  - component: {fileID: 1526180188}
   m_Layer: 0
   m_Name: Song Manager
   m_TagString: Untagged
@@ -140,3 +141,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0345b61f536361c4ab6ec4051bb9b198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1526180188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6300053272875917456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1db82714442dd4db7637d2591cdf32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bluePrefab: {fileID: 74370655977091553, guid: 9bbe80ba529d0dc4197596d202cc4ff2, type: 3}
+  _redPrefab: {fileID: 2924924264865550420, guid: b3d0ae94566771f4b866b012216ddd90, type: 3}
+  _creatorPrefab: {fileID: 2924924264865550420, guid: 21c8c18c3992f664ea3346f6f5cc60b7, type: 3}
+  _winPrefab: {fileID: 6827311709444708154, guid: 1fea89c7b3073134b8ae4f0137900137, type: 3}
+  _longBluePrefab: {fileID: 1479034100345675208, guid: 54e664671e6c62649baee7d1c231558a, type: 3}
+  _longRedPrefab: {fileID: 1479034100345675208, guid: ea9e9cff4f2c59b45bfd022c650d0445, type: 3}
+  _chartSpeed: 0
+  _mappingSong:
+    mappedSong: []
+    noteSpeed: 0
+    fixedDelay: 0
+    offset: 0
