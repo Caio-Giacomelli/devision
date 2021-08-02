@@ -17,10 +17,12 @@ public class Activator : MonoBehaviour{
     private GameObject _currentActiveLongNoteGameObject;
     private TouchPhase _currentTouchPhase;
     private NoteLong _currentActiveLongNoteComponent;
+    private Animator _hitAnimator;
     private Color _baseActivatorColor;
 
     void Awake(){
         _spriteRenderer = GetComponent<SpriteRenderer>();   
+        _hitAnimator = GetComponent<Animator>();
         _audioSource = gameObject.GetComponentInParent(typeof(AudioSource)) as AudioSource;
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
@@ -140,6 +142,7 @@ public class Activator : MonoBehaviour{
 
     private void HandleSuccessNote(){       
         GameObject noteToDestroy = (GameObject) _activeNotes.Dequeue();
+        _hitAnimator.SetTrigger("activate");
         Destroy(noteToDestroy);
         
         _gameManager.AddStreak();

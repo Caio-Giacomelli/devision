@@ -4,7 +4,6 @@ public class MappingAuxiliar : MonoBehaviour{
     
     [Header ("Managers")]
     public GameObject _songManagerObject;
-    public GameObject _noteSpawnerObject;
 
     [Header ("Control")]
     [Range(0.1f, 4f)] public float _songSpeed;
@@ -16,7 +15,7 @@ public class MappingAuxiliar : MonoBehaviour{
 
     void Awake(){
         _audioSource = _songManagerObject.GetComponent<AudioSource>();
-        _noteSpawner = _noteSpawnerObject.GetComponent<NoteSpawner>();     
+        _noteSpawner = _songManagerObject.GetComponent<NoteSpawner>();     
     }
 
     void FixedUpdate(){
