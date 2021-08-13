@@ -10,6 +10,7 @@ public class Activator : MonoBehaviour{
     public Queue _longActiveNotes = new Queue();
     
     private SpriteRenderer _spriteRenderer;
+    private ParticleSystem _particleSystem;
     private GameManager _gameManager;
     private AudioSource _audioSource;
     private GameObject _currentGodNoteOnStay = null;
@@ -17,12 +18,11 @@ public class Activator : MonoBehaviour{
     private GameObject _currentActiveLongNoteGameObject;
     private TouchPhase _currentTouchPhase;
     private NoteLong _currentActiveLongNoteComponent;
-    private Animator _hitAnimator;
     private Color _baseActivatorColor;
 
     void Awake(){
         _spriteRenderer = GetComponent<SpriteRenderer>();   
-        _hitAnimator = GetComponent<Animator>();
+        _particleSystem = GetComponent<ParticleSystem>();  
         _audioSource = gameObject.GetComponentInParent(typeof(AudioSource)) as AudioSource;
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
@@ -142,7 +142,8 @@ public class Activator : MonoBehaviour{
 
     private void HandleSuccessNote(){       
         GameObject noteToDestroy = (GameObject) _activeNotes.Dequeue();
-        _hitAnimator.SetTrigger("activate");
+        _particleSystem.Play();
+
         Destroy(noteToDestroy);
         
         _gameManager.AddStreak();
